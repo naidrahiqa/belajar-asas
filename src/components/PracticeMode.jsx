@@ -26,6 +26,21 @@ export default function PracticeMode({
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedTopic, setSelectedTopic] = useState('ALL');
   const [alwaysShowExplanation, setAlwaysShowExplanation] = useState(false);
+  const [eliminatedOptions, setEliminatedOptions] = useState({});
+
+  const handleToggleEliminateOption = (optionIdx) => {
+    if (!currentQ) return;
+    setEliminatedOptions((prev) => {
+      const existing = prev[currentQ.id] || [];
+      const updated = existing.includes(optionIdx)
+        ? existing.filter(idx => idx !== optionIdx)
+        : [...existing, optionIdx];
+      return {
+        ...prev,
+        [currentQ.id]: updated
+      };
+    });
+  };
 
   const subjectMeta = SUBJECTS.find(s => s.id === activeSubject) || SUBJECTS[0];
   const allSubjectQuestions = ALL_QUESTIONS[activeSubject] || [];
@@ -188,6 +203,8 @@ export default function PracticeMode({
             isBookmarked={bookmarks.some(b => b.id === currentQ.id)}
             onToggleBookmark={onToggleBookmark}
             showExplanationDirectly={alwaysShowExplanation}
+            eliminatedOptions={eliminatedOptions[currentQ.id] || []}
+            onToggleEliminateOption={handleToggleEliminateOption}
           />
 
           {/* Navigation and Quick Numbers */}
