@@ -30,7 +30,9 @@ import {
   Sparkles,
   ArrowRight,
   HelpCircle,
-  FileText
+  FileText,
+  Search,
+  X
 } from 'lucide-react';
 
 export default function App() {
@@ -41,6 +43,7 @@ export default function App() {
   const [examHistory, setExamHistory] = useState([]);
   const [isDark, setIsDark] = useState(false);
   const [printModalOpen, setPrintModalOpen] = useState(false);
+  const [dashboardSearch, setDashboardSearch] = useState('');
 
   // Initialize theme and storage
   useEffect(() => {
@@ -110,8 +113,19 @@ export default function App() {
   const currentQuestions = ALL_QUESTIONS[activeSubjectId] || [];
   const currentSubjectMeta = SUBJECTS.find(s => s.id === activeSubjectId) || SUBJECTS[0];
 
+  const filteredSubjects = SUBJECTS.filter((s) => {
+    if (!dashboardSearch.trim()) return true;
+    const q = dashboardSearch.toLowerCase();
+    return (
+      s.name.toLowerCase().includes(q) ||
+      s.shortName.toLowerCase().includes(q) ||
+      s.description.toLowerCase().includes(q) ||
+      s.topics.some(t => t.toLowerCase().includes(q))
+    );
+  });
+
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 flex flex-col font-sans transition-colors duration-200">
+    <div className="min-h-screen bg-zinc-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 flex flex-col font-sans transition-colors duration-200">
       {/* Navbar (Hidden in CBT exam mode to maximize focus, visible elsewhere) */}
       {currentView !== 'exam' && (
         <Navbar
@@ -128,78 +142,111 @@ export default function App() {
       <main className="flex-1">
         {/* VIEW: DASHBOARD */}
         {currentView === 'dashboard' && (
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
-            {/* Hero Banner */}
-            <div className="relative rounded-3xl bg-slate-900 text-white p-6 sm:p-10 lg:p-12 overflow-hidden shadow-xl border border-slate-800">
-              {/* Subtle geometric blueprint grid */}
-              <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:3.5rem_3.5rem] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_0%,#000_60%,transparent_100%)] opacity-40 pointer-events-none" />
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-8">
+            {/* Editorial Hero Header */}
+            <div className="space-y-4 pb-6 border-b border-zinc-200/90 dark:border-zinc-800">
+              <div className="flex flex-wrap items-center gap-2 text-xs font-semibold text-zinc-500 dark:text-zinc-400">
+                <span className="px-2 py-0.5 rounded bg-zinc-200/70 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-mono text-[11px]">
+                  Fase F • Kelas XII SMK
+                </span>
+                <span className="opacity-40">•</span>
+                <span>Asesmen Sumatif Akhir Semester (ASAS) Gasal</span>
+                <span className="opacity-40">•</span>
+                <span>Kisi-Kisi Resmi SMKN 3 Jepara</span>
+              </div>
 
-              <div className="relative z-10 max-w-3xl space-y-4">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-950 border border-indigo-700/60 text-indigo-300 text-xs font-bold">
-                  <ShieldCheck className="w-3.5 h-3.5 text-indigo-400" />
-                  <span>Kurikulum Merdeka • Fase F • SMK Kelas XII Gasal</span>
+              <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-4">
+                <div className="max-w-3xl space-y-2">
+                  <h1 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-zinc-900 dark:text-zinc-100 tracking-tight leading-tight">
+                    Simulasi & Bank Soal Terstandar
+                  </h1>
+                  <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-2xl">
+                    Sistem latihan Computer-Based Test (CBT) dan evaluasi mandiri. 260 butir soal kejuruan terverifikasi dengan kunci jawaban terdistribusi seimbang (20% per opsi A–E) dan pembahasan komprehensif.
+                  </p>
                 </div>
 
-                <h1 className="text-2xl sm:text-4xl lg:text-5xl font-black tracking-tight leading-tight">
-                  Bank Soal & Simulasi Ujian ASAS Kelas 12 SMK
-                </h1>
-
-                <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl">
-                  Disusun presisi sesuai kisi-kisi resmi semester gasal (SMK Negeri 3 Jepara). Memuat analisis kasus kejuruan riil (manufaktur, kriya mebel, tata busana, perkapalan), perhitungan matematis terverifikasi, dan opsi berbobot setara tanpa trik hafalan.
-                </p>
-
-                {/* Badges / Stats */}
-                <div className="pt-2 flex flex-wrap items-center gap-3 text-xs font-semibold">
-                  <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 border border-slate-700 text-slate-200">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                    <span>7 Mata Pelajaran Lengkap</span>
-                  </span>
-                  <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 border border-slate-700 text-slate-200">
-                    <Award className="w-3.5 h-3.5 text-amber-400" />
-                    <span>{getTotalQuestionCount()} Butir Soal Terkalibrasi</span>
-                  </span>
-                  <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 border border-slate-700 text-slate-200">
-                    <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
-                    <span>Standar CBT Nasional</span>
-                  </span>
+                {/* Institutional Metrics Strip */}
+                <div className="flex items-center gap-4 text-xs font-medium text-zinc-600 dark:text-zinc-400 bg-white dark:bg-zinc-900 px-4 py-2.5 rounded-xl border border-zinc-200/90 dark:border-zinc-800 shrink-0 tabular-nums shadow-xs">
+                  <div>
+                    <span className="font-bold text-zinc-900 dark:text-zinc-100">260</span> Soal
+                  </div>
+                  <span className="opacity-30">|</span>
+                  <div>
+                    <span className="font-bold text-zinc-900 dark:text-zinc-100">7</span> Mapel
+                  </div>
+                  <span className="opacity-30">|</span>
+                  <div>
+                    <span className="font-bold text-zinc-900 dark:text-zinc-100">90</span> Menit/Sesi
+                  </div>
+                  <span className="opacity-30">|</span>
+                  <div>
+                    <span className="font-bold text-zinc-900 dark:text-zinc-100">A–E</span> CBT
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* Subjects Grid Header */}
-            <div>
-              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 pb-4 border-b border-slate-200 dark:border-slate-800">
-                <div>
-                  <h2 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white tracking-tight">
-                    Pilih Mata Pelajaran
-                  </h2>
-                  <p className="text-xs sm:text-sm text-slate-500 dark:text-slate-400 mt-0.5">
-                    Mulai simulasi berwaktu standar 90 menit atau latihan mandiri dengan pembahasan langsung
-                  </p>
+            {/* Filter & Subject Selection */}
+            <div className="space-y-4">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+                <div className="relative flex-1 max-w-md">
+                  <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-zinc-400 pointer-events-none" />
+                  <input
+                    type="text"
+                    value={dashboardSearch}
+                    onChange={(e) => setDashboardSearch(e.target.value)}
+                    placeholder="Cari mata pelajaran atau topik (contoh: BEP, Permutasi, Aksara)..."
+                    className="w-full pl-9 pr-8 py-2 rounded-lg text-xs bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-zinc-900 dark:text-zinc-100 placeholder-zinc-400 focus:border-zinc-500 focus:outline-none transition-colors"
+                  />
+                  {dashboardSearch && (
+                    <button
+                      type="button"
+                      onClick={() => setDashboardSearch('')}
+                      className="absolute right-2.5 top-1/2 -translate-y-1/2 text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200 p-0.5"
+                    >
+                      <X className="w-3.5 h-3.5" />
+                    </button>
+                  )}
                 </div>
 
                 <button
+                  type="button"
                   onClick={() => setCurrentView('kisi-kisi')}
-                  className="flex items-center gap-1.5 text-xs font-bold text-indigo-600 dark:text-indigo-400 hover:underline self-start sm:self-auto cursor-pointer"
+                  className="flex items-center gap-1.5 text-xs font-semibold text-zinc-700 dark:text-zinc-300 hover:text-indigo-600 dark:hover:text-indigo-400 transition-colors self-start sm:self-auto cursor-pointer"
                 >
-                  <FileText className="w-3.5 h-3.5" />
+                  <FileText className="w-3.5 h-3.5 opacity-70" />
                   <span>Lihat Seluruh Kisi-Kisi Resmi</span>
                   <ArrowRight className="w-3.5 h-3.5" />
                 </button>
               </div>
 
               {/* Cards Grid */}
-              <div className="mt-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {SUBJECTS.map((subject) => (
-                  <SubjectCard
-                    key={subject.id}
-                    subject={subject}
-                    onStartExam={handleStartExam}
-                    onStartPractice={handleStartPractice}
-                    onViewKisiKisi={handleViewKisiKisi}
-                  />
-                ))}
-              </div>
+              {filteredSubjects.length === 0 ? (
+                <div className="p-12 text-center bg-white dark:bg-zinc-900 rounded-xl border border-zinc-200 dark:border-zinc-800 space-y-2">
+                  <p className="text-sm font-semibold text-zinc-800 dark:text-zinc-200">
+                    Tidak ditemukan mata pelajaran dengan kata kunci "{dashboardSearch}"
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => setDashboardSearch('')}
+                    className="text-xs text-indigo-600 dark:text-indigo-400 font-medium hover:underline"
+                  >
+                    Reset pencarian
+                  </button>
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                  {filteredSubjects.map((subject) => (
+                    <SubjectCard
+                      key={subject.id}
+                      subject={subject}
+                      onStartExam={handleStartExam}
+                      onStartPractice={handleStartPractice}
+                      onViewKisiKisi={handleViewKisiKisi}
+                    />
+                  ))}
+                </div>
+              )}
             </div>
           </div>
         )}

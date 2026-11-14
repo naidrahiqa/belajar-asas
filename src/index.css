@@ -44,7 +44,7 @@
   box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.6);
 }
 
-/* Button & Interactive micro-press (Emil craft rule: scale 0.98 on active) */
+/* Button & Interactive micro-press (Emil craft rule: scale 0.97 on active) */
 button,
 [role="button"] {
   transition: transform 120ms var(--ease-out), background-color 150ms ease, border-color 150ms ease, color 150ms ease, box-shadow 150ms ease;
@@ -52,7 +52,7 @@ button,
 
 button:active:not(:disabled),
 [role="button"]:active:not(:disabled) {
-  transform: scale(0.98);
+  transform: scale(0.97);
 }
 
 /* Custom sleek scrollbars */

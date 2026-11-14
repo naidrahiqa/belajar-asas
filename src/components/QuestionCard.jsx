@@ -53,25 +53,25 @@ export default function QuestionCard({
   }[fontSize] || { question: 'text-sm sm:text-base', option: 'text-sm sm:text-base' };
 
   return (
-    <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-xs overflow-hidden transition-all">
+    <div className="bg-white dark:bg-zinc-900 rounded-xl border border-zinc-200/90 dark:border-zinc-800 shadow-xs overflow-hidden transition-all">
       {/* Question Header */}
-      <div className="px-5 py-4 bg-slate-50 dark:bg-slate-800/80 border-b border-slate-200 dark:border-slate-700 flex flex-wrap items-center justify-between gap-3">
+      <div className="px-5 py-3.5 bg-zinc-50/80 dark:bg-zinc-900/90 border-b border-zinc-200/80 dark:border-zinc-800 flex flex-wrap items-center justify-between gap-3">
         <div className="flex items-center gap-2.5">
-          <span className="w-8 h-8 rounded-lg bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shadow-xs">
+          <span className="w-7 h-7 rounded-lg bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900 font-bold text-xs flex items-center justify-center shadow-xs tabular-nums">
             {number}
           </span>
-          <span className="text-xs text-slate-500 dark:text-slate-400 font-medium">
+          <span className="text-xs text-zinc-500 dark:text-zinc-400 font-medium tabular-nums">
             dari {total} Soal
           </span>
-          <div className="h-4 w-px bg-slate-300 dark:bg-slate-600 mx-1 hidden sm:block" />
-          <span className="text-xs font-semibold px-2.5 py-1 rounded-md bg-indigo-50 text-indigo-700 dark:bg-indigo-950/70 dark:text-indigo-300 border border-indigo-200 dark:border-indigo-800">
+          <div className="h-4 w-px bg-zinc-300 dark:bg-zinc-700 mx-1 hidden sm:block" />
+          <span className="text-xs font-medium px-2.5 py-0.5 rounded-md bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200 border border-zinc-200/60 dark:border-zinc-700/60">
             {question.topic}
           </span>
         </div>
 
         <div className="flex items-center gap-2">
           {question.level && (
-            <span className="text-[11px] font-semibold px-2 py-0.5 rounded-md bg-slate-200 dark:bg-slate-700 text-slate-700 dark:text-slate-300">
+            <span className="text-[11px] font-semibold px-2 py-0.5 rounded-md bg-zinc-200/70 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300">
               {question.level}
             </span>
           )}
@@ -82,10 +82,10 @@ export default function QuestionCard({
               onClick={onToggleDoubtful}
               className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold transition-colors cursor-pointer border ${isDoubtful
                   ? 'bg-amber-100 text-amber-800 border-amber-300 dark:bg-amber-950 dark:text-amber-300 dark:border-amber-700'
-                  : 'bg-white text-slate-600 border-slate-300 hover:bg-slate-100 dark:bg-slate-800 dark:text-slate-300 dark:border-slate-600'
+                  : 'bg-white text-zinc-600 border-zinc-300 hover:bg-zinc-100 dark:bg-zinc-800 dark:text-zinc-300 dark:border-zinc-700'
                 }`}
             >
-              <AlertTriangle className={`w-3.5 h-3.5 ${isDoubtful ? 'text-amber-600 dark:text-amber-400 fill-amber-500/20' : 'text-slate-400'}`} />
+              <AlertTriangle className={`w-3.5 h-3.5 ${isDoubtful ? 'text-amber-600 dark:text-amber-400 fill-amber-500/20' : 'text-zinc-400'}`} />
               <span>{isDoubtful ? 'Ragu-Ragu' : 'Tandai Ragu'}</span>
             </button>
           )}
@@ -95,9 +95,9 @@ export default function QuestionCard({
             <button
               onClick={() => onToggleBookmark(question)}
               title={isBookmarked ? 'Hapus dari Soal Tersimpan' : 'Simpan Soal Ini'}
-              className={`p-2 rounded-lg transition-colors cursor-pointer border ${isBookmarked
+              className={`p-1.5 rounded-lg transition-colors cursor-pointer border ${isBookmarked
                   ? 'bg-amber-50 text-amber-500 border-amber-200 dark:bg-amber-950/50 dark:border-amber-800'
-                  : 'text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 border-slate-200 dark:border-slate-700'
+                  : 'text-zinc-400 hover:text-zinc-600 dark:hover:text-zinc-200 border-zinc-200 dark:border-zinc-700'
                 }`}
             >
               <Bookmark className={`w-4 h-4 ${isBookmarked ? 'fill-current' : ''}`} />
@@ -108,8 +108,8 @@ export default function QuestionCard({
 
       {/* Indicator info subtitle */}
       {question.indicator && (
-        <div className="px-5 py-2 bg-slate-100/60 dark:bg-slate-900/40 border-b border-slate-200/80 dark:border-slate-800 text-[11px] text-slate-600 dark:text-slate-400 flex items-center gap-2">
-          <Info className="w-3.5 h-3.5 text-indigo-500 shrink-0" />
+        <div className="px-5 py-2 bg-zinc-100/50 dark:bg-zinc-950/40 border-b border-zinc-200/60 dark:border-zinc-800 text-[11px] text-zinc-600 dark:text-zinc-400 flex items-center gap-2">
+          <Info className="w-3.5 h-3.5 text-zinc-500 shrink-0" />
           <span className="line-clamp-1 italic">
             Indikator Kisi-Kisi: {question.indicator}
           </span>
@@ -118,7 +118,7 @@ export default function QuestionCard({
 
       {/* Question Body / Stimulus */}
       <div className="p-5 sm:p-6">
-        <div className={`text-slate-900 dark:text-slate-100 ${fontClasses.question} leading-relaxed whitespace-pre-line font-medium`}>
+        <div className={`text-zinc-900 dark:text-zinc-100 ${fontClasses.question} leading-relaxed whitespace-pre-line font-medium max-w-[70ch]`}>
           {question.question}
         </div>
 
@@ -129,13 +129,13 @@ export default function QuestionCard({
             const isThisCorrect = question.correctAnswer === idx;
             const isEliminated = eliminatedOptions.includes(idx);
 
-            let optionClasses = 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-indigo-300 dark:hover:border-indigo-600 text-slate-800 dark:text-slate-200';
-            let badgeClasses = 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300';
+            let optionClasses = 'border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 hover:border-zinc-400 dark:hover:border-zinc-600 text-zinc-800 dark:text-zinc-200';
+            let badgeClasses = 'bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300';
 
             if (mode === 'exam') {
               if (isThisSelected) {
-                optionClasses = 'border-indigo-600 bg-indigo-50/80 dark:bg-indigo-950/60 text-indigo-900 dark:text-indigo-200 shadow-xs ring-1 ring-indigo-600';
-                badgeClasses = 'bg-indigo-600 text-white';
+                optionClasses = 'border-zinc-900 dark:border-zinc-100 bg-zinc-900/5 dark:bg-zinc-100/10 text-zinc-900 dark:text-zinc-100 shadow-xs ring-1 ring-zinc-900 dark:ring-zinc-100';
+                badgeClasses = 'bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900';
               }
             } else if (showFeedback) {
               if (isThisCorrect) {
@@ -145,12 +145,12 @@ export default function QuestionCard({
                 optionClasses = 'border-rose-500 bg-rose-50/80 dark:bg-rose-950/50 text-rose-950 dark:text-rose-100 ring-1 ring-rose-500';
                 badgeClasses = 'bg-rose-600 text-white';
               } else {
-                optionClasses = 'opacity-60 border-slate-200 dark:border-slate-800 bg-slate-50/50 dark:bg-slate-900/50 text-slate-600 dark:text-slate-400';
+                optionClasses = 'opacity-50 border-zinc-200 dark:border-zinc-800 bg-zinc-50/50 dark:bg-zinc-950/50 text-zinc-600 dark:text-zinc-400';
               }
             }
 
             if (isEliminated && !isThisSelected && !showFeedback) {
-              optionClasses += ' line-through opacity-40 bg-slate-50 dark:bg-slate-900/60 text-slate-400 dark:text-slate-500';
+              optionClasses += ' line-through opacity-40 bg-zinc-50 dark:bg-zinc-950/60 text-zinc-400 dark:text-zinc-500';
             }
 
             return (
@@ -234,19 +234,19 @@ export default function QuestionCard({
 
         {/* Detailed Explanation Accordion */}
         {showFeedback && explanationExpanded && question.explanation && (
-          <div className="mt-5 p-5 rounded-xl bg-slate-50 dark:bg-slate-900/70 border border-slate-200 dark:border-slate-700/80 space-y-3.5 text-xs sm:text-sm animate-in fade-in duration-200">
-            <div className="flex items-center gap-2 font-bold text-indigo-700 dark:text-indigo-400 border-b border-slate-200 dark:border-slate-700 pb-2.5">
+          <div className="mt-5 p-5 rounded-xl bg-zinc-50 dark:bg-zinc-950/70 border border-zinc-200 dark:border-zinc-800 space-y-3.5 text-xs sm:text-sm animate-in fade-in duration-150">
+            <div className="flex items-center gap-2 font-bold text-zinc-900 dark:text-zinc-100 border-b border-zinc-200 dark:border-zinc-800 pb-2.5">
               <Lightbulb className="w-4 h-4 text-amber-500 fill-amber-500" />
-              <span>Pembahasan Ilmiah & Komprehensif</span>
+              <span>Pembahasan Ilmiah & Penalaran Soal</span>
             </div>
 
             {/* Summary */}
             {question.explanation.summary && (
               <div>
-                <span className="font-bold text-slate-900 dark:text-white">
+                <span className="font-bold text-zinc-900 dark:text-zinc-100">
                   Intisari Kunci:
                 </span>
-                <p className="mt-0.5 text-slate-700 dark:text-slate-300 font-medium">
+                <p className="mt-0.5 text-zinc-700 dark:text-zinc-300 font-medium">
                   {question.explanation.summary}
                 </p>
               </div>
@@ -254,12 +254,12 @@ export default function QuestionCard({
 
             {/* Concept / Formula */}
             {question.explanation.concept && (
-              <div className="p-3 rounded-lg bg-indigo-50/60 dark:bg-indigo-950/40 border border-indigo-100 dark:border-indigo-900/60">
-                <span className="font-bold text-indigo-900 dark:text-indigo-300 flex items-center gap-1.5">
-                  <Info className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
+              <div className="p-3 rounded-lg bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800">
+                <span className="font-bold text-zinc-900 dark:text-zinc-200 flex items-center gap-1.5">
+                  <Info className="w-3.5 h-3.5 text-zinc-600 dark:text-zinc-400" />
                   Konsep Pokok / Teori Syariat / Rumus:
                 </span>
-                <p className="mt-1 text-slate-800 dark:text-slate-200 whitespace-pre-line leading-relaxed">
+                <p className="mt-1 text-zinc-800 dark:text-zinc-200 whitespace-pre-line leading-relaxed">
                   {question.explanation.concept}
                 </p>
               </div>
@@ -268,10 +268,10 @@ export default function QuestionCard({
             {/* Step by step analysis */}
             {question.explanation.analysis && (
               <div>
-                <span className="font-bold text-slate-900 dark:text-white">
+                <span className="font-bold text-zinc-900 dark:text-zinc-100">
                   Langkah Pembahasan & Penalaran:
                 </span>
-                <p className="mt-1 text-slate-700 dark:text-slate-300 whitespace-pre-line leading-relaxed">
+                <p className="mt-1 text-zinc-700 dark:text-zinc-300 whitespace-pre-line leading-relaxed">
                   {question.explanation.analysis}
                 </p>
               </div>
@@ -279,12 +279,12 @@ export default function QuestionCard({
 
             {/* Distractor Breakdown */}
             {question.explanation.whyWrong && (
-              <div className="p-3 rounded-lg bg-amber-50/70 dark:bg-amber-950/30 border border-amber-200/60 dark:border-amber-900/40 text-amber-950 dark:text-amber-200">
-                <span className="font-bold flex items-center gap-1.5 text-amber-900 dark:text-amber-300">
-                  <AlertTriangle className="w-3.5 h-3.5 text-amber-600 dark:text-amber-400" />
-                  Mengapa Pilihan Lain Keliru? (Analisis Pengecoh):
+              <div className="p-3 rounded-lg bg-amber-500/10 border border-amber-500/20 text-zinc-800 dark:text-zinc-200">
+                <span className="font-bold flex items-center gap-1.5 text-amber-700 dark:text-amber-400">
+                  <AlertTriangle className="w-3.5 h-3.5" />
+                  Analisis Pengecoh (Mengapa Opsi Lain Keliru?):
                 </span>
-                <p className="mt-1 text-slate-800 dark:text-slate-200 leading-relaxed">
+                <p className="mt-1 text-zinc-700 dark:text-zinc-300 leading-relaxed">
                   {question.explanation.whyWrong}
                 </p>
               </div>

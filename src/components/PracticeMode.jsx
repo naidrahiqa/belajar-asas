@@ -85,38 +85,40 @@ export default function PracticeMode({
   return (
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4 pb-4 border-b border-zinc-200/90 dark:border-zinc-800">
         <div>
           <div className="flex items-center gap-2">
-            <span className="w-8 h-8 rounded-lg bg-amber-500 text-white flex items-center justify-center shadow-xs">
-              <Sparkles className="w-4 h-4 fill-white" />
+            <span className="w-8 h-8 rounded-lg bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900 flex items-center justify-center shadow-xs">
+              <Sparkles className="w-4 h-4 fill-current" />
             </span>
-            <h1 className="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white tracking-tight">
-              Mode Latihan Bebas & Pembahasan Instan
+            <h1 className="text-xl sm:text-2xl font-bold text-zinc-900 dark:text-zinc-100 tracking-tight">
+              Latihan Mandiri & Pembahasan Instan
             </h1>
           </div>
-          <p className="mt-1 text-xs sm:text-sm text-slate-600 dark:text-slate-400">
+          <p className="mt-1 text-xs sm:text-sm text-zinc-600 dark:text-zinc-400">
             Pilih mata pelajaran, kerjakan soal dengan umpan balik langsung, dan telaah pembahasan komprehensif tanpa batasan waktu.
           </p>
         </div>
 
         {/* Global Controls */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 self-start md:self-auto">
           <button
+            type="button"
             onClick={() => setAlwaysShowExplanation(!alwaysShowExplanation)}
-            className={`flex items-center gap-1.5 px-3 py-2 rounded-xl text-xs font-semibold border transition-colors cursor-pointer ${alwaysShowExplanation
-                ? 'bg-indigo-50 border-indigo-200 text-indigo-700 dark:bg-indigo-950 dark:border-indigo-800 dark:text-indigo-300'
-                : 'bg-white dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 hover:bg-slate-50'
+            className={`flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-semibold border transition-colors cursor-pointer active:scale-[0.97] ${alwaysShowExplanation
+                ? 'bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900 border-zinc-900 dark:border-zinc-100'
+                : 'bg-white dark:bg-zinc-900 border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-300 hover:bg-zinc-100'
               }`}
           >
-            <Eye className="w-3.5 h-3.5 text-indigo-600 dark:text-indigo-400" />
+            <Eye className="w-3.5 h-3.5 opacity-80" />
             <span>{alwaysShowExplanation ? 'Kunci & Bahasan Terbuka' : 'Mode Intip Kunci'}</span>
           </button>
 
           <button
+            type="button"
             onClick={resetProgress}
             title="Reset Jawaban Latihan"
-            className="p-2 rounded-xl border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
+            className="p-2 rounded-lg border border-zinc-200 dark:border-zinc-800 text-zinc-600 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors cursor-pointer active:scale-[0.97]"
           >
             <RotateCcw className="w-4 h-4" />
           </button>
@@ -124,16 +126,17 @@ export default function PracticeMode({
       </div>
 
       {/* Subject Selector Pills */}
-      <div className="flex items-center gap-2 overflow-x-auto pb-2 scrollbar-none">
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-2 scrollbar-none">
         {SUBJECTS.map((s) => {
           const isActive = s.id === activeSubject;
           return (
             <button
               key={s.id}
+              type="button"
               onClick={() => handleSubjectChange(s.id)}
-              className={`shrink-0 px-3.5 py-2 rounded-xl text-xs font-bold transition-all cursor-pointer border ${isActive
-                  ? 'bg-indigo-600 text-white border-indigo-600 shadow-md shadow-indigo-600/20'
-                  : 'bg-white dark:bg-slate-800 text-slate-600 dark:text-slate-300 border-slate-200 dark:border-slate-700 hover:bg-slate-50 dark:hover:bg-slate-750'
+              className={`shrink-0 px-3 py-1.5 rounded-lg text-xs font-semibold transition-all cursor-pointer border active:scale-[0.97] ${isActive
+                  ? 'bg-zinc-900 text-white border-zinc-900 dark:bg-zinc-100 dark:text-zinc-900 dark:border-zinc-100 shadow-xs'
+                  : 'bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 border-zinc-200 dark:border-zinc-800 hover:bg-zinc-100 dark:hover:bg-zinc-800'
                 }`}
             >
               {s.shortName}
@@ -143,19 +146,19 @@ export default function PracticeMode({
       </div>
 
       {/* Filter and Search Bar */}
-      <div className="p-4 bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-xs flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
+      <div className="p-3.5 bg-white dark:bg-zinc-900 rounded-xl border border-zinc-200/90 dark:border-zinc-800 shadow-xs flex flex-col md:flex-row items-stretch md:items-center justify-between gap-3">
         {/* Search */}
         <div className="relative flex-1">
-          <Search className="w-4 h-4 text-slate-400 absolute left-3.5 top-1/2 -translate-y-1/2" />
+          <Search className="w-4 h-4 text-zinc-400 absolute left-3 top-1/2 -translate-y-1/2 pointer-events-none" />
           <input
             type="text"
-            placeholder="Cari kata kunci soal, materi, atau indikator..."
+            placeholder="Cari kata kunci butir soal, materi, atau indikator..."
             value={searchQuery}
             onChange={(e) => {
               setSearchQuery(e.target.value);
               setCurrentIndex(0);
             }}
-            className="w-full pl-9 pr-4 py-2 rounded-xl text-xs sm:text-sm bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-900 dark:text-slate-100 placeholder-slate-400 focus:outline-hidden focus:ring-2 focus:ring-indigo-500"
+            className="w-full pl-9 pr-4 py-2 rounded-lg text-xs bg-zinc-50 dark:bg-zinc-950 border border-zinc-200 dark:border-zinc-800 text-zinc-900 dark:text-zinc-100 placeholder-zinc-400 focus:outline-none focus:border-zinc-500"
           />
         </div>
 
