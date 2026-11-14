@@ -130,13 +130,13 @@ export default function App() {
         {currentView === 'dashboard' && (
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-10">
             {/* Hero Banner */}
-            <div className="relative rounded-3xl bg-gradient-to-r from-indigo-900 via-indigo-800 to-slate-900 text-white p-6 sm:p-10 lg:p-12 overflow-hidden shadow-xl border border-indigo-700/30">
-              <div className="absolute top-0 right-0 -mr-16 -mt-16 w-80 h-80 rounded-full bg-indigo-500/20 blur-3xl pointer-events-none" />
-              <div className="absolute bottom-0 left-1/3 -mb-20 w-72 h-72 rounded-full bg-blue-500/20 blur-3xl pointer-events-none" />
+            <div className="relative rounded-3xl bg-slate-900 text-white p-6 sm:p-10 lg:p-12 overflow-hidden shadow-xl border border-slate-800">
+              {/* Subtle geometric blueprint grid */}
+              <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e293b_1px,transparent_1px),linear-gradient(to_bottom,#1e293b_1px,transparent_1px)] bg-[size:3.5rem_3.5rem] [mask-image:radial-gradient(ellipse_70%_60%_at_50%_0%,#000_60%,transparent_100%)] opacity-40 pointer-events-none" />
 
               <div className="relative z-10 max-w-3xl space-y-4">
-                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/30 border border-indigo-400/30 text-indigo-200 text-xs font-bold">
-                  <ShieldCheck className="w-3.5 h-3.5 text-indigo-300" />
+                <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-950 border border-indigo-700/60 text-indigo-300 text-xs font-bold">
+                  <ShieldCheck className="w-3.5 h-3.5 text-indigo-400" />
                   <span>Kurikulum Merdeka • Fase F • SMK Kelas XII Gasal</span>
                 </div>
 
@@ -145,22 +145,22 @@ export default function App() {
                 </h1>
 
                 <p className="text-sm sm:text-base text-slate-300 leading-relaxed max-w-2xl">
-                  Disusun presisi berbasis kisi-kisi resmi semester gasal. Bebas format murahan (anti <em>AI slop</em>), dilengkapi stimulus kasus industri nyata, hitungan matematis akurat, serta pembahasan ilmiah komprehensif.
+                  Disusun presisi sesuai kisi-kisi resmi semester gasal (SMK Negeri 3 Jepara). Memuat analisis kasus kejuruan riil (manufaktur, kriya mebel, tata busana, perkapalan), perhitungan matematis terverifikasi, dan opsi berbobot setara tanpa trik hafalan.
                 </p>
 
                 {/* Badges / Stats */}
                 <div className="pt-2 flex flex-wrap items-center gap-3 text-xs font-semibold">
-                  <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/10 backdrop-blur-md border border-white/10">
+                  <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 border border-slate-700 text-slate-200">
                     <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
                     <span>7 Mata Pelajaran Lengkap</span>
                   </span>
-                  <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/10 backdrop-blur-md border border-white/10">
+                  <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 border border-slate-700 text-slate-200">
                     <Award className="w-3.5 h-3.5 text-amber-400" />
                     <span>{getTotalQuestionCount()} Butir Soal Terkalibrasi</span>
                   </span>
-                  <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-white/10 backdrop-blur-md border border-white/10">
-                    <Sparkles className="w-3.5 h-3.5 text-cyan-300" />
-                    <span>Mode CBT & Pembahasan Instan</span>
+                  <span className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 border border-slate-700 text-slate-200">
+                    <Sparkles className="w-3.5 h-3.5 text-indigo-400" />
+                    <span>Standar CBT Nasional</span>
                   </span>
                 </div>
               </div>

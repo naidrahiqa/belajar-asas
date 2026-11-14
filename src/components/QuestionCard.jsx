@@ -9,7 +9,8 @@ import {
   Lightbulb,
   Info,
   Check,
-  AlertTriangle
+  AlertTriangle,
+  EyeOff
 } from 'lucide-react';
 
 const OPTION_LABELS = ['A', 'B', 'C', 'D', 'E'];
@@ -25,13 +26,31 @@ export default function QuestionCard({
   onToggleDoubtful,
   isBookmarked = false,
   onToggleBookmark,
-  showExplanationDirectly = false
+  showExplanationDirectly = false,
+  fontSize = 'normal', // 'normal' | 'medium' | 'large'
+  eliminatedOptions = [],
+  onToggleEliminateOption
 }) {
   const [explanationExpanded, setExplanationExpanded] = useState(mode === 'practice' || mode === 'review' || showExplanationDirectly);
 
   const isAnswered = selectedAnswer !== undefined && selectedAnswer !== null;
   const isCorrect = isAnswered && selectedAnswer === question.correctAnswer;
   const showFeedback = (mode === 'practice' && isAnswered) || mode === 'review' || showExplanationDirectly;
+
+  const fontClasses = {
+    normal: {
+      question: 'text-sm sm:text-base',
+      option: 'text-sm sm:text-base'
+    },
+    medium: {
+      question: 'text-base sm:text-lg',
+      option: 'text-base sm:text-lg'
+    },
+    large: {
+      question: 'text-lg sm:text-xl',
+      option: 'text-lg sm:text-xl'
+    }
+  }[fontSize] || { question: 'text-sm sm:text-base', option: 'text-sm sm:text-base' };
 
   return (
     <div className="bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 shadow-xs overflow-hidden transition-all">
@@ -99,7 +118,7 @@ export default function QuestionCard({
 
       {/* Question Body / Stimulus */}
       <div className="p-5 sm:p-6">
-        <div className="text-slate-900 dark:text-slate-100 text-sm sm:text-base leading-relaxed whitespace-pre-line font-medium">
+        <div className={`text-slate-900 dark:text-slate-100 ${fontClasses.question} leading-relaxed whitespace-pre-line font-medium`}>
           {question.question}
         </div>
 
@@ -108,6 +127,7 @@ export default function QuestionCard({
           {question.options.map((option, idx) => {
             const isThisSelected = selectedAnswer === idx;
             const isThisCorrect = question.correctAnswer === idx;
+            const isEliminated = eliminatedOptions.includes(idx);
 
             let optionClasses = 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-indigo-300 dark:hover:border-indigo-600 text-slate-800 dark:text-slate-200';
             let badgeClasses = 'bg-slate-100 dark:bg-slate-700 text-slate-700 dark:text-slate-300';
@@ -129,30 +149,56 @@ export default function QuestionCard({
               }
             }
 
-            return (
-              <label
-                key={idx}
-                onClick={() => {
-                  if (mode !== 'review') {
-                    onSelectAnswer(idx);
-                  }
-                }}
-                className={`w-full flex items-start gap-3 p-3.5 sm:p-4 rounded-xl border text-sm sm:text-base font-normal transition-all cursor-pointer select-none ${optionClasses}`}
-              >
-                <div className={`w-7 h-7 rounded-lg flex items-center justify-center font-bold text-xs shrink-0 transition-colors ${badgeClasses}`}>
-                  {showFeedback && isThisCorrect ? (
-                    <Check className="w-4 h-4 stroke-[3]" />
-                  ) : showFeedback && isThisSelected && !isThisCorrect ? (
-                    <XCircle className="w-4 h-4" />
-                  ) : (
-                    OPTION_LABELS[idx]
-                  )}
-                </div>
+            if (isEliminated && !isThisSelected && !showFeedback) {
+              optionClasses += ' line-through opacity-40 bg-slate-50 dark:bg-slate-900/60 text-slate-400 dark:text-slate-500';
+            }
 
-                <div className="flex-1 pt-0.5 leading-snug">
-                  {option}
-                </div>
-              </label>
+            return (
+              <div
+                key={idx}
+                className={`w-full flex items-center justify-between gap-3 p-3.5 sm:p-4 rounded-xl border ${fontClasses.option} font-normal transition-all select-none ${optionClasses}`}
+              >
+                <label
+                  onClick={() => {
+                    if (mode !== 'review') {
+                      onSelectAnswer(idx);
+                    }
+                  }}
+                  className="flex items-start gap-3 flex-1 cursor-pointer"
+                >
+                  <div className={`w-7 h-7 rounded-lg flex items-center justify-center font-bold text-xs shrink-0 transition-colors ${badgeClasses}`}>
+                    {showFeedback && isThisCorrect ? (
+                      <Check className="w-4 h-4 stroke-[3]" />
+                    ) : showFeedback && isThisSelected && !isThisCorrect ? (
+                      <XCircle className="w-4 h-4" />
+                    ) : (
+                      OPTION_LABELS[idx]
+                    )}
+                  </div>
+
+                  <div className="flex-1 pt-0.5 leading-snug">
+                    {option}
+                  </div>
+                </label>
+
+                {/* Strikethrough / Eliminate toggle button */}
+                {mode !== 'review' && onToggleEliminateOption && (
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onToggleEliminateOption(idx);
+                    }}
+                    title={isEliminated ? 'Batalkan Coret Pilihan' : 'Coret Pilihan Ini (Eliminasi)'}
+                    className={`p-1.5 rounded-lg text-xs transition-colors cursor-pointer shrink-0 ${isEliminated
+                        ? 'bg-rose-100 text-rose-700 dark:bg-rose-950 dark:text-rose-300'
+                        : 'text-slate-300 hover:text-slate-600 dark:text-slate-600 dark:hover:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-700'
+                      }`}
+                  >
+                    <EyeOff className="w-3.5 h-3.5" />
+                  </button>
+                )}
+              </div>
             );
           })}
         </div>
