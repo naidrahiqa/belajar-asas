@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   /* Emil Kowalski custom ease curves */
   --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
@@ -21,7 +23,12 @@
   }
 
   /* Headings: Tighter tracking for editorial polish (Emil craft rule) */
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     letter-spacing: -0.025em;
   }
 
@@ -76,6 +83,7 @@ button:active:not(:disabled),
 
 /* Reduced motion accessibility */
 @media (prefers-reduced-motion: reduce) {
+
   *,
   ::before,
   ::after {

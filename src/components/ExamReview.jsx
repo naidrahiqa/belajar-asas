@@ -2,12 +2,8 @@ import React, { useState } from 'react';
 import { 
   ArrowLeft, 
   CheckCircle2, 
-  XCircle, 
-  Filter, 
-  BookOpen, 
   ChevronLeft, 
-  ChevronRight,
-  Sparkles
+  ChevronRight
 } from 'lucide-react';
 import QuestionCard from './QuestionCard';
 
@@ -37,19 +33,20 @@ export default function ExamReview({
   return (
     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 space-y-6">
       {/* Top Bar */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-slate-200 dark:border-slate-800">
+      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-4 border-b border-zinc-200/90 dark:border-zinc-800">
         <div className="flex items-center gap-3">
           <button
+            type="button"
             onClick={onBackToSummary}
-            className="p-2 rounded-xl border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors cursor-pointer"
+            className="p-1.5 rounded-lg border border-zinc-200 dark:border-zinc-800 text-zinc-600 dark:text-zinc-300 hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors cursor-pointer active:scale-[0.97]"
           >
-            <ArrowLeft className="w-5 h-5" />
+            <ArrowLeft className="w-4 h-4" />
           </button>
           <div>
-            <h1 className="text-xl font-bold text-slate-900 dark:text-white">
+            <h1 className="text-lg sm:text-xl font-bold text-zinc-900 dark:text-zinc-100 tracking-tight">
               Review Pembahasan: {result.subjectName}
             </h1>
-            <p className="text-xs text-slate-500 dark:text-slate-400">
+            <p className="text-xs text-zinc-500 dark:text-zinc-400 tabular-nums">
               Skor Akhir: {result.score}/100 • {result.correctCount} Benar, {result.wrongCount} Salah
             </p>
           </div>
@@ -58,31 +55,34 @@ export default function ExamReview({
         {/* Filter Pills */}
         <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
           <button
+            type="button"
             onClick={() => { setFilterMode('ALL'); setCurrentIndex(0); }}
-            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+            className={`px-3 py-1 rounded-lg text-xs font-semibold transition-all cursor-pointer border active:scale-[0.97] ${
               filterMode === 'ALL'
-                ? 'bg-indigo-600 text-white shadow-xs'
-                : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400 hover:bg-slate-200'
+                ? 'bg-zinc-900 text-white border-zinc-900 dark:bg-zinc-100 dark:text-zinc-900 dark:border-zinc-100 shadow-xs'
+                : 'bg-white dark:bg-zinc-900 text-zinc-600 dark:text-zinc-400 border-zinc-200 dark:border-zinc-800 hover:bg-zinc-100'
             }`}
           >
             Semua ({questions.length})
           </button>
           <button
+            type="button"
             onClick={() => { setFilterMode('WRONG'); setCurrentIndex(0); }}
-            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+            className={`px-3 py-1 rounded-lg text-xs font-semibold transition-all cursor-pointer border active:scale-[0.97] ${
               filterMode === 'WRONG'
-                ? 'bg-rose-600 text-white shadow-xs'
-                : 'bg-slate-100 dark:bg-slate-800 text-rose-600 dark:text-rose-400 hover:bg-slate-200'
+                ? 'bg-rose-600 text-white border-rose-600 shadow-xs'
+                : 'bg-white dark:bg-zinc-900 text-rose-600 dark:text-rose-400 border-zinc-200 dark:border-zinc-800 hover:bg-rose-50 dark:hover:bg-rose-950/40'
             }`}
           >
             Salah ({result.wrongCount})
           </button>
           <button
+            type="button"
             onClick={() => { setFilterMode('CORRECT'); setCurrentIndex(0); }}
-            className={`px-3 py-1.5 rounded-lg text-xs font-bold transition-all cursor-pointer ${
+            className={`px-3 py-1 rounded-lg text-xs font-semibold transition-all cursor-pointer border active:scale-[0.97] ${
               filterMode === 'CORRECT'
-                ? 'bg-emerald-600 text-white shadow-xs'
-                : 'bg-slate-100 dark:bg-slate-800 text-emerald-600 dark:text-emerald-400 hover:bg-slate-200'
+                ? 'bg-emerald-600 text-white border-emerald-600 shadow-xs'
+                : 'bg-white dark:bg-zinc-900 text-emerald-600 dark:text-emerald-400 border-zinc-200 dark:border-zinc-800 hover:bg-emerald-50 dark:hover:bg-emerald-950/40'
             }`}
           >
             Benar ({result.correctCount})
@@ -92,13 +92,13 @@ export default function ExamReview({
 
       {/* Main Review Card */}
       {filteredQuestions.length === 0 ? (
-        <div className="p-12 text-center bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700">
-          <CheckCircle2 className="w-12 h-12 text-emerald-500 mx-auto mb-2" />
-          <h3 className="font-bold text-slate-800 dark:text-slate-100">
+        <div className="p-12 text-center bg-white dark:bg-zinc-900 rounded-xl border border-zinc-200/90 dark:border-zinc-800 space-y-2">
+          <CheckCircle2 className="w-10 h-10 text-emerald-500 mx-auto mb-1" />
+          <h3 className="font-bold text-zinc-800 dark:text-zinc-200 text-sm sm:text-base">
             Tidak ada soal dalam kategori ini
           </h3>
-          <p className="text-xs text-slate-500 dark:text-slate-400">
-            Hebat, tidak ada kesalahan dalam filter ini!
+          <p className="text-xs text-zinc-500 dark:text-zinc-400">
+            Hebat, tidak ada kesalahan dalam filter yang Anda pilih.
           </p>
         </div>
       ) : (
@@ -118,11 +118,12 @@ export default function ExamReview({
           {/* Review Navigator */}
           <div className="flex items-center justify-between gap-3 pt-2">
             <button
+              type="button"
               disabled={currentIndex === 0}
               onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
-              className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-50 disabled:opacity-40 transition-colors cursor-pointer"
+              className="flex items-center gap-1.5 px-3 py-2 rounded-lg text-xs font-semibold bg-white dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 text-zinc-700 dark:text-zinc-200 hover:bg-zinc-100 dark:hover:bg-zinc-800 disabled:opacity-40 transition-colors cursor-pointer active:scale-[0.97]"
             >
-              <ChevronLeft className="w-4 h-4" />
+              <ChevronLeft className="w-3.5 h-3.5" />
               <span>Sebelumnya</span>
             </button>
 
@@ -136,12 +137,13 @@ export default function ExamReview({
                 return (
                   <button
                     key={q.id}
+                    type="button"
                     onClick={() => setCurrentIndex(idx)}
-                    className={`w-7 h-7 shrink-0 rounded-lg text-xs font-semibold flex items-center justify-center transition-all cursor-pointer ${
+                    className={`w-7 h-7 shrink-0 rounded-md text-xs font-semibold flex items-center justify-center transition-all cursor-pointer tabular-nums active:scale-[0.97] ${
                       isCorrect 
                         ? 'bg-emerald-100 text-emerald-800 dark:bg-emerald-950 dark:text-emerald-300' 
                         : 'bg-rose-100 text-rose-800 dark:bg-rose-950 dark:text-rose-300'
-                    } ${isCurrent ? 'ring-2 ring-indigo-500 scale-110' : ''}`}
+                    } ${isCurrent ? 'ring-2 ring-zinc-500 scale-105' : ''}`}
                   >
                     {idx + 1}
                   </button>
@@ -150,12 +152,13 @@ export default function ExamReview({
             </div>
 
             <button
+              type="button"
               disabled={currentIndex === filteredQuestions.length - 1}
               onClick={() => setCurrentIndex(prev => Math.min(filteredQuestions.length - 1, prev + 1))}
-              className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-indigo-600 hover:bg-indigo-700 text-white shadow-md shadow-indigo-600/20 disabled:opacity-40 transition-all cursor-pointer"
+              className="flex items-center gap-1.5 px-3.5 py-2 rounded-lg text-xs font-semibold bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900 hover:bg-black dark:hover:bg-white disabled:opacity-40 transition-all cursor-pointer active:scale-[0.97]"
             >
               <span>Selanjutnya</span>
-              <ChevronRight className="w-4 h-4" />
+              <ChevronRight className="w-3.5 h-3.5" />
             </button>
           </div>
         </div>
@@ -163,4 +166,3 @@ export default function ExamReview({
     </div>
   );
 }
-
