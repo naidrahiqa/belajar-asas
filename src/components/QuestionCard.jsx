@@ -175,6 +175,21 @@ export default function QuestionCard({
           {question.question}
         </div>
 
+        {/* Hint for Multi-Select Complex Questions */}
+        {isComplex && (
+          <div className="mt-4 px-3.5 py-2.5 rounded-lg bg-indigo-50/80 dark:bg-indigo-950/40 border border-indigo-200/70 dark:border-indigo-900/60 flex items-center justify-between gap-3 text-xs text-indigo-900 dark:text-indigo-200">
+            <span className="flex items-center gap-2 font-medium">
+              <CheckSquare className="w-4 h-4 text-indigo-600 dark:text-indigo-400 shrink-0" />
+              Pilihan Ganda Kompleks: Anda dapat memilih lebih dari satu jawaban yang benar.
+            </span>
+            {Array.isArray(selectedAnswer) && selectedAnswer.length > 0 && (
+              <span className="font-semibold tabular-nums text-[11px] bg-indigo-100 dark:bg-indigo-900/80 px-2 py-0.5 rounded-md shrink-0">
+                {selectedAnswer.length} Dipilih
+              </span>
+            )}
+          </div>
+        )}
+
         {/* Options List */}
         <div className="mt-6 space-y-2.5">
           {question.options.map((option, idx) => {
