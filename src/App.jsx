@@ -333,8 +333,8 @@ export default function App() {
 
       {/* Footer */}
       {currentView !== 'exam' && (
-        <footer className="mt-16 border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 py-8 transition-colors">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500 dark:text-slate-400">
+        <footer className="mt-16 border-t border-zinc-200 dark:border-zinc-800 bg-white dark:bg-zinc-900 py-8 transition-colors">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500 dark:text-zinc-400">
             <div className="flex items-center gap-2">
               <GraduationCap className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
               <span>

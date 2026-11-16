@@ -164,14 +164,14 @@ export default function PracticeMode({
 
         {/* Topic filter */}
         <div className="flex items-center gap-2">
-          <Filter className="w-4 h-4 text-slate-400 shrink-0" />
+          <Filter className="w-4 h-4 text-zinc-400 shrink-0" />
           <select
             value={selectedTopic}
             onChange={(e) => {
               setSelectedTopic(e.target.value);
               setCurrentIndex(0);
             }}
-            className="px-3 py-2 rounded-xl text-xs sm:text-sm bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 text-slate-800 dark:text-slate-200 focus:outline-hidden focus:ring-2 focus:ring-indigo-500"
+            className="px-3 py-2 rounded-xl text-xs sm:text-sm bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-700 text-zinc-800 dark:text-zinc-200 focus:outline-hidden focus:ring-2 focus:ring-indigo-500"
           >
             <option value="ALL">Semua Topik ({allSubjectQuestions.length} Soal)</option>
             {topics.filter(t => t !== 'ALL').map((t, idx) => (
@@ -185,12 +185,12 @@ export default function PracticeMode({
 
       {/* Main Question Display */}
       {filteredQuestions.length === 0 ? (
-        <div className="p-12 text-center bg-white dark:bg-slate-800 rounded-2xl border border-slate-200 dark:border-slate-700 space-y-3">
-          <BookOpen className="w-12 h-12 text-slate-300 dark:text-slate-600 mx-auto" />
-          <h3 className="font-bold text-slate-800 dark:text-slate-200 text-base">
+        <div className="p-12 text-center bg-white dark:bg-zinc-800 rounded-2xl border border-zinc-200 dark:border-zinc-700 space-y-3">
+          <BookOpen className="w-12 h-12 text-zinc-300 dark:text-zinc-600 mx-auto" />
+          <h3 className="font-bold text-zinc-800 dark:text-zinc-200 text-base">
             Tidak Ada Soal yang Cocok
           </h3>
-          <p className="text-xs text-slate-500 dark:text-slate-400 max-w-sm mx-auto">
+          <p className="text-xs text-zinc-500 dark:text-zinc-400 max-w-sm mx-auto">
             Coba ubah kata kunci pencarian atau pilih topik "Semua Topik" untuk melihat bank soal lengkap.
           </p>
         </div>
@@ -216,7 +216,7 @@ export default function PracticeMode({
               <button
                 disabled={currentIndex === 0}
                 onClick={() => setCurrentIndex(prev => Math.max(0, prev - 1))}
-                className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-200 hover:bg-slate-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors cursor-pointer"
+                className="flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-white dark:bg-zinc-800 border border-zinc-200 dark:border-zinc-700 text-zinc-700 dark:text-zinc-200 hover:bg-zinc-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors cursor-pointer"
               >
                 <ChevronLeft className="w-4 h-4" />
                 <span>Sebelumnya</span>
@@ -251,7 +251,7 @@ export default function PracticeMode({
                     : ans === q.correctAnswer
                 );
 
-                let btnClass = 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400';
+                let btnClass = 'bg-zinc-100 dark:bg-zinc-800 text-zinc-600 dark:text-zinc-400';
                 if (isAnswered) {
                   btnClass = isCorrect
                     ? 'bg-emerald-500 text-white font-bold'
