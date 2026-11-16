@@ -39,7 +39,7 @@ export default function KisiKisiViewer({
               <FileText className="w-4 h-4" />
             </span>
             <h1 className="text-xl sm:text-2xl font-bold text-zinc-900 dark:text-zinc-100 tracking-tight">
-              Pusat Kisi-Kisi Resmi ASAS Kelas XII
+              Pusat Kisi-Kisi Resmi ASAS SMK
             </h1>
           </div>
           <p className="mt-1 text-xs sm:text-sm text-zinc-600 dark:text-zinc-400">

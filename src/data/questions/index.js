@@ -5,6 +5,7 @@ import { INGGRIS_QUESTIONS } from './inggrisQuestions.js';
 import { PANCASILA_QUESTIONS } from './pancasilaQuestions.js';
 import { PAI_QUESTIONS } from './paiQuestions.js';
 import { JAWA_QUESTIONS } from './jawaQuestions.js';
+import { JEPANG_QUESTIONS } from './jepangQuestions.js';
 
 export const ALL_QUESTIONS = {
   kik: KIK_QUESTIONS,
@@ -13,7 +14,8 @@ export const ALL_QUESTIONS = {
   inggris: INGGRIS_QUESTIONS,
   pancasila: PANCASILA_QUESTIONS,
   pai: PAI_QUESTIONS,
-  jawa: JAWA_QUESTIONS
+  jawa: JAWA_QUESTIONS,
+  jepang: JEPANG_QUESTIONS
 };
 
 export function getQuestionsBySubject(subjectId) {

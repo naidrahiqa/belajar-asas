@@ -137,6 +137,26 @@ export const SUBJECTS = [
       'Panatacara: Struktur Teks, Basa Rinengga, lan 4W',
       'Aksara Jawa: Sandhangan, Angka, lan Aksara Khusus'
     ]
+  },
+  {
+    id: 'jepang',
+    name: 'Bahasa Jepang',
+    shortName: 'B. Jepang',
+    grade: 'Kelas X SMK (Ganjil)',
+    durationMinutes: 90,
+    totalQuestions: 40,
+    icon: 'Languages',
+    color: 'rose',
+    bgGradient: 'from-rose-500 to-red-600',
+    lightBg: 'bg-rose-50 text-rose-700 border-rose-200',
+    description: 'Aisatsu (Ungkapan Salam & Permintaan Maaf), Instruksi Kelas & Respon, Jikoshoukai (Perkenalan Diri & Kontak), Kosakata & Kepemilikan Benda Kelas, serta Posisi & Letak Benda (Kore, Sore, Are, Doko).',
+    topics: [
+      'Aisatsu & Ungkapan Salam Sehari-hari',
+      'Instruksi di Dalam Kelas (Kyoushitsu no Shiji)',
+      'Jikoshoukai & Identitas Diri (Nama, Status, Kontak)',
+      'Benda di Kelas & Kepemilikan (Kore, Sore, Are, ~no)',
+      'Letak & Posisi Benda (Ue, Shita, Naka, Doko)'
+    ]
   }
 ];
 

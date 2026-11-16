@@ -160,6 +160,304 @@ export const KISI_KISI_DETAILS = {
       { no: '21-30', materi: 'Panatacara (Pranatacara)', indikator: 'Njlentrehake struktur teks panatacara (purwaka, wigatining atur, wasana), basa rinengga (parikan lan wangsalan), sarta 4W kaprigelan panatacara (wiraga, wirama, wirasa, wicara).', level: 'L1/L2' },
       { no: '31-40', materi: 'Aksara Jawa & Unggah-Ungguh Basa', indikator: 'Maca lan nulis wacan aksara Jawa mawa sandhangan panyigeg, sandhangan swara, angka Jawa, aksara rekan/swara, sarta ngetrapake unggah-ungguh basa ngoko lan krama alus.', level: 'L2/L3' }
     ]
+  },
+  jepang: {
+    title: 'Kisi-Kisi ASAS: Bahasa Jepang',
+    school: 'Guru Mata Pelajaran Bahasa Jepang / SMK',
+    grade: 'Kelas X / Ganjil - Tahun Ajaran 2026/2027',
+    examInfo: '90 Menit | Pilihan Ganda, PG Kompleks, Benar/Salah | 40 Butir Soal',
+    overview: 'Menguji kemahiran dasar berbahasa Jepang mencakup ungkapan salam sehari-hari (aisatsu), etika meminta maaf dan berterima kasih, kepatuhan instruksi di dalam kelas (kyoushitsu no shiji), perkenalan diri (jikoshoukai), penyebutan nomor telepon, pengenalan benda-benda kelas dan kepemilikan (kore, sore, are, ~no), serta penunjukan posisi dan keberadaan benda (doko, ue, shita, naka, tonari).',
+    indicators: [
+      { no: '1', materi: 'Aisatsu (Ungkapan Salam)', indikator: 'Disajikan beberapa pilihan ungkapan salam dalam bahasa Jepang, peserta didik dapat menentukan salam yang tepat.', level: 'PG Kompleks (L1/C1)' },
+      { no: '2', materi: 'Waktu Sapaan (Konbanwa)', indikator: 'Disajikan kutipan dialog singkat berisi sapaan peserta didik dapat menentukan waktu terjadinya percakapan tersebut.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '3', materi: 'Respons Terima Kasih', indikator: 'Disajikan dialog ucapan terima kasih atas pemberian hadiah peserta didik dapat menentukan respons penyangkalan halus/merendah yang tepat.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '4', materi: 'Status Pembicara Jikoshoukai', indikator: 'Disajikan teks singkat perkenalan diri, peserta didik dapat menentukan kebenaran pernyataan terkait status pembicara.', level: 'Benar / Salah (L1/C2)' },
+      { no: '5', materi: 'Izin Kelas (Te mo ii desu ka)', indikator: 'Disajikan dialog siswa yang meminta izin peserta didik dapat menentukan respons pemberian izin yang tepat dari guru.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '6', materi: 'Instruksi Menyimak (Kiite kudasai)', indikator: 'Disajikan ungkapan instruksi kelas, peserta didik dapat menentukan arti instruksi tersebut dalam bahasa Indonesia dengan tepat.', level: 'Pilihan Ganda (L1/C1)' },
+      { no: '7', materi: 'Sapaan Berdasarkan Situasi', indikator: 'Disajikan ilustrasi situasi peserta didik dapat memilih ungkapan sapaan yang paling tepat dan sopan.', level: 'Pilihan Ganda (L3/C4)' },
+      { no: '8', materi: 'Permintaan Maaf (Osoku natte)', indikator: 'Disajikan ilustrasi peserta didik dapat memilih frasa permintaan maaf yang sopan dan sesuai.', level: 'Pilihan Ganda (L3/C4)' },
+      { no: '9', materi: 'Instruksi Visual Papan Tulis', indikator: 'Disajikan gambar/situasi, peserta didik dapat menentukan ungkapan instruksi kelas yang sesuai.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '10', materi: 'Instruksi Halaman Buku', indikator: 'Disajikan kalimat instruksi guru, peserta didik dapat menentukan tindakan yang diharapkan dari siswa.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '11', materi: 'Penutup Perkenalan Diri', indikator: 'Disajikan teks perkenalan diri yang rumpang, peserta didik dapat melengkapinya dengan ungkapan penutup perkenalan yang tepat.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '12', materi: 'Penyusunan Pola Kalimat', indikator: 'Disajikan kata-kata acak, peserta didik dapat menyusunnya menjadi kalimat bahasa Jepang yang benar.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '13', materi: 'Unsur Informasi Jikoshoukai', indikator: 'Disajikan teks perkenalan diri lengkap, peserta didik dapat memilih unsur-unsur informasi yang termuat di dalamnya.', level: 'PG Kompleks (L2/C3)' },
+      { no: '14', materi: 'Kosakata Sosial (Tomodachi)', indikator: 'Disajikan kalimat, peserta didik dapat menentukan arti dari kata dengan tepat.', level: 'Pilihan Ganda (L1/C1)' },
+      { no: '15', materi: 'Kewarganegaraan (Nihonjin)', indikator: 'Disajikan kalimat peserta didik dapat menentukan pernyataan yang benar sesuai isi kalimat tersebut.', level: 'Pilihan Ganda (L1/C2)' },
+      { no: '16', materi: 'Nilai Budaya Yoroshiku', indikator: 'Disajikan pertanyaan mengenai fungsi kalimat peserta didik dapat menganalisis alasan pentingnya ungkapan tersebut dalam budaya Jepang.', level: 'Pilihan Ganda (L3/C4)' },
+      { no: '17', materi: 'Koreksi Nomor Telepon', indikator: 'Disajikan percakapan singkat mengenai konfirmasi dan koreksi nomor telepon, peserta didik dapat menentukan bagian nomor yang benar berdasarkan koreksi siswa.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '18', materi: 'Alamat Saat Ini (Sunde imasu)', indikator: 'Disajikan lima pilihan kalimat perkenalan diri, peserta didik dapat mengidentifikasi kalimat yang menyatakan alamat saat ini.', level: 'Pilihan Ganda (L1/C2)' },
+      { no: '19', materi: 'Tanda Hubung Nomor Telepon', indikator: 'Disajikan pertanyaan tentang pelafalan tanda hubung, peserta didik dapat menentukan partikel penghubung yang tepat.', level: 'Pilihan Ganda (L1/C1)' },
+      { no: '20', materi: 'Pelafalan Nomor Telepon', indikator: 'Disajikan nomor telepon peserta didik dapat menentukan cara pembacaannya dalam huruf Romaji dengan tepat.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '21', materi: 'Wacana Barang Eko', indikator: 'Disajikan wacana tentang barang-barang milik Eko di dalam tas dan di atas meja, peserta didik dapat menentukan pernyataan yang sesuai dengan isi teks.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '22', materi: 'Benda di Dalam Tas', indikator: 'Disajikan wacana peserta didik dapat menyebutkan benda-benda yang berada di dalam tas.', level: 'Pilihan Ganda (L1/C2)' },
+      { no: '23', materi: 'Letak Ponsel Eko', indikator: 'Disajikan wacana peserta didik dapat menentukan letak ponsel milik Eko dengan tepat.', level: 'Pilihan Ganda (L1/C2)' },
+      { no: '24', materi: 'Penyangkalan Kepemilikan', indikator: 'Disajikan kalimat tanya kepemilikan penggaris peserta didik dapat menentukan jawaban penyangkalan yang sopan.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '25', materi: 'Kosakata Kepemilikan Negatif', indikator: 'Disajikan kalimat beserta terjemahannya, peserta didik dapat menentukan kebenaran arti kosakata.', level: 'Benar / Salah (L1/C1)' },
+      { no: '26', materi: 'Identifikasi Benda (Jisho)', indikator: 'Disajikan wacana percakapan antara Rina dan Budi tentang benda-benda di kelas, peserta didik dapat mengidentifikasi benda yang dipegang Budi.', level: 'Pilihan Ganda (L1/C2)' },
+      { no: '27', materi: 'Penggunaan Kata Tunjuk Sore', indikator: 'Disajikan wacana percakapan peserta didik dapat menganalisis alasan Rina menggunakan kata tunjuk saat bertanya kepada Budi.', level: 'Pilihan Ganda (L3/C4)' },
+      { no: '28', materi: 'Pemilik Tas dan Penghapus', indikator: 'Disajikan wacana percakapan peserta didik dapat menentukan pemilik tas dan penghapus yang berada di atas meja.', level: 'Pilihan Ganda (L1/C2)' },
+      { no: '29', materi: 'Pemilik Pulpen Pinjaman', indikator: 'Disajikan wacana percakapan peserta didik dapat menyimpulkan pemilik pulpen yang berada di dekat Rina.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '30', materi: 'Kepemilikan dan Letak Benda', indikator: 'Disajikan wacana percakapan peserta didik dapat memilih pernyataan yang benar mengenai kepemilikan dan letak benda.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '31', materi: 'Instruksi Melihat Papan Tulis', indikator: 'Disajikan wacana percakapan antara Yamada-sensei dan siswa di kelas, peserta didik dapat menentukan benda kelas yang diminta untuk dilihat siswa.', level: 'Pilihan Ganda (L1/C2)' },
+      { no: '32', materi: 'Tempat Menuliskan Contoh', indikator: 'Disajikan wacana percakapan peserta didik dapat menentukan tempat siswa diminta menuliskan contoh kalimat.', level: 'Pilihan Ganda (L1/C2)' },
+      { no: '33', materi: 'Tujuan Ucapan Mou Ichido', indikator: 'Disajikan kutipan kalimat siswa dalam wacana, peserta didik dapat menentukan tujuan ucapan siswa tersebut.', level: 'Pilihan Ganda (L2/C3)' },
+      { no: '34', materi: 'Instruksi Ketenangan Kelas', indikator: 'Disajikan ungkapan instruksi dari wacana, peserta didik dapat menentukan makna ungkapan tersebut dalam bahasa Indonesia.', level: 'Pilihan Ganda (L1/C1)' },
+      { no: '35', materi: 'Makna Hai Wakarimashita', indikator: 'Disajikan ungkapan, peserta didik dapat menentukan arti respons siswa tersebut dengan tepat.', level: 'Pilihan Ganda (L1/C1)' },
+      { no: '36', materi: 'Pencarian Benda (Kamus)', indikator: 'Disajikan wacana percakapan antara Dedi dan Ayu mengenai letak benda di kelas, peserta didik dapat menentukan benda yang sedang dicari Dedi.', level: 'Pilihan Ganda (L1/C2)' },
+      { no: '37', materi: 'Lokasi Kamus di Honbako', indikator: 'Disajikan wacana percakapan yang sama peserta didik dapat menentukan lokasi tepat kamus bahasa Jepang berada.', level: 'Pilihan Ganda (L1/C2)' },
+      { no: '38', materi: 'Posisi Jam Dinding Kelas', indikator: 'Disajikan wacana percakapan yang sama peserta didik dapat menentukan posisi jam dinding (tokei) di dalam kelas.', level: 'Pilihan Ganda (L1/C2)' },
+      { no: '39', materi: 'Fungsi Kata Tanya Doko', indikator: "Disajikan kalimat peserta didik dapat menentukan fungsi kata tanya 'doko' dalam kalimat tersebut.", level: 'Pilihan Ganda (L1/C1)' },
+      { no: '40', materi: 'Kata Penunjuk Posisi Tonari', indikator: 'Disajikan kalimat dari wacana, peserta didik dapat menentukan arti kata penunjuk posisi yang digunakan.', level: 'Pilihan Ganda (L1/C2)' }
+    ]
   }
+,
+  jepang: {
+    "title": "Kisi-Kisi ASAS: Bahasa Jepang X",
+    "school": "SMK Negeri 3 Jepara",
+    "grade": "Kelas X / Ganjil (Kurikulum Merdeka)",
+    "examInfo": "90 Menit | Pilihan Ganda, PG Kompleks, Benar/Salah | 40 Soal",
+    "overview": "Meliputi capaian pembelajaran Bahasa Jepang Fase E: Aisatsu (ungkapan salam & perpisahan, terima kasih, permohonan maaf), Instruksi di dalam kelas (Kyoushitsu no Shiji) dan respons siswa, Jikoshoukai (identitas diri, status sekolah, usia, domisili, kontak telepon), Kosakata dan kepemilikan benda-benda kelas (kore, sore, are), serta letak dan posisi ruang/benda (doko, ue, shita, naka, tonari).",
+    "indicators": [
+        {
+            "no": "1",
+            "materi": "Aisatsu (Ungkapan Salam & Etika)",
+            "indikator": "Disajikan beberapa pilihan ungkapan salam dalam bahasa Jepang, peserta didik dapat menentukan salam yang tepat (PG Kompleks)",
+            "level": "L1 (C1)"
+        },
+        {
+            "no": "2",
+            "materi": "Aisatsu (Ungkapan Salam & Etika)",
+            "indikator": "Disajikan kutipan dialog singkat berisi sapaan peserta didik dapat menentukan waktu terjadinya percakapan tersebut. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "3",
+            "materi": "Aisatsu (Ungkapan Salam & Etika)",
+            "indikator": "Disajikan dialog ucapan terima kasih atas pemberian hadiah peserta didik dapat menentukan respons penyangkalan halus/merendah yang tepat. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "4",
+            "materi": "Jikoshoukai (Perkenalan Diri & Identitas)",
+            "indikator": "Disajikan teks singkat perkenalan diri (peserta didik dapat menentukan kebenaran pernyataan terkait status pembicara. (Benar / Salah)",
+            "level": "L1 (C2)"
+        },
+        {
+            "no": "5",
+            "materi": "Instruksi di Dalam Kelas (Kyoushitsu no Shiji)",
+            "indikator": "Disajikan dialog siswa yang meminta izin peserta didik dapat menentukan respons pemberian izin yang tepat dari guru. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "6",
+            "materi": "Instruksi di Dalam Kelas (Kyoushitsu no Shiji)",
+            "indikator": "Disajikan ungkapan instruksi kelas, peserta didik dapat menentukan arti instruksi tersebut dalam bahasa Indonesia dengan tepat. (Pilihan Ganda)",
+            "level": "L1 (C1)"
+        },
+        {
+            "no": "7",
+            "materi": "Aisatsu (Ungkapan Salam & Etika)",
+            "indikator": "Disajikan ilustrasi situasi peserta didik dapat memilih ungkapan sapaan yang paling tepat dan sopan. (Pilihan Ganda)",
+            "level": "L3 (C4)"
+        },
+        {
+            "no": "8",
+            "materi": "Aisatsu (Ungkapan Salam & Etika)",
+            "indikator": "Disajikan ilustrasi peserta didik dapat memilih frasa permintaan maaf yang sopan dan sesuai. (Pilihan Ganda)",
+            "level": "L3 (C4)"
+        },
+        {
+            "no": "9",
+            "materi": "Instruksi di Dalam Kelas (Kyoushitsu no Shiji)",
+            "indikator": "Disajikan gambar, peserta didik dapat menentukan ungkapan instruksi kelas yang sesuai dengan gambar. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "10",
+            "materi": "Instruksi di Dalam Kelas (Kyoushitsu no Shiji)",
+            "indikator": "Disajikan kalimat instruksi guru, peserta didik dapat menentukan tindakan yang diharapkan dari siswa. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "11",
+            "materi": "Jikoshoukai (Perkenalan Diri & Identitas)",
+            "indikator": "Disajikan teks perkenalan diri yang rumpang, peserta didik dapat melengkapinya dengan ungkapan penutup perkenalan yang tepat. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "12",
+            "materi": "Jikoshoukai (Perkenalan Diri & Identitas)",
+            "indikator": "Disajikan kata-kata acak, peserta didik dapat menyusunnya menjadi kalimat bahasa Jepang yang benar. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "13",
+            "materi": "Jikoshoukai (Perkenalan Diri & Identitas)",
+            "indikator": "Disajikan teks perkenalan diri lengkap dengan peserta didik dapat memilih unsur-unsur informasi yang termuat di dalamnya. (PG Kompleks)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "14",
+            "materi": "Jikoshoukai (Perkenalan Diri & Identitas)",
+            "indikator": "Disajikan kalimat, peserta didik dapat menentukan arti dari kata dengan tepat. (Pilihan Ganda)",
+            "level": "L1 (C1)"
+        },
+        {
+            "no": "15",
+            "materi": "Jikoshoukai (Perkenalan Diri & Identitas)",
+            "indikator": "Disajikan kalimat peserta didik dapat menentukan pernyataan yang benar sesuai isi kalimat tersebut. (Pilihan Ganda)",
+            "level": "L1 (C2)"
+        },
+        {
+            "no": "16",
+            "materi": "Jikoshoukai (Perkenalan Diri & Identitas)",
+            "indikator": "Disajikan pertanyaan mengenai fungsi kalimat peserta didik dapat menganalisis alasan pentingnya ungkapan tersebut dalam budaya Jepang. (Pilihan Ganda)",
+            "level": "L3 (C4)"
+        },
+        {
+            "no": "17",
+            "materi": "Denwa Bangou (Nomor Telepon & Angka)",
+            "indikator": "Disajikan percakapan singkat mengenai konfirmasi dan koreksi nomor telepon, peserta didik dapat menentukan bagian nomor yang benar berdasarkan koreksi siswa. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "18",
+            "materi": "Jikoshoukai (Perkenalan Diri & Identitas)",
+            "indikator": "Disajikan lima pilihan kalimat perkenalan diri, peserta didik dapat mengidentifikasi kalimat yang menyatakan alamat saat ini. (Pilihan Ganda)",
+            "level": "L1 (C2)"
+        },
+        {
+            "no": "19",
+            "materi": "Denwa Bangou (Nomor Telepon & Angka)",
+            "indikator": "Disajikan pertanyaan tentang pelafalan tanda hubung, peserta didik dapat menentukan partikel penghubung yang tepat. (Pilihan Ganda)",
+            "level": "L1 (C1)"
+        },
+        {
+            "no": "20",
+            "materi": "Denwa Bangou (Nomor Telepon & Angka)",
+            "indikator": "Disajikan nomor telepon peserta didik dapat menentukan cara pembacaannya dalam huruf Romaji dengan tepat. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "21",
+            "materi": "Benda di Kelas & Kepemilikan (Kore, Sore, Are)",
+            "indikator": "Disajikan wacana tentang barang-barang milik Eko di dalam tas dan di atas meja, peserta didik dapat menentukan pernyataan yang sesuai dengan isi teks. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "22",
+            "materi": "Benda di Kelas & Kepemilikan (Kore, Sore, Are)",
+            "indikator": "Disajikan wacana peserta didik dapat menyebutkan benda-benda yang berada di dalam tas (Pilihan Ganda)",
+            "level": "L1 (C2)"
+        },
+        {
+            "no": "23",
+            "materi": "Benda di Kelas & Kepemilikan (Kore, Sore, Are)",
+            "indikator": "Disajikan wacana peserta didik dapat menentukan letak ponsel milik Eko dengan tepat. (Pilihan Ganda)",
+            "level": "L1 (C2)"
+        },
+        {
+            "no": "24",
+            "materi": "Benda di Kelas & Kepemilikan (Kore, Sore, Are)",
+            "indikator": "Disajikan kalimat tanya kepemilikan penggaris (peserta didik dapat menentukan jawaban penyangkalan yang sopan. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "25",
+            "materi": "Benda di Kelas & Kepemilikan (Kore, Sore, Are)",
+            "indikator": "Disajikan kalimat beserta terjemahannya, peserta didik dapat menentukan kebenaran arti kosakata (Benar / Salah)",
+            "level": "L1 (C1)"
+        },
+        {
+            "no": "26",
+            "materi": "Benda di Kelas & Kepemilikan (Kore, Sore, Are)",
+            "indikator": "Disajikan wacana percakapan antara Rina dan Budi tentang benda-benda di kelas, peserta didik dapat mengidentifikasi benda yang dipegang Budi. (Pilihan Ganda)",
+            "level": "L1 (C2)"
+        },
+        {
+            "no": "27",
+            "materi": "Letak & Posisi Benda (Doko, Ue, Shita, Naka, Tonari)",
+            "indikator": "Disajikan wacana percakapan peserta didik dapat menganalisis alasan Rina menggunakan kata tunjuk saat bertanya kepada Budi. (Pilihan Ganda)",
+            "level": "L3 (C4)"
+        },
+        {
+            "no": "28",
+            "materi": "Benda di Kelas & Kepemilikan (Kore, Sore, Are)",
+            "indikator": "Disajikan wacana percakapan peserta didik dapat menentukan pemilik tas dan penghapus yang berada di atas meja. (Pilihan Ganda)",
+            "level": "L1 (C2)"
+        },
+        {
+            "no": "29",
+            "materi": "Benda di Kelas & Kepemilikan (Kore, Sore, Are)",
+            "indikator": "Disajikan wacana percakapan peserta didik dapat menyimpulkan pemilik pulpen yang berada di dekat Rina. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "30",
+            "materi": "Benda di Kelas & Kepemilikan (Kore, Sore, Are)",
+            "indikator": "Disajikan wacana percakapan peserta didik dapat memilih pernyataan yang benar mengenai kepemilikan dan letak benda. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "31",
+            "materi": "Instruksi di Dalam Kelas (Kyoushitsu no Shiji)",
+            "indikator": "Disajikan wacana percakapan antara Yamada-sensei dan siswa di kelas, peserta didik dapat menentukan benda kelas yang diminta untuk dilihat siswa. (Pilihan Ganda)",
+            "level": "L1 (C2)"
+        },
+        {
+            "no": "32",
+            "materi": "Instruksi di Dalam Kelas (Kyoushitsu no Shiji)",
+            "indikator": "Disajikan wacana percakapan peserta didik dapat menentukan tempat siswa diminta menuliskan contoh kalimat (Pilihan Ganda)",
+            "level": "L1 (C2)"
+        },
+        {
+            "no": "33",
+            "materi": "Instruksi di Dalam Kelas (Kyoushitsu no Shiji)",
+            "indikator": "Disajikan kutipan kalimat siswa dalam wacana, peserta didik dapat menentukan tujuan ucapan siswa tersebut. (Pilihan Ganda)",
+            "level": "L2 (C3)"
+        },
+        {
+            "no": "34",
+            "materi": "Instruksi di Dalam Kelas (Kyoushitsu no Shiji)",
+            "indikator": "Disajikan ungkapan instruksi dari wacana, peserta didik dapat menentukan makna ungkapan tersebut dalam bahasa Indonesia. (Pilihan Ganda)",
+            "level": "L1 (C1)"
+        },
+        {
+            "no": "35",
+            "materi": "Instruksi di Dalam Kelas (Kyoushitsu no Shiji)",
+            "indikator": "Disajikan ungkapan, peserta didik dapat menentukan arti respons siswa tersebut dengan tepat. (Pilihan Ganda)",
+            "level": "L1 (C1)"
+        },
+        {
+            "no": "36",
+            "materi": "Letak & Posisi Benda (Doko, Ue, Shita, Naka, Tonari)",
+            "indikator": "Disajikan wacana percakapan antara Dedi dan Ayu mengenai letak benda di kelas, peserta didik dapat menentukan benda yang sedang dicari Dedi. (Pilihan Ganda)",
+            "level": "L1 (C2)"
+        },
+        {
+            "no": "37",
+            "materi": "Letak & Posisi Benda (Doko, Ue, Shita, Naka, Tonari)",
+            "indikator": "Disajikan wacana percakapan yang sama peserta didik dapat menentukan lokasi tepat kamus bahasa Jepang berada. (Pilihan Ganda)",
+            "level": "L1 (C2)"
+        },
+        {
+            "no": "38",
+            "materi": "Letak & Posisi Benda (Doko, Ue, Shita, Naka, Tonari)",
+            "indikator": "Disajikan wacana percakapan yang sama peserta didik dapat menentukan posisi jam dinding (tokei) di dalam kelas. (Pilihan Ganda)",
+            "level": "L1 (C2)"
+        },
+        {
+            "no": "39",
+            "materi": "Letak & Posisi Benda (Doko, Ue, Shita, Naka, Tonari)",
+            "indikator": "Disajikan kalimat peserta didik dapat menentukan fungsi kata tanya 'doko' dalam kalimat tersebut. (Pilihan Ganda)",
+            "level": "L1 (C1)"
+        },
+        {
+            "no": "40",
+            "materi": "Letak & Posisi Benda (Doko, Ue, Shita, Naka, Tonari)",
+            "indikator": "Disajikan kalimat dari wacana, peserta didik dapat menentukan arti kata penunjuk posisi yang digunakan. (Pilihan Ganda)",
+            "level": "L1 (C2)"
+        }
+    ]
+}
 };
-

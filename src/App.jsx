@@ -147,7 +147,7 @@ export default function App() {
             <div className="space-y-4 pb-6 border-b border-zinc-200/90 dark:border-zinc-800">
               <div className="flex flex-wrap items-center gap-2 text-xs font-semibold text-zinc-500 dark:text-zinc-400">
                 <span className="px-2 py-0.5 rounded bg-zinc-200/70 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 font-mono text-[11px]">
-                  Fase F • Kelas XII SMK
+                  Kurikulum Merdeka • Kelas X & XII SMK
                 </span>
                 <span className="opacity-40">•</span>
                 <span>Asesmen Sumatif Akhir Semester (ASAS) Gasal</span>
@@ -161,18 +161,18 @@ export default function App() {
                     Simulasi & Bank Soal Terstandar
                   </h1>
                   <p className="text-sm text-zinc-600 dark:text-zinc-400 leading-relaxed max-w-2xl">
-                    Sistem latihan Computer-Based Test (CBT) dan evaluasi mandiri. 260 butir soal kejuruan terverifikasi dengan kunci jawaban terdistribusi seimbang (20% per opsi A–E) dan pembahasan komprehensif.
+                    Sistem latihan Computer-Based Test (CBT) dan evaluasi mandiri. {getTotalQuestionCount()} butir soal terverifikasi mencakup format Pilihan Ganda (A–E), PG Kompleks, dan Pernyataan Benar/Salah dengan pembahasan komprehensif.
                   </p>
                 </div>
 
                 {/* Institutional Metrics Strip */}
                 <div className="flex items-center gap-4 text-xs font-medium text-zinc-600 dark:text-zinc-400 bg-white dark:bg-zinc-900 px-4 py-2.5 rounded-xl border border-zinc-200/90 dark:border-zinc-800 shrink-0 tabular-nums shadow-xs">
                   <div>
-                    <span className="font-bold text-zinc-900 dark:text-zinc-100">260</span> Soal
+                    <span className="font-bold text-zinc-900 dark:text-zinc-100">{getTotalQuestionCount()}</span> Soal
                   </div>
                   <span className="opacity-30">|</span>
                   <div>
-                    <span className="font-bold text-zinc-900 dark:text-zinc-100">7</span> Mapel
+                    <span className="font-bold text-zinc-900 dark:text-zinc-100">{SUBJECTS.length}</span> Mapel
                   </div>
                   <span className="opacity-30">|</span>
                   <div>
@@ -338,7 +338,7 @@ export default function App() {
             <div className="flex items-center gap-2">
               <GraduationCap className="w-4 h-4 text-indigo-600 dark:text-indigo-400" />
               <span>
-                ASAS Hub XII SMK • Berbasis Kisi-Kisi Asesmen Sumatif Akhir Semester Gasal 2026/2027
+                ASAS Hub SMK • Berbasis Kisi-Kisi Asesmen Sumatif Akhir Semester Gasal
               </span>
             </div>
             <div>

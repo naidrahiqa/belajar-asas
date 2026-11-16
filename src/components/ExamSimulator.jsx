@@ -66,8 +66,19 @@ export default function ExamSimulator({
 
     const breakdown = questions.map((q) => {
       const chosen = userAnswers[q.id];
-      const answered = chosen !== undefined && chosen !== null;
-      const correct = answered && chosen === q.correctAnswer;
+      const isComplex = q.type === 'complex' || Array.isArray(q.correctAnswer);
+      const answered = isComplex
+        ? Array.isArray(chosen) && chosen.length > 0
+        : (chosen !== undefined && chosen !== null);
+
+      const correct = answered && (
+        isComplex
+          ? Array.isArray(chosen) &&
+            Array.isArray(q.correctAnswer) &&
+            chosen.length === q.correctAnswer.length &&
+            chosen.every((val) => q.correctAnswer.includes(val))
+          : chosen === q.correctAnswer
+      );
 
       if (!answered) unansweredCount++;
       else if (correct) correctCount++;
@@ -102,12 +113,26 @@ export default function ExamSimulator({
     });
   };
 
-  const handleSelectAnswer = (optionIdx) => {
+  const handleSelectAnswer = (optionIdxOrArray) => {
     const currentQ = questions[currentIndex];
     setUserAnswers((prev) => ({
       ...prev,
-      [currentQ.id]: optionIdx
+      [currentQ.id]: optionIdxOrArray
     }));
+  };
+
+  const handleKeyboardOption = (optionIdx) => {
+    const currentQ = questions[currentIndex];
+    if (!currentQ) return;
+    if (currentQ.type === 'complex') {
+      const current = Array.isArray(userAnswers[currentQ.id]) ? userAnswers[currentQ.id] : [];
+      const updated = current.includes(optionIdx)
+        ? current.filter(i => i !== optionIdx)
+        : [...current, optionIdx].sort((a, b) => a - b);
+      handleSelectAnswer(updated);
+    } else {
+      handleSelectAnswer(optionIdx);
+    }
   };
 
   const handleToggleDoubtful = () => {
@@ -140,19 +165,19 @@ export default function ExamSimulator({
       const key = e.key.toUpperCase();
       if (['A', '1'].includes(key)) {
         e.preventDefault();
-        handleSelectAnswer(0);
+        handleKeyboardOption(0);
       } else if (['B', '2'].includes(key)) {
         e.preventDefault();
-        handleSelectAnswer(1);
+        handleKeyboardOption(1);
       } else if (['C', '3'].includes(key)) {
         e.preventDefault();
-        handleSelectAnswer(2);
+        handleKeyboardOption(2);
       } else if (['D', '4'].includes(key)) {
         e.preventDefault();
-        handleSelectAnswer(3);
+        handleKeyboardOption(3);
       } else if (['E', '5'].includes(key)) {
         e.preventDefault();
-        handleSelectAnswer(4);
+        handleKeyboardOption(4);
       } else if (e.key === 'ArrowRight' || key === 'N') {
         e.preventDefault();
         setCurrentIndex((prev) => Math.min(questions.length - 1, prev + 1));
@@ -173,7 +198,7 @@ export default function ExamSimulator({
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [currentIndex, showConfirmModal, showShortcutsModal, questions.length]);
+  }, [currentIndex, showConfirmModal, showShortcutsModal, questions.length, userAnswers]);
 
   // Format MM:SS
   const formatTime = (seconds) => {
@@ -182,7 +207,13 @@ export default function ExamSimulator({
     return `${m.toString().padStart(2, '0')}:${s.toString().padStart(2, '0')}`;
   };
 
-  const answeredCount = Object.keys(userAnswers).filter(k => userAnswers[k] !== undefined && userAnswers[k] !== null).length;
+  const isQuestionAnswered = (ans) => {
+    if (ans === undefined || ans === null) return false;
+    if (Array.isArray(ans)) return ans.length > 0;
+    return true;
+  };
+
+  const answeredCount = questions.filter(q => isQuestionAnswered(userAnswers[q.id])).length;
   const doubtfulCount = Object.keys(doubtfulQuestions).filter(k => doubtfulQuestions[k]).length;
   const unansweredCount = questions.length - answeredCount;
 
@@ -371,7 +402,7 @@ export default function ExamSimulator({
             <div className="mt-4 grid grid-cols-5 gap-1.5 max-h-[360px] overflow-y-auto pr-1">
               {questions.map((q, idx) => {
                 const isCurrent = idx === currentIndex;
-                const isAnswered = userAnswers[q.id] !== undefined && userAnswers[q.id] !== null;
+                const isAnswered = isQuestionAnswered(userAnswers[q.id]);
                 const isDoubtful = doubtfulQuestions[q.id];
 
                 let btnClass = 'bg-zinc-100 dark:bg-zinc-800 text-zinc-700 dark:text-zinc-300 border-zinc-200/80 dark:border-zinc-700';
@@ -435,7 +466,7 @@ export default function ExamSimulator({
             <div className="my-4 grid grid-cols-5 sm:grid-cols-6 gap-2.5 overflow-y-auto max-h-[50vh] p-1">
               {questions.map((q, idx) => {
                 const isCurrent = idx === currentIndex;
-                const isAnswered = userAnswers[q.id] !== undefined && userAnswers[q.id] !== null;
+                const isAnswered = isQuestionAnswered(userAnswers[q.id]);
                 const isDoubtful = doubtfulQuestions[q.id];
 
                 let btnClass = 'bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300';

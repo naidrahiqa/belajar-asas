@@ -236,8 +236,20 @@ export default function PracticeMode({
             <div className="flex items-center gap-1 overflow-x-auto max-w-full sm:max-w-md pb-1 scrollbar-none">
               {filteredQuestions.map((q, idx) => {
                 const isCurrent = idx === currentIndex;
-                const isAnswered = userAnswers[q.id] !== undefined;
-                const isCorrect = isAnswered && userAnswers[q.id] === q.correctAnswer;
+                const ans = userAnswers[q.id];
+                const isComplex = q.type === 'complex' || Array.isArray(q.correctAnswer);
+                const isAnswered = isComplex
+                  ? Array.isArray(ans) && ans.length > 0
+                  : (ans !== undefined && ans !== null);
+
+                const isCorrect = isAnswered && (
+                  isComplex
+                    ? Array.isArray(ans) &&
+                      Array.isArray(q.correctAnswer) &&
+                      ans.length === q.correctAnswer.length &&
+                      ans.every(v => q.correctAnswer.includes(v))
+                    : ans === q.correctAnswer
+                );
 
                 let btnClass = 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-400';
                 if (isAnswered) {

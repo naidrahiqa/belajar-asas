@@ -47,7 +47,7 @@ export default function Navbar({
             className="flex items-center gap-2.5 cursor-pointer text-left focus:outline-none"
           >
             <div className="w-8 h-8 rounded-lg bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900 flex items-center justify-center font-bold text-xs tracking-tight shadow-xs">
-              XII
+              SMK
             </div>
             <div>
               <div className="flex items-center gap-1.5">
