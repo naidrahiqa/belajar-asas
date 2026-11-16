@@ -5,6 +5,7 @@ export const PAI_QUESTIONS = [
     "topic": "Al-Qur’an & Tajwid (Q.S. Al-Mā’idah/5: 32)",
     "indicator": "Disajikan kutipan ayat Q.S. al-Mā’idah/5: 32, peserta didik dapat mengidentifikasi hukum bacaan tajwid tertentu.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Perhatikan penggalan ayat Q.S. al-Mā'idah/5: 32 berikut:\nمَنْ قَتَلَ نَفْسًا بِغَيْرِ نَفْسٍ\nHukum bacaan tajwid yang terdapat pada lafal bergaris bawah 'مَنْ قَتَلَ' dan 'نَفْسًا بِغَيْرِ' secara berurutan adalah...",
     "options": [
       "Ikhfa' Haqiqi dan Iqlab",
@@ -27,6 +28,7 @@ export const PAI_QUESTIONS = [
     "topic": "Kandungan Q.S. Al-Mā’idah/5: 32",
     "indicator": "Menentukan pesan utama ayat terkait larangan membunuh/merusak kehidupan.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Perhatikan terjemahan penggalan Q.S. al-Mā'idah/5: 32 berikut:\n'...barang siapa membunuh seseorang bukan karena orang itu membunuh orang lain, atau bukan karena berbuat kerusakan di bumi, maka seakan-akan dia telah membunuh semua manusia...'. Nilai universal ajaran Islam yang terkandung dalam ayat ini adalah...",
     "options": [
       "Kewajiban negara menerapkan qisas sepihak tanpa mekanisme pembuktian peradilan",
@@ -49,6 +51,7 @@ export const PAI_QUESTIONS = [
     "topic": "Studi Kasus Hifz An-Nafs & Pencegahan Bullying",
     "indicator": "Mengevaluasi kasus perundungan (bullying) remaja berdasarkan prinsip penjagaan jiwa Q.S. al-Mā’idah/5: 32.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Di media sosial, seorang siswa SMK menjadi sasaran perundungan siber (cyberbullying) berupa penyebaran video fitnah dan ejekan fisik yang mengakibatkan korban mengalami depresi akut hingga memiliki dorongan melukai diri sendiri. Ditinjau dari prinsip Hifz An-Nafs (memelihara jiwa) dalam syariat Islam, tindakan pelaku perundungan tersebut dikategorikan sebagai...",
     "options": [
       "Bentuk kritik pergaulan remaja yang lazim dan dapat dimaklumi demi pendewasaan mental",
@@ -71,6 +74,7 @@ export const PAI_QUESTIONS = [
     "topic": "Q.S. Al-Baqarah/2: 143 (Ummatan Wasaṭan)",
     "indicator": "Menjelaskan makna istilah ummatan wasaṭan dalam kehidupan sosial bermasyarakat.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Dalam Q.S. al-Baqarah/2: 143, Allah SWT menyebut umat Islam sebagai 'Ummatan Wasaṭan'. Makna substantif dari predikat tersebut dalam kehidupan berbangsa yang majemuk adalah...",
     "options": [
       "Umat yang selalu bersikap pasif dan tidak mau terlibat dalam permasalahan sosial politik",
@@ -93,6 +97,7 @@ export const PAI_QUESTIONS = [
     "topic": "Tiga Pilar Moderasi Beragama",
     "indicator": "Mengklasifikasikan perilaku yang mencerminkan sikap moderat (tawassuth, tawazun, dan i’tidal).",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Sikap moderasi beragama dalam Islam ditegakkan di atas tiga pilar utama: Tawassuth (mengambil jalan tengah), Tawazun (berkeseimbangan), dan I'tidal (lurus dan menegakkan keadilan). Contoh sikap Tawazun yang diterapkan oleh seorang siswa SMK adalah...",
     "options": [
       "Menghabiskan seluruh waktu siang dan malam untuk beribadah di masjid tanpa mau belajar kejuruan",
@@ -115,6 +120,7 @@ export const PAI_QUESTIONS = [
     "topic": "Keterkaitan Iman, Islam, dan Ihsan",
     "indicator": "Disajikan Hadits Jibril, peserta didik membedakan rukun dimensi iman, Islam, dan ihsan.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Dalam Hadits Jibril yang diriwayatkan oleh Imam Muslim, Malaikat Jibril mendatangi Nabi Muhammad SAW dan bertanya tentang Islam, Iman, dan Ihsan. Definisi Ihsan yang disampaikan oleh Rasulullah SAW adalah...",
     "options": [
       "Engkau menyembah Allah seakan-akan engkau melihat-Nya; jika tidak mampu, yakinlah Dia melihatmu",
@@ -137,6 +143,7 @@ export const PAI_QUESTIONS = [
     "topic": "Integrasi Ihsan dalam Etos Kerja",
     "indicator": "Menganalisis integrasi pilar ihsan dalam mewujudkan kekhusyukan dan integritas moral di tempat kerja.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Seorang teknisi perakitan mesin presisi SMK bekerja dengan penuh ketelitian, mengukur toleransi mikrometer secara jujur, dan tidak mengurangi takaran minyak pelumas sedikit pun, meskipun mandor pengawas sedang tidak berada di ruangan bengkel. Perilaku teknisi ini merupakan integrasi pilar Ihsan karena...",
     "options": [
       "Ia merasa takut upah bulanannya akan dipotong jika rekaman kamera CCTV bengkel diperiksa direktur",
@@ -159,6 +166,7 @@ export const PAI_QUESTIONS = [
     "topic": "Dampak Rapuhnya Salah Satu Pilar",
     "indicator": "Menilai dampak lemahnya salah satu pilar (iman, Islam, atau ihsan) terhadap karakter personal.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Seseorang rajin menunaikan salat lima waktu di saf terdepan dan berpuasa (aspek rukun Islam terpenuhi), serta mengklaim percaya pada rukun iman, namun di tempat kerja ia gemar memfitnah rekan sejawat, mengurangi timbangan barang, dan korupsi jika ada peluang. Fenomena ini menunjukkan adanya kerapuhan pada pilar...",
     "options": [
       "Rukun Islam yang mewajibkan pelaksanaan zakat mal dan ibadah haji ke Baitullah semata",
@@ -181,6 +189,7 @@ export const PAI_QUESTIONS = [
     "topic": "Menaati Ulil Amri (Q.S. An-Nisā’/4: 59)",
     "indicator": "Menentukan batasan kewajiban taat kepada pemerintah dalam Islam.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Q.S. an-Nisā'/4: 59 memerintahkan: 'Wahai orang-orang yang beriman, taatilah Allah dan taatilah Rasul, dan Ulil Amri di antara kamu...'. Batasan syariat dalam menaati kebijakan Ulil Amri (pemerintah/pemimpin) menurut sabda Rasulullah SAW adalah...",
     "options": [
       "Wajib ditaati secara mutlak dalam segala hal, termasuk apabila pemimpin memerintahkan kemaksiatan",
@@ -203,6 +212,7 @@ export const PAI_QUESTIONS = [
     "topic": "Etika Menyampaikan Kritik kepada Penguasa",
     "indicator": "Menganalisis sikap kritis konstruktif yang dibenarkan menurut syariat saat mengkritik penguasa.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Ketika seorang pemimpin atau pembuat kebijakan mengeluarkan peraturan yang merugikan kepentingan rakyat kecil, Islam mengajarkan etika amar ma'ruf dan nasihat kepada penguasa (an-nashihah li a'immatil muslimin). Cara penyampaian kritik yang selaras dengan tuntunan Al-Qur'an (seperti dialog Nabi Musa kepada Firaun) adalah...",
     "options": [
       "Melakukan aksi kerusuhan anarkis, menjarah pertokoan, dan merusak fasilitas umum masyarakat",
@@ -225,6 +235,7 @@ export const PAI_QUESTIONS = [
     "topic": "Prinsip Ta’awun (Q.S. Al-Mā’idah/5: 2)",
     "indicator": "Mengaitkan aksi sosial gotong royong dengan implementasi prinsip ta’awun dalam Q.S. al-Mā’idah/5: 2.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Q.S. al-Mā'idah/5: 2 memerintahkan: '...Dan tolong-menolonglah kamu dalam (mengerjakan) kebajikan dan takwa, dan jangan tolong-menolong dalam berbuat dosa dan permusuhan...'. Contoh penerapan prinsip tolong-menolong (ta'awun) yang dilarang menurut ayat tersebut di lingkungan sekolah adalah...",
     "options": [
       "Saling bekerja sama membagikan kunci jawaban saat pelaksanaan Asesmen Sumatif Akhir Semester berlangsung",
@@ -247,6 +258,7 @@ export const PAI_QUESTIONS = [
     "topic": "Amar Ma’ruf Nahi Munkar (Tiga Tingkatan)",
     "indicator": "Disajikan hadits tentang merubah kemungkaran, peserta didik mengurutkan tahapan sesuai kapasitas individu.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Rasulullah SAW bersabda: 'Barang siapa di antara kalian melihat kemungkaran, maka ubahlah dengan tangannya (kekuasaan); jika tidak mampu, maka dengan lisannya; dan jika tidak mampu, maka dengan hatinya, dan itulah selemah-lemah iman' (H.R. Muslim). Makna mengubah kemungkaran 'dengan hati' adalah...",
     "options": [
       "Ikut serta menikmati kemungkaran tersebut secara diam-diam tanpa memberitahu orang lain",
@@ -269,6 +281,7 @@ export const PAI_QUESTIONS = [
     "topic": "Pencegahan Mafsadat dalam Amar Ma’ruf",
     "indicator": "Menentukan tindakan amar ma’ruf nahi munkar yang tepat di sekolah tanpa memicu mafsadat baru.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Di sudut belakang bengkel sekolah, seorang siswa mendapati dua orang teman sekelasnya sedang merokok. Siswa tersebut ingin menerapkan amar ma'ruf nahi munkar. Kaidah fikih menyatakan: 'Dar'ul mafasid muqaddamun 'ala jalbil mashalih' (Mencegah kerusakan lebih diutamakan daripada meraih maslahat). Tindakan amar ma'ruf yang paling bijak dan tidak menimbulkan bahaya fisik baru adalah...",
     "options": [
       "Mengambil sebatang balok kayu besar dan memukuli kedua temannya hingga terluka parah di tempat",
@@ -291,6 +304,7 @@ export const PAI_QUESTIONS = [
     "topic": "Adab Memberi dan Menjawab Salam",
     "indicator": "Menjelaskan hukum fikih memberi salam dan kewajiban menjawab salam.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Dalam ajaran Islam, menebarkan salam (Assalamu'alaikum Warahmatullahi Wabarakatuh) merupakan doa keselamatan dan perdamaian. Hukum fikih dalam memulai mengucapkan salam dan hukum menjawab salam bagi seorang muslim secara berurutan adalah...",
     "options": [
       "Wajib 'ain untuk memulai salam, dan mubah untuk menjawab salam",
@@ -313,6 +327,7 @@ export const PAI_QUESTIONS = [
     "topic": "Adab Komunikasi di Media Sosial",
     "indicator": "Menerapkan adab penyampaian salam dan komunikasi yang proporsional di platform daring.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Seorang siswa SMK hendak mengirimkan pesan singkat WhatsApp kepada guru kejuruan untuk berkonsultasi mengenai tugas gambar teknik. Adab komunikasi islami yang paling santun dan mencerminkan akhlak karimah adalah...",
     "options": [
       "Mengirim pesan singkat 'P' berkali-kali tanpa kata-kata lain agar guru segera membuka ponsel",
@@ -335,6 +350,7 @@ export const PAI_QUESTIONS = [
     "topic": "Hak-Hak Tetangga dalam Islam",
     "indicator": "Mengidentifikasi hak bertetangga menurut sabda Rasulullah SAW.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Rasulullah SAW bersabda: 'Demi Allah tidak beriman, demi Allah tidak beriman... yaitu orang yang tetangganya tidak merasa aman dari gangguannya (bawa'iqahu)' (H.R. Bukhari). Contoh perbuatan di lingkungan tempat tinggal yang melanggar hak tetangga menurut hadits ini adalah...",
     "options": [
       "Menyalakan knalpot brong sepeda motor bising dengan suara memekakkan telinga di larut malam",
@@ -357,6 +373,7 @@ export const PAI_QUESTIONS = [
     "topic": "Keutamaan Silaturahmi",
     "indicator": "Menjelaskan hikmah dan faedah menjalin tali silaturahmi.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Rasulullah SAW bersabda: 'Barang siapa yang ingin diluaskan rezekinya dan dipanjangkan umurnya (dikenang kebaikannya), hendaklah ia menyambung silaturahmi' (H.R. Bukhari). Makna dari dipanjangkan umurnya dalam konteks silaturahmi menurut mayoritas ulama adalah...",
     "options": [
       "Tubuh fisiknya tidak akan pernah mengalami penuaan dan kebal dari segala macam penyakit medis",
@@ -379,6 +396,7 @@ export const PAI_QUESTIONS = [
     "topic": "Bahaya Memutus Tali Persaudaraan",
     "indicator": "Menganalisis ancaman dosa bagi orang yang memutus hubungan kekeluargaan/silaturahmi.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Dua orang saudara kandung berselisih paham mengenai pembagian harta peninggalan orang tua, hingga salah satu pihak bersumpah tidak akan mau saling berbicara, bertamu, atau bertegur sapa seumur hidup. Peringatan keras Rasulullah SAW terhadap orang yang memutus tali silaturahmi (qathi'ur rahim) adalah...",
     "options": [
       "Harta kekayaannya akan disita oleh kantor peradilan agama dan dibagikan ke tetangga",
@@ -401,6 +419,7 @@ export const PAI_QUESTIONS = [
     "topic": "Fiqih Muamalah (Akad Syirkah & Mudharabah)",
     "indicator": "Membedakan akad mudharabah dan musyarakah dalam kemitraan bisnis syariah.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Seorang lulusan SMK memiliki keahlian teknis merakit modul pembangkit listrik tenaga surya (PLTS) namun tidak memiliki modal uang. Seorang pemodal bersedia menyediakan 100% modal kerja sebesar Rp 50.000.000,00 dengan kesepakatan bagi hasil laba 60% untuk pengelola dan 40% untuk pemodal. Bentuk akad kemitraan syariah ini disebut...",
     "options": [
       "Wadiah Yad Amanah (titipan murni)",
@@ -423,6 +442,7 @@ export const PAI_QUESTIONS = [
     "topic": "Larangan Riba dalam Transaksi Keuangan",
     "indicator": "Menganalisis bahaya dan hukum riba dalam pinjaman online berbunga tinggi.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Seorang teknisi muda meminjam dana darurat melalui aplikasi pinjaman daring (pinjol) ilegal sebesar Rp 2.000.000,00. Dalam tempo satu bulan, ia diwajibkan mengembalikan Rp 3.800.000,00 beserta denda bunga harian yang berlipat ganda dan ancaman teror mental. Ditinjau dari fiqih muamalah Islam, kelebihan uang pinjaman tersebut merupakan bentuk...",
     "options": [
       "Zakat perniagaan yang wajib disetorkan oleh nasabah kepada pemilik aplikasi",
@@ -445,6 +465,7 @@ export const PAI_QUESTIONS = [
     "topic": "Asuransi Syariah (Takaful)",
     "indicator": "Menjelaskan prinsip tolong-menolong (ta’awun) dan sharing of risk dalam asuransi syariah.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Perbedaan fundamental antara Asuransi Konvensional dengan Asuransi Syariah (Takaful) dalam hal pengelolaan risiko dana peserta adalah...",
     "options": [
       "Asuransi Syariah berlandaskan prinsip tolong-menolong (ta'awun) dan berbagi risiko (sharing of risk)",
@@ -467,6 +488,7 @@ export const PAI_QUESTIONS = [
     "topic": "Fiqih Munakahat (Tujuan Pernikahan)",
     "indicator": "Menjelaskan tujuan suci pernikahan dalam Islam sesuai Q.S. ar-Rūm/30: 21.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Q.S. ar-Rūm/30: 21 menjelaskan tanda-tanda kebesaran Allah melalui penciptaan pasangan hidup. Tiga pilar tujuan suci pernikahan dalam Islam yang termaktub dalam ayat tersebut adalah...",
     "options": [
       "Harta kekayaan (ghani), kekuasaan politik (sulthan), dan keturunan bangsawan (nasab)",
@@ -489,6 +511,7 @@ export const PAI_QUESTIONS = [
     "topic": "Fiqih Munakahat (Rukun Nikah)",
     "indicator": "Mengidentifikasi rukun-rukun sahnya akad pernikahan dalam hukum Islam.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Sahnya suatu akad pernikahan dalam fiqih Islam bergantung pada terpenuhinya 5 rukun nikah. Kelima rukun nikah tersebut adalah...",
     "options": [
       "Penghulu dinas, pesta resepsi mewah, baju pengantin adat, mobil pengantin, dan cincin berlian",
@@ -511,6 +534,7 @@ export const PAI_QUESTIONS = [
     "topic": "Pencegahan Pernikahan Usia Dini",
     "indicator": "Menganalisis dampak pernikahan usia dini bagi remaja ditinjau dari kesiapan fisik, mental, dan hukum.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Undang-Undang No. 16 Tahun 2019 menetapkan batas minimal usia perkawinan bagi pria dan wanita adalah 19 tahun. Ditinjau dari kemaslahatan syariat Islam (Maqashid asy-Syari'ah), mengapa pernikahan usia dini (anak di bawah umur) perlu dicegah secara ketat?",
     "options": [
       "Karena pernikahan di usia dini dijamin akan memicu penurunan status sosial keluarga di mata masyarakat",
@@ -533,6 +557,7 @@ export const PAI_QUESTIONS = [
     "topic": "Fiqih Mawarits (Hukum Waris Islam)",
     "indicator": "Menjelaskan asbabul wuruts (sebab-sebab seseorang berhak memperoleh warisan).",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Dalam hukum kewarisan Islam (ilmu faraid), seseorang berhak mendapatkan bagian harta warisan dari orang yang meninggal dunia apabila terdapat Asbabul Wuruts (sebab-sebab menerima waris). Tiga sebab sah penerimaan waris tersebut adalah...",
     "options": [
       "Hubungan persahabatan akrab, hubungan persekutuan bisnis, dan perjanjian kontrak sewa menyewa",
@@ -555,6 +580,7 @@ export const PAI_QUESTIONS = [
     "topic": "Mawani’ul Irts (Penghalang Hak Waris)",
     "indicator": "Mengidentifikasi hal-hal yang menggugurkan hak seseorang menerima warisan.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Seorang anak kandung secara sengaja membunuh ayah kandungnya demi menguasai warisan tanah dan pabrik kayu mebel. Berdasarkan ketentuan Mawani'ul Irts (halangan mewarisi) dalam hukum Islam, hak waris anak tersebut adalah...",
     "options": [
       "Gugur sepenuhnya dan terhalang menerima harta warisan karena pembunuhan menggugurkan hak waris",
@@ -577,6 +603,7 @@ export const PAI_QUESTIONS = [
     "topic": "Kadar Pembagian Waris (Furudhul Muqaddarah)",
     "indicator": "Menentukan bagian waris anak perempuan tunggal menurut Q.S. an-Nisā’/4: 11.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Seseorang wafat dan meninggalkan harta warisan bersih. Ahli waris yang ditinggalkan hanyalah seorang istri, seorang anak perempuan tunggal, dan seorang paman kandung. Berdasarkan ketentuan Q.S. an-Nisā'/4: 11, bagian pasti (furudhul muqaddarah) bagi anak perempuan tunggal tersebut adalah...",
     "options": [
       "1/8 (seperdelapan bagian)",
@@ -599,6 +626,7 @@ export const PAI_QUESTIONS = [
     "topic": "Sejarah Peradaban Islam (Baitul Hikmah)",
     "indicator": "Mengidentifikasi peran institusi Baitul Hikmah pada masa keemasan Daulah Abbasiyah.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Pada masa kekhalifahan Harun ar-Rasyid dan Khalifah al-Ma'mun dari Daulah Abbasiyah di Baghdad, didirikan sebuah institusi riset, perpustakaan raya, dan pusat penerjemahan mahakarya ilmiah dunia yang menjadi episentrum kebangkitan sains global bernama...",
     "options": [
       "Darun Nadwah di Makkah",
@@ -621,6 +649,7 @@ export const PAI_QUESTIONS = [
     "topic": "Tokoh Kedokteran Islam (Ibnu Sina)",
     "indicator": "Mengidentifikasi karya mahakarya Ibnu Sina (Avicenna) dalam bidang ilmu kedokteran modern.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Ilmuwan muslim polimatik abad pertengahan yang dijuluki 'Bapak Kedokteran Modern' (Avicenna) di Eropa dan menulis ensiklopedia kedokteran legendaris 'Al-Qanun fi at-Tibb' (The Canon of Medicine) yang menjadi buku rujukan wajib universitas-universitas Eropa selama berabad-abad adalah...",
     "options": [
       "Al-Farabi",
@@ -643,6 +672,7 @@ export const PAI_QUESTIONS = [
     "topic": "Tokoh Matematika Islam (Al-Khawarizmi)",
     "indicator": "Mengidentifikasi penemuan angka nol dan aljabar oleh Al-Khawarizmi.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Matematikawan muslim yang merumuskan konsep Aljabar melalui karyanya 'Al-Kitab al-Mukhtasar fi Hisab al-Jabr wal-Muqabala', memperkenalkan sistem angka desimal dan angka nol (shifr) ke dunia barat, serta namanya diabadikan menjadi istilah 'Algoritma' dalam ilmu pemrograman komputer adalah...",
     "options": [
       "Ibnu Batutah sang penjelajah",
@@ -665,6 +695,7 @@ export const PAI_QUESTIONS = [
     "topic": "Tokoh Optik Islam (Ibnu Haitsam)",
     "indicator": "Mengidentifikasi penemu prinsip kamera obscura dan ilmu optik modern.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Ilmuwan muslim pelopor metode ilmiah eksperimental modern yang membantah teori visual Ptolemeus, merumuskan teori bahwa cahaya memantul dari benda ke mata, menemukan prinsip kerja 'Kamera Obscura' (al-Bait al-Muthlim), dan menulis mahakarya 'Kitab al-Manadhir' (Book of Optics) adalah...",
     "options": [
       "Al-Hasan Ibnu al-Haitsam (Alhazen)",
@@ -687,6 +718,7 @@ export const PAI_QUESTIONS = [
     "topic": "Tokoh Sosiologi Islam (Ibnu Khaldun)",
     "indicator": "Menjelaskan kontribusi konsep 'Muqaddimah' dan 'Ashabiyah' Ibnu Khaldun.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Dalam kitab mahakaryanya yang monumental berjudul 'Muqaddimah', seorang pemikir muslim meletakkan dasar-dasar ilmu sosiologi, filsafat sejarah, demografi, dan ekonomi politik jauh sebelum para pemikir barat. Ia memperkenalkan konsep solidaritas sosial kebangsaan yang disebut dengan 'Ashabiyah'. Tokoh tersebut adalah...",
     "options": [
       "Ibnu Hazm Al-Andalusi",
@@ -709,6 +741,7 @@ export const PAI_QUESTIONS = [
     "topic": "Kewajiban Menuntut Ilmu bagi Muslim",
     "indicator": "Menjelaskan hadits kewajiban menuntut ilmu bagi setiap muslim tanpa diskriminasi gender.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Rasulullah SAW bersabda: 'Thalabul 'ilmi faridhatun 'ala kulli muslim' (Menuntut ilmu itu wajib bagi setiap muslim). Implikasi nilai egalitarian (kesetaraan) dari hadits tersebut dalam dunia pendidikan kejuruan modern adalah...",
     "options": [
       "Menuntut ilmu teknologi kejuruan hanya diwajibkan bagi siswa laki-laki dari keluarga kaya",
@@ -731,6 +764,7 @@ export const PAI_QUESTIONS = [
     "topic": "Inspirasi Ilmuwan Muslim bagi Siswa Vokasi",
     "indicator": "Mengambil ibrah dari sejarah keemasan Islam untuk membangkitkan etos teknologi siswa SMK.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Mempelajari sejarah keemasan peradaban Islam di era Bani Abbasiyah dan Andalusia yang melahirkan berbagai penemuan rekayasa mekanik (seperti jam air otomasi karya Al-Jazari) seharusnya menginspirasi siswa SMK saat ini untuk...",
     "options": [
       "Hanya membanggakan kejayaan masa lampau sambil bermalas-malasan dan menolak belajar teknologi terkini",
@@ -753,6 +787,7 @@ export const PAI_QUESTIONS = [
     "topic": "Adab Bergaul dengan Lawan Jenis",
     "indicator": "Menganalisis adab pergaulan islami di lingkungan sekolah dan tempat kerja.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Dalam kegiatan praktik bengkel otomotif dan laboratorium komputer yang melibatkan siswa laki-laki dan perempuan, batas etika pergaulan islami (adab pergaulan lawan jenis) yang wajib dijaga bersama adalah...",
     "options": [
       "Dilarang berbicara sama sekali dalam koordinasi tugas proyek kelompok bengkel sekolah",
@@ -775,6 +810,7 @@ export const PAI_QUESTIONS = [
     "topic": "Kejujuran dan Bahaya Sifat Munafik",
     "indicator": "Mengidentifikasi tiga tanda orang munafik berdasarkan hadits Nabi.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Rasulullah SAW bersabda: 'Tanda-tanda orang munafik itu ada tiga: apabila berbicara ia berdusta, apabila berjanji ia mengingkari, dan...'. Kelanjutan potongan hadits sahih riwayat Bukhari dan Muslim tersebut adalah...",
     "options": [
       "apabila diberi amanah (kepercayaan) ia berkhianat (khianat)",
@@ -797,6 +833,7 @@ export const PAI_QUESTIONS = [
     "topic": "Kewajiban Menjaga Amanah Benda Kerja",
     "indicator": "Menganalisis penerapan sifat amanah pada peralatan bengkel sekolah dan industri.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Seorang siswa SMK meminjam satu set kunci torsi presisi tinggi berharga mahal dari ruang inventaris bengkel sekolah untuk praktik perakitan silinder head motor. Sikap amanah yang paling mencerminkan karakter muslim sejati terhadap peralatan tersebut adalah...",
     "options": [
       "Menjual salah satu mata kunci soket ke bengkel pinggir jalan lalu beralasan kuncinya hilang dicuri orang",
@@ -819,6 +856,7 @@ export const PAI_QUESTIONS = [
     "topic": "Adab terhadap Lingkungan Hidup",
     "indicator": "Menjelaskan konsep manusia sebagai Khalifah fil Ardh dalam pelestarian alam.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Dalam Al-Qur'an (Q.S. al-Baqarah/2: 30), Allah SWT menetapkan manusia sebagai 'Khalifah fil Ardh' (pemimpin dan pengelola di muka bumi). Makna tanggung jawab kekhalifahan manusia terhadap alam lingkungan adalah...",
     "options": [
       "Hak mutlak bagi manusia untuk mengeksploitasi seluruh kekayaan tambang alam hingga musnah tanpa batas",
@@ -841,6 +879,7 @@ export const PAI_QUESTIONS = [
     "topic": "Konsep Rezeki Halal dan Berkah",
     "indicator": "Menganalisis keutamaan memakan rezeki dari hasil jerih payah tangan sendiri.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Rasulullah SAW bersabda: 'Tidaklah seseorang memakan makanan yang lebih baik daripada memakan makanan dari hasil usaha tangannya sendiri. Dan sesungguhnya Nabi Daud AS dahulu makan dari hasil kerja tangannya sendiri' (H.R. Bukhari). Pesan moral hadits ini bagi siswa SMK yang bersiap memasuki dunia kerja adalah...",
     "options": [
       "Menggantungkan seluruh masa depan hidup pada pemberian warisan orang tua tanpa mau bekerja mandiri",
@@ -863,6 +902,7 @@ export const PAI_QUESTIONS = [
     "topic": "Muhasabah dan Persiapan Masa Depan",
     "indicator": "Menerapkan prinsip muhasabah Q.S. al-Hasyr/59: 18 dalam evaluasi diri siswa kelas XII.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Q.S. al-Hasyr/59: 18 menyerukan: 'Wahai orang-orang yang beriman, bertakwalah kepada Allah dan hendaklah setiap orang memperhatikan apa yang telah diperbuatnya untuk hari esok...'. Penerapan prinsip Muhasabah (evaluasi diri) ini bagi seorang siswa kelas XII SMK yang menghadapi asesmen akhir dan kelulusan adalah...",
     "options": [
       "Meratapi kegagalan masa lalu secara terus-menerus hingga putus asa dan tidak mau mengikuti ujian kelulusan",

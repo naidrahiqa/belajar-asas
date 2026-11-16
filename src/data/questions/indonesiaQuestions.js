@@ -5,6 +5,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Istilah Teknis Teks Informatif",
     "indicator": "Disajikan teks informasi ilmiah, peserta didik dapat mengidentifikasi tujuan penggunaan istilah teknis baku dalam teks.",
     "level": "PG / C2",
+    "type": "single",
     "question": "Bacalah kutipan teks informatif ilmiah berikut!\n\n\"Perkembangan teknologi Kecerdasan Buatan (Artificial Intelligence) kini merambah ke ranah generatif melalui algoritma Large Language Models (LLM) dan Deep Learning. Model komputasi ini memanfaatkan arsitektur jaringan saraf tiruan (neural networks) berparameter miliaran bobot untuk memproses representasi semantik bahasa manusia. Kendati menawarkan efisiensi otomatisasi, fenomena halusinasi data (data hallucination) dan bias kognitif dalam korpus pelatihan tetap menuntut verifikasi faktual yang ketat oleh manusia.\"\n\nTujuan utama penulis menggunakan istilah-istilah teknis baku (seperti algoritma, representasi semantik, korpus, arsitektur jaringan saraf tiruan) dalam teks tersebut adalah...",
     "options": [
       "Menyampaikan konsep keilmuan secara presisi, objektif, dan menghindari tafsir ganda",
@@ -27,6 +28,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Gagasan Utama Paragraf",
     "indicator": "Disajikan paragraf ketiga teks informasi, peserta didik dapat menentukan ide pokok paragraf dengan tepat.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Bacalah paragraf berikut!\n\n\"Bahaya kontaminasi mikroplastik terhadap ekosistem perairan kian mengkhawatirkan. Partikel polimer berukuran kurang dari lima milimeter ini tidak hanya mencemari sedimen muara sungai, tetapi juga tertelan oleh zooplankton dan ikan-ikan kecil pelagis. Akibatnya, senyawa kimia toksik seperti ftalat dan bisfenol A terakumulasi di dalam jaringan lemak biota laut. Melalui mekanisme biomagnifikasi pada rantai makanan, manusia yang mengonsumsi hidangan laut tercemar berisiko tinggi mengalami gangguan endokrin dan penurunan imunitas tubuh.\"\n\nIde pokok paragraf tersebut adalah...",
     "options": [
       "Ukuran partikel mikroplastik yang kurang dari lima milimeter",
@@ -49,19 +51,17 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Pemetaan Struktur Informasi Teks",
     "indicator": "Disajikan tabel kategori informasi teks ilmiah, peserta didik menentukan kesesuaian bagian teks.",
     "level": "PGK / C3",
-    "question": "Berdasarkan teks tentang kontaminasi mikroplastik di atas, cermati pernyataan berikut:\n(1) Mikroplastik didefinisikan sebagai partikel plastik berukuran di bawah lima milimeter.\n(2) Senyawa toksik biomagnifikasi hanya berhenti di tubuh zooplankton tanpa merambat ke predator tingkat atas.\n(3) Konsumsi boga bahari yang tercemar mikroplastik berpotensi mengganggu sistem hormon (endokrin) manusia.\nPasangan pernyataan yang SESUAI dengan isi teks ilmiah adalah...",
+    "type": "true_false",
+    "question": "Berdasarkan teks tentang kontaminasi mikroplastik di atas, cermati pernyataan berikut:\n(1) Mikroplastik didefinisikan sebagai partikel plastik berukuran di bawah lima milimeter.\n(2) Senyawa toksik biomagnifikasi hanya berhenti di tubuh zooplankton tanpa merambat ke predator tingkat atas.\n(3) Konsumsi boga bahari yang tercemar mikroplastik berpotensi mengganggu sistem hormon (endokrin) manusia.\nPasangan pernyataan yang SESUAI dengan isi teks ilmiah adalah...\n\nPernyataan: \"Pernyataan (1) dan (3)\"\n\nApakah pernyataan di atas sesuai dengan isi teks?",
     "options": [
-      "Pernyataan (1) dan (2)",
-      "Pernyataan (2) dan (3)",
-      "Pernyataan (1) dan (3)",
-      "Hanya pernyataan (2)",
-      "Pernyataan (1), (2), dan (3)"
+      "Benar (pernyataan tersebut sesuai/tepat)",
+      "Salah (pernyataan tersebut tidak sesuai/tidak tepat)"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Pernyataan (1) dan (3).",
+      "summary": "Pernyataan tersebut BENAR.",
       "concept": "Kesesuaian informasi teks eksposisi diuji dengan mencocokkan proposisi dalam opsi secara faktual dengan kalimat dalam stimulus bacaan.",
-      "analysis": "(1) Sesuai: \"berukuran kurang dari lima milimeter\". (2) Tidak sesuai: teks menyatakan racun merambat melalui rantai makanan hingga manusia. (3) Sesuai: \"berisiko tinggi mengalami gangguan endokrin\". Jadi (1) dan (3) benar.",
+      "analysis": "Pernyataan sesuai dengan isi teks. Pernyataan (1) dan (3)",
       "whyWrong": "Pernyataan (2) bertolak belakang dengan isi teks yang menegaskan terjadinya biomagnifikasi hingga manusia."
     }
   },
@@ -71,7 +71,8 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Analisis Informasi Kompleks Teks Ilmiah",
     "indicator": "Memilih pernyataan yang akurat dan sesuai isi teks ilmiah AI dan ekologi.",
     "level": "PG / C3",
-    "question": "Perhatikan kalimat: \"Model komputasi AI memanfaatkan arsitektur jaringan saraf tiruan berparameter miliaran bobot untuk memproses representasi semantik bahasa manusia.\"\nSimpulan logis yang dapat ditarik dari kalimat tersebut adalah...",
+    "type": "complex",
+    "question": "Perhatikan kalimat: \"Model komputasi AI memanfaatkan arsitektur jaringan saraf tiruan berparameter miliaran bobot untuk memproses representasi semantik bahasa manusia.\"\nSimpulan logis yang dapat ditarik dari kalimat tersebut adalah\n\n(Pilih semua jawaban yang benar)",
     "options": [
       "Pusat data kecerdasan buatan menyerap energi listrik lebih kecil daripada peralatan rumah tangga biasa",
       "Pengembangan algoritma komputasi generatif tidak memerlukan konsumsi air tawar dalam sistem pendinginannya",
@@ -79,9 +80,13 @@ export const INDONESIA_QUESTIONS = [
       "Teknologi kecerdasan buatan menawarkan efisiensi operasional namun menyumbang jejak karbon dan air yang signifikan",
       "Kebutuhan energi pusat data global diprediksi mengalami penurunan drastis dalam kurun waktu satu dekade ke depan"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": [
+      0,
+      2,
+      4
+    ],
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Kemampuan bahasa pada model AI didasarkan pada perhitungan matematis bobot jaringan tiruan berskala besar.",
+      "summary": "Jawaban yang benar adalah A, C, E.",
       "concept": "Penalaran implisit wacana sains: Artificial Neural Networks bekerja atas dasar aproksimasi fungsi statistik dan bobot numerik parameter, bukan entitas spiritual atau biologis.",
       "analysis": "Frasa \"model komputasi\", \"arsitektur jaringan saraf tiruan\", dan \"miliaran bobot\" menegaskan fondasi komputasi matematis di balik pemrosesan bahasa AI.",
       "whyWrong": "A, C, D, dan E salah secara faktual dan melenceng dari konteks teks sains."
@@ -93,6 +98,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Unsur Intrinsik Cerpen (Latar Tempat)",
     "indicator": "Menentukan kelompok kosakata yang menunjukkan latar tempat dalam kutipan cerpen.",
     "level": "PG / C2",
+    "type": "single",
     "question": "Bacalah kutipan cerpen berikut!\n\n\"Bagas melangkah gontai menyusuri lorong berlantai ubin kusam di kantor balai desa. Di balik pintu kayu jati berukir yang separuh terbuka itu, terdengar sayup perdebatan antara sekretaris panitia dan kepala seksi pembangunan. Di atas meja kerja berkas-berkas pengadaan paving block tampak berserakan di samping tumpukan map merah bertanda rahasia.\"\n\nKelompok kata dalam kutipan cerpen yang secara eksplisit menunjukkan latar tempat adalah...",
     "options": [
       "Melangkah gontai, perdebatan sayup, bertanda rahasia",
@@ -115,19 +121,17 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Evaluasi Nilai Karakter Tokoh",
     "indicator": "Menilai kesesuaian nilai moral/kejujuran tokoh utama dalam cerpen.",
     "level": "PG / C3",
-    "question": "Lanjutan cerita: \"Laila, siswi SMK yang sedang magang di kantor desa itu, mendapati ada selisih nota belanja semen sebesar dua puluh juta rupiah. Sekretaris panitia berbisik padanya, 'Tutup mata saja, Nduk. Nanti ada bagian uang saku magang untukmu.' Laila tertegun, tangannya gemetar memegang kuitansi ganda tersebut, tetapi nuraninya menolak keras. Esok paginya, ia menyerahkan bukti otentik itu langsung ke hadapan Badan Permusyawaratan Desa.\"\n\nNilai moral utama yang tercermin dari tindakan tokoh Laila adalah...",
+    "type": "true_false",
+    "question": "Lanjutan cerita: \"Laila, siswi SMK yang sedang magang di kantor desa itu, mendapati ada selisih nota belanja semen sebesar dua puluh juta rupiah. Sekretaris panitia berbisik padanya, 'Tutup mata saja, Nduk. Nanti ada bagian uang saku magang untukmu.' Laila tertegun, tangannya gemetar memegang kuitansi ganda tersebut, tetapi nuraninya menolak keras. Esok paginya, ia menyerahkan bukti otentik itu langsung ke hadapan Badan Permusyawaratan Desa.\"\n\nNilai moral utama yang tercermin dari tindakan tokoh Laila adalah...\n\nPernyataan: \"Sikap ambisius yang menghalalkan segala cara demi meraih pujian dari atasan\"\n\nApakah pernyataan di atas tepat?",
     "options": [
-      "Integritas moral dan keberanian menjunjung tinggi kejujuran di atas tekanan kelompok",
-      "Sikap ambisius yang menghalalkan segala cara demi meraih pujian dari atasan",
-      "Kepatuhan mutlak tanpa pertimbangan rasional terhadap instruksi pimpinan proyek",
-      "Kecenderungan untuk selalu menghindar dari tanggung jawab pekerjaan yang menantang",
-      "Keinginan untuk mendapatkan keuntungan finansial pribadi dari celah anggaran desa"
+      "Benar (pernyataan tersebut sesuai/tepat)",
+      "Salah (pernyataan tersebut tidak sesuai/tidak tepat)"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": 1,
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Integritas dan keberanian moral menjunjung tinggi kejujuran di atas tekanan suap.",
+      "summary": "Pernyataan tersebut SALAH.",
       "concept": "Karakterisasi tokoh dalam sastra mencerminkan nilai etika (moral values). Integritas diwujudkan ketika seorang tokoh teguh mempertahankan kebenaran meskipun ada imbalan finansial atau tekanan kuasa.",
-      "analysis": "Laila menolak uang bagian dan melapor secara resmi ke BPD, menunjukkan karakter pelajar berintegritas tinggi.",
+      "analysis": "Pernyataan tidak sesuai. Yang tepat adalah: Integritas moral dan keberanian menjunjung tinggi kejujuran di atas tekanan kelompok",
       "whyWrong": "Pilihan A, C, D, dan E bertentangan dengan tindakan luhur Laila dalam narasi."
     }
   },
@@ -137,6 +141,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Prediksi Kejadian Sebab-Akibat Cerpen",
     "indicator": "Memprediksi kemungkinan yang terjadi jika manipulasi berkas tidak diakui.",
     "level": "PG / C4",
+    "type": "single",
     "question": "Berdasarkan alur cerpen di atas, apa kemungkinan logis yang paling tepat terjadi seandainya Laila menerima suap dan ikut memalsukan laporan belanja paving block tersebut?",
     "options": [
       "Panitia pelaksana proyek mengundurkan diri massal sehingga pembangunan desa terbengkalai tanpa kejelasan",
@@ -159,7 +164,8 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Analisis Fakta Cerita",
     "indicator": "Menentukan pernyataan yang akurat dan sesuai isi teks narasi cerpen.",
     "level": "PG / C2",
-    "question": "Berdasarkan cerpen di atas, manakah fakta cerita yang secara tersurat tertulis dalam narasi?",
+    "type": "complex",
+    "question": "Berdasarkan cerpen di atas, manakah fakta cerita yang secara tersurat tertulis dalam narasi?\n\n(Pilih semua jawaban yang benar)",
     "options": [
       "Laila menjabat sebagai kepala desa yang berwenang menandatangani seluruh laporan dana desa",
       "Pak Lurah memaksa Laila memusnahkan seluruh kuitansi pembelian pasir di hadapan warga desa",
@@ -167,9 +173,12 @@ export const INDONESIA_QUESTIONS = [
       "Proyek perbaikan jalan desa telah selesai 100% dengan standar mutu uji laboratorium sipil",
       "Sekretaris proyek menyerahkan seluruh sisa uang anggaran pembangunan kepada keluarga Laila"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": [
+      2,
+      4
+    ],
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Laila berstatus sebagai siswi SMK yang sedang melaksanakan program magang di kantor desa.",
+      "summary": "Jawaban yang benar adalah C, E.",
       "concept": "Fakta tersurat (explicit information) adalah informasi yang tertera jelas kata demi kata di dalam teks stimulus cerita.",
       "analysis": "Teks secara eksplisit menyebutkan: \"Laila, siswi SMK yang sedang magang di kantor desa itu...\".",
       "whyWrong": "A, C, D, dan E bertentangan langsung dengan teks narasi."
@@ -181,6 +190,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Rekonstruksi Teks Opini Media",
     "indicator": "Menentukan hubungan konsep antara kreator digital dan etika jurnalistik pers.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Bacalah petikan teks opini berikut!\n\n\"Di era media sosial, batas antara pembuat konten digital (content creator) dan jurnalis profesional kian mengabur di mata publik. Siapa pun kini dapat menyiarkan peristiwa secara langsung dari ponsel pintar. Namun, ada jurang pemisah fundamental yang tidak boleh diabaikan: kode etik dan proses verifikasi. Jurnalisme pers terikat pada disiplin verifikasi berlapis, konfirmasi keberimbangan (cover both sides), dan pertanggungjawaban hukum pers, sedangkan algoritma kreator kerap terdorong oleh sensasionalisme demi mendulang klik (clickbait) dan impresi kilat.\"\n\nBagan alur pemikiran (peta konsep) yang paling tepat mewakili teks opini tersebut adalah...",
     "options": [
       "Kebebasan berpendapat di platform digital menuntut penghapusan seluruh regulasi hukum penyiaran",
@@ -203,6 +213,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Topik Utama Teks Opini",
     "indicator": "Mengidentifikasi kelompok kosakata yang menjadi topik utama pembahasan teks opini.",
     "level": "PG / C2",
+    "type": "single",
     "question": "Kelompok kata kunci yang menjadi topik utama pembahasan dalam teks opini media di atas adalah...",
     "options": [
       "Ponsel pintar, algoritma, kuota internet murah",
@@ -225,19 +236,17 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Evaluasi Sikap Penulis Teks Opini",
     "indicator": "Mengevaluasi pandangan penulis terkait kebebasan berekspresi dan etika media digital.",
     "level": "PG / C4",
-    "question": "Berdasarkan teks opini di atas, bagaimanakah sikap dan pandangan kritis penulis terhadap kebebasan berekspresi di era media sosial?",
+    "type": "true_false",
+    "question": "Berdasarkan teks opini di atas, bagaimanakah sikap dan pandangan kritis penulis terhadap kebebasan berekspresi di era media sosial?\n\nPernyataan: \"Penulis mendukung kebebasan berkreasi di ruang digital seraya menekankan urgensi etika dan tanggung jawab publik\"\n\nApakah pernyataan di atas tepat?",
     "options": [
-      "Penulis mendukung kebebasan berkreasi di ruang digital seraya menekankan urgensi etika dan tanggung jawab publik",
-      "Penulis menuntut penutupan seluruh platform media sosial yang memuat konten jurnalistik warga independen",
-      "Penulis menganggap kode etik jurnalistik sebagai penghambat utama kecepatan penyebaran informasi modern",
-      "Penulis meyakini bahwa media massa arus utama tidak lagi memiliki peran dalam mengedukasi masyarakat madani",
-      "Penulis menyarankan masyarakat untuk mempercayai seluruh informasi viral tanpa perlu melakukan cek fakta"
+      "Benar (pernyataan tersebut sesuai/tepat)",
+      "Salah (pernyataan tersebut tidak sesuai/tidak tepat)"
     ],
     "correctAnswer": 0,
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Mendukung keterbukaan informasi, namun menegaskan kecepatan unggah tak boleh mengorbankan akurasi dan etika.",
+      "summary": "Pernyataan tersebut BENAR.",
       "concept": "Evaluasi sudut pandang penulis (author's stance): Penulis teks opini bersikap kritis-konstruktif, tidak menolak kemajuan teknologi media, melainkan menekankan tanggung jawab etis dalam penyebaran informasi.",
-      "analysis": "Penulis mengakui kemudahan teknologi siaran ponsel, tetapi mengingatkan \"ada jurang pemisah fundamental: kode etik dan proses verifikasi\".",
+      "analysis": "Pernyataan sesuai dengan isi teks. Penulis mendukung kebebasan berkreasi di ruang digital seraya menekankan urgensi etika dan tanggung jawab publik",
       "whyWrong": "Pilihan A, C, D, dan E adalah pandangan ekstrem sepihak yang tidak didukung teks opini."
     }
   },
@@ -247,7 +256,8 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Analisis Isi Teks Opini",
     "indicator": "Memilih pernyataan yang akurat tentang prinsip jurnalistik cover both sides.",
     "level": "PG / C3",
-    "question": "Dalam teks opini disebutkan istilah \"konfirmasi keberimbangan (cover both sides)\". Maksud dari prinsip jurnalistik tersebut dalam praktik peliputan adalah...",
+    "type": "complex",
+    "question": "Dalam teks opini disebutkan istilah \"konfirmasi keberimbangan (cover both sides)\". Maksud dari prinsip jurnalistik tersebut dalam praktik peliputan adalah\n\n(Pilih semua jawaban yang benar)",
     "options": [
       "Menyajikan informasi secara sepihak untuk menggiring opini publik mendukung satu kelompok figur tertentu",
       "Menyajikan fakta secara adil, berimbang, dan memberikan ruang klarifikasi bagi pihak yang diberitakan",
@@ -255,9 +265,13 @@ export const INDONESIA_QUESTIONS = [
       "Mengutamakan kecepatan publikasi berita sensasional tanpa perlu memverifikasi kebenaran narasumber utama",
       "Menyerahkan penentuan kebenaran berita sepenuhnya kepada persepsi para pembaca di media sosial"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      0,
+      1,
+      3
+    ],
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Menampilkan pandangan dari pihak-pihak berseberangan secara adil dan proporsional.",
+      "summary": "Jawaban yang benar adalah A, B, D.",
       "concept": "Prinsip Jurnalistik Cover Both Sides (Keberimbangan): Kewajiban etis jurnalis untuk mendengarkan, memverifikasi, dan menyajikan perspektif dari semua kubu yang terlibat dalam suatu kasus agar berita tidak menghakimi sepihak.",
       "analysis": "Konfirmasi berimbang menjamin berita objektif dan memberi hak jawab bagi pihak yang diberitakan.",
       "whyWrong": "Pilihan A menafsirkan arti kata fisik kertas. C urusan distribusi medsos. D redundan. E salah kaprah tentang anonimitas."
@@ -269,6 +283,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Respons Emosional Puisi Modern",
     "indicator": "Disajikan petikan puisi, peserta didik menentukan respons emosional pembaca terhadap larik puisi.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Bacalah petikan bait puisi berikut!\n\n\"Di antara derit mesin bubut dan debu serbuk kayu jati,\nkeringatmu menetes pada lekuk ukiran yang belum selesai.\nWaktu mengalir tanpa suara di ujung mata pahat,\nengkau memahat asa, menolak menyerah pada dinginnya senja.\"\n\nSuasana batin dan respons emosional yang paling dominan dirasakan pembaca saat meresapi bait puisi di atas adalah...",
     "options": [
       "Rasa panik dan ketakutan akan ancaman bahaya mesin bengkel",
@@ -291,19 +306,17 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Kata Serapan dalam Puisi",
     "indicator": "Menguji kebenaran asal-usul kata serapan dalam puisi/teks sastra.",
     "level": "PG / C2",
-    "question": "Perhatikan kata yang dicetak miring dalam bait: \"engkau memahat asa, menolak menyerah pada dinginnya senja.\"\nKata \"asa\" dalam bahasa Indonesia merupakan kata serapan yang berasal dari bahasa...",
+    "type": "true_false",
+    "question": "Perhatikan kata yang dicetak miring dalam bait: \"engkau memahat asa, menolak menyerah pada dinginnya senja.\"\nKata \"asa\" dalam bahasa Indonesia merupakan kata serapan yang berasal dari bahasa...\n\nPernyataan: \"Belanda (kosa kata kolonial)\"\n\nApakah pernyataan di atas tepat?",
     "options": [
-      "Belanda (kosa kata kolonial)",
-      "Portugis (kosa kata niaga)",
-      "Inggris (kosa kata modern)",
-      "Sanskerta (melalui bahasa Jawa Kuno/Kawi)",
-      "Mandarin (kosa kata peranakan)"
+      "Benar (pernyataan tersebut sesuai/tepat)",
+      "Salah (pernyataan tersebut tidak sesuai/tidak tepat)"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Sanskerta (melalui bahasa Jawa Kuno/Kawi).",
+      "summary": "Pernyataan tersebut SALAH.",
       "concept": "Etimologi kata serapan bahasa Indonesia: Kata \"asa\" (yang bermakna harapan / angan-angan) diserap dari bahasa Sanskerta \"āśā\" (kemudian menjadi asa dalam Jawa Kuno dan Melayu).",
-      "analysis": "Banyak kosakata sastra luhur Indonesia berakar dari bahasa Sanskerta, seperti sukma, jiwa, graha, dan asa.",
+      "analysis": "Pernyataan tidak sesuai. Yang tepat adalah: Sanskerta (melalui bahasa Jawa Kuno/Kawi)",
       "whyWrong": "Belanda menyerap kata teknologi/hukum (rekening, bengkel, asbak). Portugis (mentega, bendera, sepatu). Inggris (algoritma, komputer)."
     }
   },
@@ -313,7 +326,8 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Makna Simbolis Puisi",
     "indicator": "Memilih bagian larik yang menggambarkan berlalunya waktu secara tersirat/simbolis.",
     "level": "PG / C3",
-    "question": "Dalam puisi di atas, larik yang secara simbolis metaforis menggambarkan perjalanan waktu dan datangnya masa tua/akhir kehidupan adalah...",
+    "type": "complex",
+    "question": "Dalam puisi di atas, larik yang secara simbolis metaforis menggambarkan perjalanan waktu dan datangnya masa tua/akhir kehidupan adalah\n\n(Pilih semua jawaban yang benar)",
     "options": [
       "\"Di antara derit mesin bubut dan debu serbuk kayu jati\"",
       "\"keringatmu menetes pada lekuk ukiran yang belum selesai\"",
@@ -321,9 +335,12 @@ export const INDONESIA_QUESTIONS = [
       "\"engkau memahat asa\"",
       "\"menolak menyerah pada dinginnya senja\""
     ],
-    "correctAnswer": 4,
+    "correctAnswer": [
+      1,
+      3
+    ],
     "explanation": {
-      "summary": "Jawaban yang tepat adalah \"menolak menyerah pada dinginnya senja\".",
+      "summary": "Jawaban yang benar adalah B, D.",
       "concept": "Simbolisme puitik: Simbol \"senja\" dalam sastra secara konvensional melambangkan usia senja, akhir pengembaraan hidup, atau masa mendekati kematian/purna tugas.",
       "analysis": "Ungkapan \"dinginnya senja\" merujuk pada masa tua atau keterbatasan sisa usia biologis yang dihadapi dengan sikap pantang menyerah.",
       "whyWrong": "Larik A latar tempat konkret. Larik B gambaran kerja fisik. Larik C menyatakan waktu secara harfiah (bukan simbolis senja). Larik D simbol harapan."
@@ -335,6 +352,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Melanjutkan Alur Dialog Rumpang",
     "indicator": "Menentukan gagasan yang paling relevan untuk melanjutkan dialog rumpang tentang cita-cita.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Bacalah teks dialog rumpang berikut!\n\nAyah : \"Rifki, setelah lulus dari SMK kompetensi keahlian Teknik Pengelasan nanti, apa rencana konkretmu?\"\nRifki : \"Saya ingin langsung bekerja di galangan kapal perkapalan, Bah. Saya ingin membuktikan keahlian sertifikasi SMAW 3G saya sekaligus menabung.\"\nAyah : \"Bagus kalau kamu sudah punya arah yang jelas. Tapi ingat, persaingan di industri galangan kapal luar daerah itu sangat ketat.\"\nRifki : \"[ . . . ]\"\n\nKalimat yang paling padu dan relevan untuk melengkapi tuturan dialog Rifki adalah...",
     "options": [
       "Aku ingin mendirikan bengkel kriya mandiri dengan memanfaatkan keterampilan desain CAD dan mesin CNC",
@@ -357,6 +375,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Makna Ungkapan / Idiom",
     "indicator": "Menentukan makna idiom/ungkapan \"makan hati\" dalam kutipan cerita pendek.",
     "level": "PG / C2",
+    "type": "single",
     "question": "Perhatikan kalimat: \"Pak Danu sering makan hati melihat ulah pembantunya di gudang bahan yang kerap membuang sisa kayu bernilai tinggi secara sembarangan tanpa rasa bersalah.\"\nMakna idiomatis dari ungkapan \"makan hati\" dalam kalimat tersebut adalah...",
     "options": [
       "Menyantap hidangan olahan jeroan daging sapi di warung makan",
@@ -379,6 +398,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Menyusun Paragraf Padu",
     "indicator": "Menyusun lima kalimat acak tentang teknologi dan pendidikan menjadi paragraf yang padu.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Perhatikan kalimat-kalimat acak berikut!\n(1) Dengan demikian, lulusan SMK tidak hanya menguasai teori, tetapi juga adaptif terhadap ekosistem digital industri.\n(2) Transformasi digital menuntut dunia pendidikan vokasi untuk terus merevolusi kurikulum pembelajarannya.\n(3) Salah satu langkah strategisnya adalah mengintegrasikan teknologi simulator virtual ke dalam bengkel praktik sekolah.\n(4) Keberadaan simulator ini memungkinkan siswa mengeksplorasi pengoperasian mesin industri berteknologi tinggi tanpa risiko kecelakaan kerja.\n(5) Selain itu, efisiensi konsumsi bahan baku praktik dapat ditekan hingga batas minimal.\n\nUrutan kalimat yang tepat agar membentuk paragraf eksposisi yang padu dan logis adalah...",
     "options": [
       "(3) – (4) – (2) – (5) – (1)",
@@ -401,19 +421,17 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Makna Kiasan Puisi Kontemporer",
     "indicator": "Menafsirkan makna kiasan frasa \"secangkir kopi pahit di meja kerja\".",
     "level": "PG / C3",
-    "question": "Cermati kutipan bait puisi kontemporer berikut:\n\"Apa yang kau teguk dari secangkir kopi hitam di meja kerja?\nBukan sekadar kafein yang memompa denyut nadi,\nmelainkan kegetiran hidup yang kau telan bulat-bulat\nagar asap dapur di rumahmu tetap mengepul esok pagi.\"\n\nMakna kiasan dari frasa \"secangkir kopi hitam\" yang dirangkai dengan \"kegetiran hidup yang kau telan bulat-bulat\" adalah...",
+    "type": "true_false",
+    "question": "Cermati kutipan bait puisi kontemporer berikut:\n\"Apa yang kau teguk dari secangkir kopi hitam di meja kerja?\nBukan sekadar kafein yang memompa denyut nadi,\nmelainkan kegetiran hidup yang kau telan bulat-bulat\nagar asap dapur di rumahmu tetap mengepul esok pagi.\"\n\nMakna kiasan dari frasa \"secangkir kopi hitam\" yang dirangkai dengan \"kegetiran hidup yang kau telan bulat-bulat\" adalah...\n\nPernyataan: \"Pahit getirnya perjuangan hidup dan dedikasi dalam berkarya\"\n\nApakah pernyataan di atas sesuai dengan isi teks?",
     "options": [
-      "Minuman kopi murni yang disajikan tanpa gula untuk para tamu",
-      "Kekecewaan mendalam akibat kegagalan transaksi ekspor furnitur",
-      "Rasa kantuk yang menyerang pekerja di tengah jam istirahat",
-      "Pahit getirnya perjuangan hidup dan dedikasi dalam berkarya",
-      "Rutinitas sarapan pagi yang wajib dilakukan sebelum berangkat kerja"
+      "Benar (pernyataan tersebut sesuai/tepat)",
+      "Salah (pernyataan tersebut tidak sesuai/tidak tepat)"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 0,
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Simbol dari kepahitan, keletihan, dan pengorbanan keras dalam mencari nafkah demi keluarga.",
+      "summary": "Pernyataan tersebut BENAR.",
       "concept": "Metafora sastra: Rasa pahit kopi dihubungkan secara analogis dengan rasa pahit getirnya perjuangan hidup seorang pekerja keras yang rela menahan lelah agar keluarganya berkecukupan.",
-      "analysis": "Korelasi antara \"kegetiran hidup\" dan \"agar asap dapur tetap mengepul\" menegaskan simbol pengorbanan nafkah keluarga.",
+      "analysis": "Pernyataan sesuai dengan isi teks. Pahit getirnya perjuangan hidup dan dedikasi dalam berkarya",
       "whyWrong": "Pilihan A, C, D, dan E meleset dari esensi metafora puitik yang dibangun penyair."
     }
   },
@@ -423,7 +441,8 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Analisis Suasana Batin Puisi",
     "indicator": "Menganalisis suasana batin penyair pada bait puisi kontemporer.",
     "level": "PG / C3",
-    "question": "Berdasarkan kutipan puisi di atas, bagaimana karakteristik nada (tone) penyair terhadap sosok pekerja yang digambarkannya?",
+    "type": "complex",
+    "question": "Berdasarkan kutipan puisi di atas, bagaimana karakteristik nada (tone) penyair terhadap sosok pekerja yang digambarkannya?\n\n(Pilih semua jawaban yang benar)",
     "options": [
       "Kemarahan meluap-luap terhadap rekan sejawat",
       "Keputusasaan total tanpa harapan untuk bangkit",
@@ -431,9 +450,13 @@ export const INDONESIA_QUESTIONS = [
       "Ketakutan mencekam terhadap masa depan yang gelap",
       "Kesunyian, ketabahan, dan perenungan batin mendalam"
     ],
-    "correctAnswer": 4,
+    "correctAnswer": [
+      0,
+      2,
+      4
+    ],
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Penuh rasa hormat, simpatik, dan membangkitkan keinsyafan.",
+      "summary": "Jawaban yang benar adalah A, C, E.",
       "concept": "Sikap penyair (tone): Mengajak pembaca merenungkan kembali hakikat jerih payah tulang punggung keluarga dengan rasa takzim.",
       "analysis": "Penyair memotret rutinitas minum kopi bukan sebagai gaya hidup hedonis, melainkan perwujudan ketegaran batin buruh/pekerja.",
       "whyWrong": "Sinis (A), acuh (C), gembira (D), dan caci maki (E) bertolak belakang dengan atmosfer puisi."
@@ -445,6 +468,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Keefektifan Kalimat (Pemborosan Kata)",
     "indicator": "Menentukan alasan ketidakefektifan kalimat yang memuat pleonasme dan reduplikasi berlebih.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Cermati kalimat berikut!\n\"Para hadirin tamu undangan sekalian dipersilakan mencicipi aneka macam hidangan kue-kue tradisional yang telah disediakan panitia.\"\n\nKalimat di atas dikategorikan sebagai kalimat TIDAK EFEKTIF karena...",
     "options": [
       "Pemborosan kata akibat penggunaan kata 'sangat' dan '-sekali' bersamaan",
@@ -467,6 +491,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Ketidakpaduan Paragraf (Kalimat Sumbang)",
     "indicator": "Menentukan letak kalimat sumbang yang tidak relevan dalam paragraf profil novelis.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Bacalah paragraf biografi singkat berikut!\n\n\"(1) Pramoedya Ananta Toer dikenal sebagai sastrawan besar Indonesia yang melahirkan mahakarya Tetralogi Buru saat berada di pengasingan. (2) Karya-karyanya diterjemahkan ke dalam lebih dari empat puluh bahasa dunia dan meraih berbagai penghargaan sastra internasional. (3) Novel grafis jepang atau manga saat ini sangat diminati oleh remaja Indonesia karena memiliki gambar berwarna yang menarik. (4) Dalam setiap lembar tulisannya, Pramoedya gigih menyuarakan semangat antikolonialisme, martabat kemanusiaan, dan keadilan sosial. (5) Hingga akhir hayatnya, dedikasinya terhadap dokumentasi sejarah bangsa tetap menjadi inspirasi intelektual generasi muda.\"\n\nKalimat yang sumbang (inkohoren) dan merusak kepaduan paragraf tersebut ditunjukkan oleh nomor...",
     "options": [
       "(1)",
@@ -489,6 +514,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Keefektifan Kalimat (Struktur Subjek)",
     "indicator": "Menganalisis penyebab ketidakefektifan kalimat yang kehilangan subjek akibat preposisi depan.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Perhatikan kalimat berikut:\n\"Bagi seluruh siswa-siswi kelas XII SMK yang akan melaksanakan Praktik Kerja Lapangan (PKL) harus mengikuti pembekalan keselamatan kerja di aula utama.\"\n\nAlasan utama kalimat di atas tidak baku dan tidak memenuhi syarat kalimat efektif adalah...",
     "options": [
       "Kalimat tersebut tidak memiliki unsur predikat yang berbentuk verba",
@@ -511,6 +537,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Ejaan & Tanda Baca (Koma Anak Kalimat)",
     "indicator": "Menentukan perbaikan tanda koma setelah anak kalimat mendahului induk kalimat.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Cermati kalimat majemuk bertingkat berikut:\n\"Meskipun alarm sensor kebocoran gas metana telah berbunyi nyaring operator ruang kontrol tidak segera mengevakuasi para pekerja di lantai perakitan.\"\n\nPerbaikan penggunaan tanda baca yang tepat sesuai pedoman EYD Edisi V adalah...",
     "options": [
       "Menghilangkan kata \"Meskipun\" di awal kalimat",
@@ -533,6 +560,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Penggunaan Huruf Kapital (Arah Angin)",
     "indicator": "Menganalisis kesalahan kapitalisasi nama arah angin dan nama geografi.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Cermati kalimat berikut:\n\"Kapal nelayan tradisional Jepara itu berlayar ke arah Barat Daya menuju kepulauan Karimunjawa di wilayah provinsi Jawa Tengah.\"\n\nKesalahan penggunaan huruf kapital pada kalimat di atas terletak pada kata...",
     "options": [
       "Kata 'selatan' ditulis kapital karena menandai arah mata angin umum",
@@ -555,6 +583,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Tanda Baca Titik Dua & Koma",
     "indicator": "Mengidentifikasi kalimat yang mengandung kesalahan penggunaan tanda baca perincian.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Manakah di antara kalimat berikut yang memuat KESALAHAN penerapan tanda baca titik dua (:) menurut kaidah EYD Edisi V?",
     "options": [
       "Bahan-bahan yang dibutuhkan untuk pengelasan adalah: kawat las, fluks, dan tabung gas argon.",
@@ -577,6 +606,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Ejaan Nama Geografis & Kuliner Khas",
     "indicator": "Menentukan penulisan huruf kapital yang tepat untuk kuliner khas dan nama diri geografi.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Perhatikan kalimat berikut:\n\"Saat berwisata ke Sumatra Utara, kami menikmati lezatnya bika Ambon sambil mendengarkan alunan musik tradisional batak toba.\"\n\nPenulisan huruf kapital yang tepat sesuai kaidah EYD Edisi V adalah...",
     "options": [
       "\"Bika Ambon\" dan \"Batak toba\"",
@@ -599,6 +629,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Ide Pokok Deskripsi Botani",
     "indicator": "Menentukan gagasan utama paragraf tentang keunikan tumbuhan kantong semar.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Bacalah teks berikut!\n\n\"Tumbuhan kantong semar (Nepenthes) memiliki adaptasi morfologi yang unik untuk bertahan hidup di tanah berkadar hara nitrogen rendah. Daun tanaman ini bermutasi membentuk corong kantong berpenutup yang mampu menghasilkan cairan enzim tripsin dan pepsin. Cairan licin di bibir kantong menjebak serangga yang hinggap, lalu serangga tersebut tergelincir ke dasar kantong dan dicerna untuk memenuhi kebutuhan nitrogen tanaman.\"\n\nGagasan utama paragraf tersebut adalah...",
     "options": [
       "Ancaman kepunahan habitat alami tumbuhan rawa di kawasan hutan tropis",
@@ -621,6 +652,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Kapitalisasi Nama Jenis & Kalender",
     "indicator": "Memperbaiki kesalahan penulisan huruf kapital pada nama buah/jenis dan kalender bulan.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Cermati kalimat berikut!\n\"Ibu membeli Pisang Ambon di pasar pada awal Bulan november untuk persiapan syukuran keluarga.\"\n\nBentuk perbaikan ejaan huruf kapital yang benar adalah...",
     "options": [
       "pisang Ambon di pasar pada awal Bulan November",
@@ -643,6 +675,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Analisis Struktur Kalimat Efektif",
     "indicator": "Menganalisis alasan keefektifan kalimat berstruktur SPOK lengkap dan logis.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Perhatikan kalimat: \"Siswa SMK jurusan Desain Komunikasi Visual merancang identitas visual merek UMKM lokal menggunakan aplikasi grafis profesional.\"\nKalimat di atas dikategorikan sebagai kalimat EFEKTIF karena...",
     "options": [
       "Memiliki susunan frasa yang sangat panjang melebihi dua puluh kata",
@@ -665,6 +698,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Urutan Paragraf Sebab-Akibat",
     "indicator": "Menyusun kalimat acak kondisi lingkungan bengkel sekolah menjadi paragraf sebab-akibat.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Susunlah kalimat-kalimat berikut menjadi paragraf sebab-akibat yang runtut!\n(1) Genangan limbah pendingin mesin (coolant) yang bercampur serbuk besi tidak segera dibersihkan dari lantai bengkel.\n(2) Kondisi lantai yang sangat licin tersebut menyebabkan dua orang siswa terpeleset saat memindahkan benda kerja cor.\n(3) Akibatnya, pihak sekolah segera memberlakukan audit keselamatan kerja harian secara ketat.\n(4) Oleh sebab itu, kesadaran budaya 5R (Ringkas, Rapi, Resik, Rawat, Rajin) mutlak ditanamkan pada seluruh warga sekolah.\nUrutan alur sebab-akibat yang paling tepat adalah...",
     "options": [
       "(1) – (2) – (3) – (4)",
@@ -687,6 +721,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Majas Hiperbola",
     "indicator": "Mengidentifikasi jenis majas hiperbola dalam kalimat dialog percakapan.",
     "level": "PG / C2",
+    "type": "single",
     "question": "Perhatikan kalimat percakapan berikut:\n\"Sudah seribu kali bos mengingatkan kita untuk selalu memakai helm proyek saat berada di bawah derek konstruksi!\"\nGaya bahasa (majas) yang digunakan pada frasa \"seribu kali mengingatkan\" adalah...",
     "options": [
       "Wajahnya tampak pucat pasi saat melihat hasil ujian asesmen kejuruan",
@@ -709,6 +744,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Majas Personifikasi",
     "indicator": "Menentukan majas personifikasi pada frasa deskripsi suasana bengkel/alam.",
     "level": "PG / C2",
+    "type": "single",
     "question": "Cermati kalimat berikut: \"Di keheningan sore, jarum jam dinding tua di ruang guru itu terus berlari mengejar waktu, sementara angin senja berbisik lembut membelai jendela kaca.\"\nMajas personifikasi dalam kalimat tersebut tampak pada ungkapan...",
     "options": [
       "Deru knalpot motor itu memekakkan telinga para warga di persimpangan",
@@ -731,6 +767,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Konjungsi Antarkalimat Sebab-Akibat",
     "indicator": "Memilih konjungsi antarkalimat penanda akibat yang tepat pada paragraf rumpang.",
     "level": "PG / C2",
+    "type": "single",
     "question": "Bacalah teks rumpang berikut!\n\"Saluran pembuangan air di sekitar bengkel otomotif tersumbat oleh endapan lumpur dan sisa kemasan plastik. [ . . . ], air meluap menggenangi area parkir sekolah saat hujan deras turun selama satu jam kemarin sore.\"\nKonjungsi antarkalimat yang paling tepat untuk mengisi bagian rumpang adalah...",
     "options": [
       "Namun,",
@@ -753,6 +790,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Konjungsi Antarkalimat Pertentangan",
     "indicator": "Memilih konjungsi antarkalimat pertentangan pada kalimat kendala siswa.",
     "level": "PG / C2",
+    "type": "single",
     "question": "Bacalah teks berikut!\n\"Para siswa telah berlatih mengoperasikan mesin frais CNC selama berminggu-minggu dengan penuh dedikasi. [ . . . ], lonjakan tegangan listrik PLN yang tidak stabil kemarin sempat menghentikan kalibrasi program benda kerja mereka.\"\nKonjungsi antarkalimat yang tepat untuk menghubungkan kedua klausa yang berlawanan arah tersebut adalah...",
     "options": [
       "Oleh karena itu,",
@@ -775,6 +813,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Pesan & Tujuan Media Visual (Poster)",
     "indicator": "Menentukan pesan atau tujuan utama poster hemat energi / keselamatan kerja.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Sebuah poster K3 di dinding bengkel pemesinan menampilkan gambar ilustrasi tangan mengenakan sarung tangan kulit pelindung yang sedang memegang benda panas, dilengkapi teks berbunyi: \"Satu Detik Kelalaian Tanpa APD, Seumur Hidup Menyesal Menanggung Cedera. Utamakan Keselamatan!\"\nTujuan komunikasi utama poster tersebut adalah...",
     "options": [
       "Menanamkan kesadaran pentingnya alat pelindung diri demi keselamatan kerja",
@@ -797,6 +836,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Evaluasi Efektivitas Poster K3",
     "indicator": "Menganalisis faktor yang paling mendukung efektivitas poster keselamatan kerja.",
     "level": "PG / C4",
+    "type": "single",
     "question": "Di antara kriteria berikut, faktor yang PALING MENENTUKAN efektivitas penyampaian pesan sebuah poster keselamatan kerja di lingkungan pabrik adalah...",
     "options": [
       "Kombinasi visual gambar instruktif, tipografi jelas, dan pesan ringkas persuasif",
@@ -819,6 +859,7 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Ide Pokok Pembelajaran Digital Vokasi",
     "indicator": "Menentukan ide pokok paragraf tentang pemanfaatan teknologi digital dalam dunia pendidikan vokasi.",
     "level": "PG / C3",
+    "type": "single",
     "question": "Bacalah teks berikut!\n\"Implementasi platform digital berbasis Cloud di sekolah menengah kejuruan telah mempercepat transformasi pembelajaran mandiri. Para siswa dapat mengakses modul simulasi CAD/CAM 3D, memantau kemajuan proyek bengkel secara real-time, serta berkonsultasi langsung dengan mentor industri mitra tanpa sekat geografis. Keterbukaan ekosistem digital ini terbukti meningkatkan daya saing lulusan vokasi di pasar kerja global.\"\n\nIde pokok kutipan teks tersebut adalah...",
     "options": [
       "Kelemahan perangkat keras komputer dalam pengolahan grafis 3D arsitektur",
@@ -841,19 +882,17 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Klasifikasi Fakta dan Opini Teks Informasi",
     "indicator": "Membedakan fakta versus opini dalam teks informasi pameran sekolah.",
     "level": "PG / C3",
-    "question": "Perhatikan kalimat-kalimat berikut:\n(1) Pameran Karya Inovasi SMK N 3 Jepara diselenggarakan pada tanggal 14–16 November 2026 di aula serbaguna sekolah.\n(2) Sebanyak 32 stan karya siswa dari lima konsentrasi keahlian berpartisipasi dalam pameran tersebut.\n(3) Menurut para pengunjung, pameran tahun ini terasa jauh lebih semarak dan menyenangkan dibanding pameran tahun lalu.\n(4) Kepala Cabang Dinas Pendidikan meresmikan pembukaan acara pada pukul 08.30 WIB.\n(5) Kriya ukir kayu jati adalah satu-satunya karya seni terbaik di seluruh dunia yang tidak tertandingi oleh seni modern manapun.\n\nKalimat yang berstatus sebagai FAKTA objektif adalah...",
+    "type": "true_false",
+    "question": "Perhatikan kalimat-kalimat berikut:\n(1) Pameran Karya Inovasi SMK N 3 Jepara diselenggarakan pada tanggal 14–16 November 2026 di aula serbaguna sekolah.\n(2) Sebanyak 32 stan karya siswa dari lima konsentrasi keahlian berpartisipasi dalam pameran tersebut.\n(3) Menurut para pengunjung, pameran tahun ini terasa jauh lebih semarak dan menyenangkan dibanding pameran tahun lalu.\n(4) Kepala Cabang Dinas Pendidikan meresmikan pembukaan acara pada pukul 08.30 WIB.\n(5) Kriya ukir kayu jati adalah satu-satunya karya seni terbaik di seluruh dunia yang tidak tertandingi oleh seni modern manapun.\n\nKalimat yang berstatus sebagai FAKTA objektif adalah...\n\nPernyataan: \"(3) dan (5)\"\n\nApakah pernyataan di atas tepat?",
     "options": [
-      "(3) dan (5)",
-      "(1), (3), dan (5)",
-      "(2), (3), dan (4)",
-      "(1), (2), dan (4)",
-      "(2), (4), dan (5)"
+      "Benar (pernyataan tersebut sesuai/tepat)",
+      "Salah (pernyataan tersebut tidak sesuai/tidak tepat)"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": 1,
     "explanation": {
-      "summary": "Jawaban yang tepat adalah (1), (2), dan (4).",
+      "summary": "Pernyataan tersebut SALAH.",
       "concept": "Perbedaan Fakta dan Opini: Fakta adalah peristiwa atau data yang telah terbukti kebenarannya secara nyata, terverifikasi tanggal, angka, dan waktu kejadian. Opini adalah pandangan subjektif, perkiraan, atau penilaian personal (\"lebih semarak\", \"satu-satunya terbaik di dunia\").",
-      "analysis": "Kalimat (1) memuat tanggal pasti, (2) memuat jumlah stan kuantitatif, (4) memuat jam dan peristiwa peresmian faktual. Kalimat (3) dan (5) memuat kata emotif subjektif (opini).",
+      "analysis": "Pernyataan tidak sesuai. Yang tepat adalah: (1), (2), dan (4)",
       "whyWrong": "Kalimat (3) memuat penilaian rasa pengunjung; kalimat (5) klaim hiperbolis subjektif."
     }
   },
@@ -863,19 +902,17 @@ export const INDONESIA_QUESTIONS = [
     "topic": "Evaluasi Teks Laporan PKL Siswa SMK",
     "indicator": "Mengevaluasi kesesuaian informasi teks evaluasi kegiatan PKL siswa SMK.",
     "level": "PG / C4",
-    "question": "Bacalah petikan kesimpulan laporan Praktik Kerja Lapangan (PKL) berikut!\n\"Berdasarkan evaluasi selama enam bulan magang di PT Manufaktur Komponen Presisi, siswa praktikan berhasil mencapai penguasaan 95% standar kompetensi pengoperasian mesin CNC Bubut. Namun, evaluasi dari pembimbing industri menyoroti masih perlunya peningkatan dalam hal kedisiplinan pengisian logbook harian dan ketepatan pemilahan sampah sisa material sesuai standar ISO 14001.\"\n\nSimpulan evaluatif yang paling objektif dan konstruktif terhadap laporan PKL tersebut adalah...",
+    "type": "true_false",
+    "question": "Bacalah petikan kesimpulan laporan Praktik Kerja Lapangan (PKL) berikut!\n\"Berdasarkan evaluasi selama enam bulan magang di PT Manufaktur Komponen Presisi, siswa praktikan berhasil mencapai penguasaan 95% standar kompetensi pengoperasian mesin CNC Bubut. Namun, evaluasi dari pembimbing industri menyoroti masih perlunya peningkatan dalam hal kedisiplinan pengisian logbook harian dan ketepatan pemilahan sampah sisa material sesuai standar ISO 14001.\"\n\nSimpulan evaluatif yang paling objektif dan konstruktif terhadap laporan PKL tersebut adalah...\n\nPernyataan: \"Laporan menyajikan evaluasi capaian kompetensi, kendala teknis, dan solusi faktual\"\n\nApakah pernyataan di atas tepat?",
     "options": [
-      "Laporan PKL disusun untuk memenuhi persyaratan formal administratif kelulusan",
-      "Laporan menyarankan pembatalan program magang industri untuk angkatan berikutnya",
-      "Laporan memuat keluhan pribadi siswa terhadap jam kerja lembur di industri mitra",
-      "Laporan berfokus pada catatan presensi harian tanpa analisis proses pengerjaan",
-      "Laporan menyajikan evaluasi capaian kompetensi, kendala teknis, dan solusi faktual"
+      "Benar (pernyataan tersebut sesuai/tepat)",
+      "Salah (pernyataan tersebut tidak sesuai/tidak tepat)"
     ],
-    "correctAnswer": 4,
+    "correctAnswer": 0,
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Kompetensi teknis siswa sangat memuaskan, namun aspek administrasi & manajemen lingkungan butuh penguatan.",
+      "summary": "Pernyataan tersebut BENAR.",
       "concept": "Evaluasi Komprehensif Dunia Kerja Vokasi: Menilai keseimbangan antara Hard Skills (kemampuan teknis mesin CNC 95%) dan Soft Skills / Kepatuhan Regulasi Kerja (disiplin pelaporan logbook dan kepatuhan ramah lingkungan ISO 14001).",
-      "analysis": "Simpulan pada opsi B secara adil mengapresiasi keunggulan teknis siswa sembari memberikan catatan pembenahan etos kerja profesional.",
+      "analysis": "Pernyataan sesuai dengan isi teks. Laporan menyajikan evaluasi capaian kompetensi, kendala teknis, dan solusi faktual",
       "whyWrong": "A menghakimi secara berlebihan. C, D, dan E menunjukkan sikap defensif yang tidak profesional."
     }
   }

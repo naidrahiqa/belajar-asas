@@ -5,6 +5,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Offering Help & Services",
     "indicator": "Identifying formal expression of offering help in a vocational workplace context.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "A senior maintenance supervisor notices a vocational intern struggling to calibrate a high-precision digital CNC milling machine. Which of the following expressions represents the most professional and polite formal offer of assistance?",
     "options": [
       "May I assist you with the calibration procedure of the digital controller?",
@@ -27,6 +28,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Offering Help & Services",
     "indicator": "Responding to an offer of help (Accepting politely).",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "Colleague: 'The shipment of heavy teak timber pallets just arrived at the loading dock. Would you like me to give you a hand with the electric forklift?'\n\nWhich of the following responses is the most appropriate and professional way to accept the offer?",
     "options": [
       "No, leave the timber pallets there until somebody else comes to unload them.",
@@ -49,6 +51,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Offering Help & Services",
     "indicator": "Responding to an offer of help (Declining politely).",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "Supervisor: 'Shall I prepare the diagnostic fault report for the client while you finish inspecting the wiring circuit?'\nTechnician: '____________________________________, I have already drafted the initial findings and can finalize it in a few minutes.'",
     "options": [
       "Stop interfering with my diagnostic tasks because I never requested your input",
@@ -71,6 +74,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Offering Help & Services",
     "indicator": "Identifying customer service offer of assistance.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "An automotive front-desk service advisor welcomes a client who has just arrived at the authorized dealership workshop. Which of the following expressions represents standard professional service language?",
     "options": [
       "Please sit down and do not ask any questions until our mechanics finish lunch.",
@@ -93,6 +97,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Offering Help & Services",
     "indicator": "Analyzing conditional offer of service.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "A technical support engineer wants to offer troubleshooting assistance to a client under the condition that the client encounters recurring network connectivity issues over the weekend. Which sentence correctly expresses this conditional offer?",
     "options": [
       "You must disconnect your main router if you want to avoid network problems.",
@@ -115,6 +120,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Offering Help & Services",
     "indicator": "Choosing the correct modal verb for formal offer.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "To offer formal assistance to an international trade delegate visiting an export furniture exhibition, which auxiliary verb correctly completes the sentence?\n\n'__________ I escort you through our certified teak furniture pavilion, Madam?'",
     "options": [
       "May",
@@ -137,6 +143,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Offering Help & Services",
     "indicator": "Analyzing informal vs formal offer among peers.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "Two vocational students are working together as workshop lab partners during a practical electronics exam. Which of the following expressions is the most natural and appropriate peer-to-peer informal offer of help?",
     "options": [
       "May I have the distinguished honor of soldering these terminal pins for you?",
@@ -159,6 +166,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Offering Help & Services",
     "indicator": "Distinguishing an offer of help from a request for help.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "Which of the following statements functions pragmatically as an OFFER OF ASSISTANCE, rather than a request for assistance or a command?",
     "options": [
       "Could you please hand me the 14-millimeter socket wrench from the toolbox?",
@@ -181,6 +189,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Offering Help & Services",
     "indicator": "Workplace dialogue completion for offering hospitality/service.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "Secretary: 'Good afternoon, Mr. Rahadian. The factory general manager is currently inspecting the warehouse floor and will return in approximately ten minutes. ______________________________?'\nGuest: 'A cup of black coffee without sugar would be wonderful, thank you.'",
     "options": [
       "Why did you choose to arrive when the manager is obviously away from his desk",
@@ -203,6 +212,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Offering Help & Services",
     "indicator": "Evaluating tone in professional vocational assistance.",
     "level": "C4 / Analysis",
+    "type": "single",
     "question": "A junior drafter has spent two hours struggling with 3D CAD modeling software to generate orthogonal projections. Which supervisor response combines constructive professional support with a genuine offer of guidance?",
     "options": [
       "Just submit whatever incomplete sketches you have finished so that we can leave the office early.",
@@ -225,6 +235,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Application Letter",
     "indicator": "Identifying the purpose of a job application letter (cover letter).",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "What is the PRIMARY purpose of submitting a Job Application Letter (Cover Letter) along with a Curriculum Vitae (CV) when applying for a vocational position?",
     "options": [
       "To introduce oneself, specify the target position, and highlight key qualifications",
@@ -247,6 +258,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Application Letter",
     "indicator": "Identifying appropriate formal salutation.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "When addressing a formal application letter to the HR Manager whose name is explicitly stated in the job announcement as 'Mr. Hendra Kusuma', which salutation is most appropriate?",
     "options": [
       "Hey Hendra, what's up?",
@@ -269,6 +281,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Application Letter",
     "indicator": "Analyzing the opening paragraph of an application letter.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "Which of the following sentences best serves as an effective, professional opening sentence for a job application letter?",
     "options": [
       "I desperately need any job because I currently have no money to pay my living expenses.",
@@ -291,6 +304,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Application Letter",
     "indicator": "Highlighting vocational qualifications and PKL experience in the body paragraph.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "A graduate of SMK majoring in Furniture Technology wants to highlight practical industry internship (PKL) experience in the body paragraph. Which sentence demonstrates the strongest professional credibility?",
     "options": [
       "Woodworking is a hobby of mine, although I have never measured timber dimensions accurately using calipers.",
@@ -313,6 +327,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Application Letter",
     "indicator": "Understanding the complimentary close.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "Which of the following phrases is universally recognized as an appropriate formal complimentary close for a business application letter?",
     "options": [
       "Cheers mate,",
@@ -335,6 +350,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Application Letter",
     "indicator": "Identifying the meaning of 'enclosure' or 'attachment'.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "At the bottom of a formal job application letter, the word 'Enclosure(s): 3' or 'Attachment(s)' signifies that...",
     "options": [
       "There are three supplementary documents enclosed with the letter, such as a CV and certificates",
@@ -357,6 +373,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Application Letter",
     "indicator": "Analyzing the call to action in the concluding paragraph.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "Which sentence exemplifies a courteous, proactive, and professional 'Call to Action' in the concluding paragraph of an application letter?",
     "options": [
       "I demand that your recruitment team phone me by noon tomorrow to confirm my employment status.",
@@ -379,6 +396,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Application Letter",
     "indicator": "Grammar and tone correction in application letters.",
     "level": "C4 / Analysis",
+    "type": "single",
     "question": "Identify the sentence that contains NO grammatical errors and maintains an appropriate professional tone for a vocational job application letter:",
     "options": [
       "Me wants this engineering job because me am very smart and hardworking in workshop classes.",
@@ -401,6 +419,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Application Letter",
     "indicator": "Understanding applicant contact details.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "Which of the following email addresses is the most suitable and professional to include in the applicant header of a formal cover letter?",
     "options": [
       "bocah_balap_liar_pantura@gmail.com",
@@ -423,6 +442,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Application Letter",
     "indicator": "Identifying the sequence of components in a formal letter.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "What is the conventional top-to-bottom structural sequence of components in a standard full-block formal job application letter?",
     "options": [
       "Complimentary Close -> Salutation -> Body Paragraphs -> Signature -> Applicant Header",
@@ -445,6 +465,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Interview Skills",
     "indicator": "Answering 'Tell me about yourself' effectively.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "During a job interview for a junior automotive technician, the interviewer asks: 'Tell me about yourself.' Which of the following represents the most compelling and relevant response?",
     "options": [
       "I am a vocational graduate in Automotive Engineering with PKL experience in fuel injection diagnostics and basic electrical servicing.",
@@ -467,6 +488,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Interview Skills",
     "indicator": "Applying the STAR Method for behavioral interview questions.",
     "level": "C4 / Analysis",
+    "type": "single",
     "question": "When an interviewer asks: 'Describe a time when you resolved an urgent equipment breakdown during your internship,' what does the STAR behavioral interview framework recommend structuring your answer with?",
     "options": [
       "Salary expectations, Travel availability, Age verification, Retirement plans",
@@ -489,6 +511,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Interview Skills",
     "indicator": "Answering questions about personal weaknesses constructively.",
     "level": "C4 / Analysis",
+    "type": "single",
     "question": "Interviewer: 'What is your greatest weakness?'\nWhich candidate response best demonstrates self-awareness and active commitment to professional growth?",
     "options": [
       "My biggest weakness is that I frequently lose my temper and yell loudly at colleagues when project deadlines approach.",
@@ -511,6 +534,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Interview Skills",
     "indicator": "Answering why the applicant wants to work for the company.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "Interviewer: 'Why do you want to join our manufacturing company specifically?'\nWhich response demonstrates genuine company research and vocational alignment?",
     "options": [
       "I heard your company gives out free lunches every Friday, and the office is located very close to my home.",
@@ -533,6 +557,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Interview Skills",
     "indicator": "Handling technical problem-solving scenario during an interview.",
     "level": "C4 / Analysis",
+    "type": "single",
     "question": "During an interview for a maintenance electrician post, the engineer asks: 'If a production motor suddenly trips the thermal overload relay repeatedly, what is your first response?' Which response shows disciplined troubleshooting logic?",
     "options": [
       "Keep resetting the breaker continuously until the motor either starts running or catches fire completely.",
@@ -555,6 +580,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Interview Skills",
     "indicator": "Asking thoughtful questions to the interviewer at the end.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "At the conclusion of the interview, the panel asks: 'Do you have any questions for us?' Which question demonstrates high intellectual curiosity and professional engagement?",
     "options": [
       "What professional training and certification opportunities are available for technicians in this role?",
@@ -577,6 +603,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Interview Skills",
     "indicator": "Demonstrating teamwork in a behavioral response.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "Interviewer: 'How do you handle working with a team member who has a different working pace or technical opinion?' Which answer reflects high emotional intelligence and vocational maturity?",
     "options": [
       "I refuse to speak to them and insist on completing the entire engineering project on my own without assistance.",
@@ -599,6 +626,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Interview Skills",
     "indicator": "Explaining adaptability to new workplace software or equipment.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "When asked how quickly they can adapt to new industrial software or CNC machinery that they did not use in school, an exemplary vocational candidate should emphasize...",
     "options": [
       "A complete refusal to touch any equipment that was not explicitly covered in their high school curriculum",
@@ -621,6 +649,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Interview Skills",
     "indicator": "Professional attire and body language during an interview.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "Which set of non-verbal behaviors and attire demonstrates optimal professionalism during a face-to-face vocational job interview?",
     "options": [
       "Wearing flip-flops, slouching deeply in the chair, and continuously checking text messages on a smartphone",
@@ -643,6 +672,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Job Interview Skills",
     "indicator": "Explaining career goals for the next 3 to 5 years.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "Interviewer: 'Where do you see yourself in five years?'\nWhich response portrays a well-grounded, ambitious, and realistic vocational career path?",
     "options": [
       "I plan to have retired completely so that I do not have to work another single day in my life.",
@@ -665,6 +695,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Grammar: Simple Present Tense",
     "indicator": "Subject-Verb Agreement with third-person singular in technical facts.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "Which verb form correctly completes the technical fact regarding workshop machinery?\n\n'An industrial CNC milling spindle __________ at rotational speeds exceeding 18,000 RPM.'",
     "options": [
       "operates",
@@ -687,6 +718,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Grammar: Simple Present Tense",
     "indicator": "Negative form in Simple Present Tense for machines.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "Choose the correct negative Simple Present structure for this technical maintenance warning:\n\n'This automated hydraulic cutting press __________ start unless the transparent safety guard is fully locked.'",
     "options": [
       "is not",
@@ -709,6 +741,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Grammar: Simple Present Tense",
     "indicator": "Present passive voice in technical specifications.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "Which sentence correctly demonstrates the Simple Present PASSIVE voice used in standard operating procedure manuals?",
     "options": [
       "The technician inspects the electrical conduits every morning at seven o'clock sharp.",
@@ -731,6 +764,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Grammar: Simple Present Tense",
     "indicator": "Interrogative form in Simple Present for routine workshop checks.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "Which of the following questions correctly applies Simple Present grammar for an equipment pre-shift inspection check?",
     "options": [
       "Has this air compressor maintain an operational pressure of eight bars throughout the shift?",
@@ -753,6 +787,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Grammar: Simple Present Tense",
     "indicator": "Identifying general truth and scientific principle.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "Which of the following sentences correctly expresses a universal physical/metallurgical principle using the Simple Present Tense?",
     "options": [
       "Pure aluminum was melting at approximately 660 degrees Celsius during last week's laboratory experiment.",
@@ -775,6 +810,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Grammar: Simple Past Tense",
     "indicator": "Using irregular past verb in describing past internship project.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "Select the correct irregular past verb form to complete the vocational internship recount sentence:\n\n'Last month, our student team __________ a custom stainless-steel exhaust manifold for the vocational contest.'",
     "options": [
       "built",
@@ -797,6 +833,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Grammar: Simple Past Tense",
     "indicator": "Negative Simple Past with regular/irregular verbs.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "Which of the following sentences correctly expresses a negative event in the Simple Past Tense during an internship shift?",
     "options": [
       "The intern did not checked the motor oil level before engaging the starter ignition switch.",
@@ -819,6 +856,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Grammar: Simple Past Tense",
     "indicator": "Past tense questions about work activities.",
     "level": "C2 / Understanding",
+    "type": "single",
     "question": "Which question correctly applies Simple Past grammatical rules to inquire about a completed workshop maintenance activity?",
     "options": [
       "Did you replaced the worn rubber timing belt during the scheduled preventive maintenance?",
@@ -841,6 +879,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Grammar: Simple Past Tense",
     "indicator": "Distinguishing past simple forms of regular vs irregular verbs.",
     "level": "C3 / Application",
+    "type": "single",
     "question": "In which of the following sentences are ALL verbs correctly inflected in their appropriate Simple Past forms?",
     "options": [
       "The technician grinded the metal bracket, cutted the cable, and shutted down the main generator.",
@@ -863,6 +902,7 @@ export const INGGRIS_QUESTIONS = [
     "topic": "Grammar: Simple Past Tense",
     "indicator": "Recounting vocational internship sequence of events in the past.",
     "level": "C4 / Analysis",
+    "type": "single",
     "question": "Read the following technical report paragraph from an industrial internship:\n\n'Yesterday morning, our team (1. arrive) at the customer site. We immediately (2. isolate) the main power feed, (3. disassemble) the faulty centrifugal water pump, and (4. discover) that the bronze impeller was severely eroded.'\n\nWhich sequence of verb forms correctly converts all numbered actions into consistent Simple Past Tense?",
     "options": [
       "arriving, isolating, disassembling, discovering",

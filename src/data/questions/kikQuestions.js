@@ -5,6 +5,7 @@ export const KIK_QUESTIONS = [
     "topic": "Perencanaan Produksi Massal",
     "indicator": "Siswa menentukan istilah tahapan merencanakan aliran bahan mentah hingga barang jadi secara terus-menerus.",
     "level": "C1 / Pemahaman",
+    "type": "single",
     "question": "Aktivitas sistematis dalam merancang dan mengendalikan aliran bahan baku mulai dari penerimaan bahan mentah, proses pengolahan bertahap di lini kerja, hingga menjadi produk jadi yang dilakukan secara terus-menerus dalam skala besar disebut dengan...",
     "options": [
       "Perencanaan produksi massal terstruktur",
@@ -27,6 +28,7 @@ export const KIK_QUESTIONS = [
     "topic": "Karakteristik Produksi Massal",
     "indicator": "Siswa mengidentifikasi kelemahan utama sistem produksi massal pada pabrik manufaktur.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Sebuah pabrik perakitan otomotif menggunakan sistem lini perakitan ban berjalan (assembly line) berkapasitas ribuan unit per hari. Di balik efisiensi biaya dan kecepatan produksinya yang tinggi, kelemahan utama sistem produksi massal tersebut adalah...",
     "options": [
       "Biaya tenaga kerja langsung per unit barang menjadi sangat mahal",
@@ -49,6 +51,7 @@ export const KIK_QUESTIONS = [
     "topic": "Tahapan Perencanaan Produksi",
     "indicator": "Siswa menentukan istilah tahap awal penentuan urutan pengerjaan proses produksi (Routing).",
     "level": "C1 / Pemahaman",
+    "type": "single",
     "question": "Tahapan perencanaan produksi yang bertugas menetapkan dan menentukan urutan jalannya proses pengerjaan, mulai dari bahan mentah, masuk ke mesin pemotong, mesin bubut, penghalusan, hingga stasiun perakitan akhir disebut dengan...",
     "options": [
       "Scheduling (penjadwalan alokasi jam kerja)",
@@ -71,6 +74,7 @@ export const KIK_QUESTIONS = [
     "topic": "Indikator Keberhasilan Produksi",
     "indicator": "Siswa mengidentifikasi indikator yang mengukur efisiensi penggunaan bahan baku serta waktu kerja.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Seorang manajer operasional pabrik ingin mengetahui seberapa baik pabriknya memanfaatkan sumber daya (tenaga kerja, modal mesin, dan bahan baku) dibandingkan dengan total output barang jadi yang dihasilkan. Indikator kuantitatif yang paling tepat digunakan adalah...",
     "options": [
       "Sensitivitas elastisitas harga permintaan ritel",
@@ -93,6 +97,7 @@ export const KIK_QUESTIONS = [
     "topic": "Analisis BEP (Break-Even Point)",
     "indicator": "Disajikan data biaya tetap, biaya variabel, dan harga jual sepatu/furnitur, siswa menghitung kuantitas minimal BEP.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Sebuah unit produksi SMK bidang manufaktur furnitur mengeluarkan biaya tetap (Fixed Cost) sebesar Rp 15.000.000,00 per bulan. Biaya variabel (Variable Cost) untuk pembuatan satu unit bangku sekolah ergonomis adalah Rp 150.000,00, dan harga jual produk tersebut ditetapkan Rp 250.000,00 per unit. Berapakah kuantitas minimal unit bangku yang harus diproduksi dan terjual agar unit produksi mencapai titik impas (Break-Even Point)?",
     "options": [
       "100 unit bangku",
@@ -115,6 +120,7 @@ export const KIK_QUESTIONS = [
     "topic": "Line Balancing & Bottleneck",
     "indicator": "Disajikan kasus penumpukan barang di stasiun kerja tertentu, siswa menentukan langkah efisien perbaikan alur perakitan.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Di sebuah lini perakitan komponen mekanik, Stasiun Kerja B membutuhkan waktu pengerjaan 90 detik per unit, sedangkan Stasiun A dan C hanya membutuhkan waktu 45 detik per unit. Hal ini menyebabkan penumpukan barang dalam proses (Work in Process) yang sangat parah di depan Stasiun B. Tindakan penyeimbangan lini (line balancing) yang paling tepat adalah...",
     "options": [
       "Membagi beban kerja Stasiun B atau menambahkan satu stasiun paralel",
@@ -137,6 +143,7 @@ export const KIK_QUESTIONS = [
     "topic": "Strategi Rantai Produksi Fleksibel",
     "indicator": "Disajikan preferensi pasar cepat berubah, siswa menentukan keputusan rantai produksi yang tepat.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Sebuah industri kreatif mebel mendapati tren model dekorasi interior konsumen berubah sangat cepat setiap 3 bulan. Jika pabrik tetap mempertahankan lini produksi massal kaku dengan mesin tunggal bervolume raksasa, risiko kerugian akibat stok mati (dead stock) sangat tinggi. Strategi sistem produksi yang paling tepat diadopsi adalah...",
     "options": [
       "Menaikkan volume produksi massal model lama untuk menurunkan biaya unit",
@@ -159,6 +166,7 @@ export const KIK_QUESTIONS = [
     "topic": "Pengendalian Mutu Sistemik",
     "indicator": "Disajikan temuan persentase cacat komponen, menentukan tindakan perbaikan sistemik pada pemasok & mesin.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Hasil audit Quality Control di lini perakitan menunjukkan bahwa 18% kegagalan perakitan disebabkan oleh ketidakpresisian lubang bor pada panel komponen yang dikirim oleh vendor pihak ketiga, serta 12% akibat keausan mata pahat mesin pelubang internal pabrik. Tindakan pengendalian mutu yang tepat dan berjangka panjang adalah...",
     "options": [
       "Mengabaikan lubang bor cacat dan menutupinya dengan lem perekat instan",
@@ -181,6 +189,7 @@ export const KIK_QUESTIONS = [
     "topic": "Analisis Biaya Assembly Line",
     "indicator": "Menganalisis dampak perakitan ban berjalan terhadap struktur biaya tenaga kerja dan biaya modal.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Sebuah industri bertransformasi dari bengkel kerja stasiun tunggal mandiri (job shop manual) menjadi sistem perakitan ban berjalan otomatis (moving assembly line). Dampak pergeseran ini terhadap struktur biaya produksi perusahaan adalah...",
     "options": [
       "Biaya variabel bahan baku meningkat drastis akibat kecepatan konveyor",
@@ -203,6 +212,7 @@ export const KIK_QUESTIONS = [
     "topic": "Risiko Over-Capacity",
     "indicator": "Menganalisis dampak lini produksi jika dipaksa melampaui kapasitas maksimum dalam jangka panjang.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Demi mengejar lonjakan pesanan libur akhir tahun, sebuah pabrik manufaktur memaksa lini mesin perakitannya bekerja pada tingkat utilisasi 135% dari kapasitas desain teoritisnya selama empat bulan berturut-turut tanpa jeda pemeliharaan terencana. Dampak teknis dan finansial paling buruk yang akan terjadi adalah...",
     "options": [
       "Biaya penyusutan mesin tahunan otomatis turun hingga mendekati nol persen",
@@ -225,6 +235,7 @@ export const KIK_QUESTIONS = [
     "topic": "Waktu Siklus & Mutu Perakitan",
     "indicator": "Mengevaluasi pengaruh cycle time terhadap kekuatan ikatan solder dan SOP alat.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Pada stasiun perakitan manual papan sirkuit (PCB), waktu siklus (cycle time) standar untuk proses penyolderan satu komponen daya adalah 6 detik agar timah meleleh sempurna dan membentuk sambungan cekung mengilap. Jika supervisor mempercepat target siklus menjadi hanya 2,5 detik tanpa menaikkan suhu solder secara proporsional, risiko cacat teknis yang timbul adalah...",
     "options": [
       "Terjadinya sambungan dingin (cold solder joint) yang rapuh dan mudah lepas",
@@ -247,6 +258,7 @@ export const KIK_QUESTIONS = [
     "topic": "Perakitan Konveyor vs Stasiun Tetap",
     "indicator": "Mengevaluasi kelebihan lini bergerak (moving assembly) dibanding stasiun kerja tetap.",
     "level": "C4 / Evaluasi",
+    "type": "single",
     "question": "Sebuah perusahaan manufaktur membandingkan dua metode perakitan: Metode Lini Bergerak (Moving Assembly Line dengan konveyor teratur) dan Metode Stasiun Kerja Tetap (Operator merakit produk utuh di satu meja dari awal hingga akhir). Keunggulan utama Metode Lini Bergerak untuk produksi massal produk standar adalah...",
     "options": [
       "Fleksibilitas sangat tinggi terhadap perubahan kustomisasi pesanan individu",
@@ -269,6 +281,7 @@ export const KIK_QUESTIONS = [
     "topic": "Prinsip Anti-Salah (Poka-Yoke)",
     "indicator": "Mengevaluasi peran soket konektor asimetris dan prinsip Poka-Yoke dalam mengurangi pengerjaan ulang (rework).",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Dalam perakitan kabel catu daya (power supply) komputer, pabrikan mendesain konektor terminal 24-pin dengan bentuk selongsong asimetris (memiliki kombinasi profil pin persegi dan trapesium), sehingga kabel hanya bisa ditancapkan jika posisinya 100% tepat. Penerapan rekayasa ini merupakan implementasi dari prinsip...",
     "options": [
       "Just-in-Time (penghapusan total gudang penyimpanan)",
@@ -291,6 +304,7 @@ export const KIK_QUESTIONS = [
     "topic": "Penyetimbangan Lini (Line Balancing)",
     "indicator": "Menentukan pembagian ulang tugas & sub-assembly untuk mengatasi kendala bottleneck.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Di lini perakitan dispenser air minum, Stasiun 3 (pemasangan kompresor pendingin dan pembengkokan pipa tembaga) membutuhkan waktu 120 detik, sedangkan target Takt Time pelanggan adalah 60 detik. Untuk menyelaraskan stasiun tersebut dengan kecepatan lini tanpa menambah jam kerja lembur berlebih, solusi rekayasa proses yang paling efektif adalah...",
     "options": [
       "Mengurangi ketebalan pipa tembaga menjadi plastik tipis agar cepat dibengkokkan",
@@ -313,6 +327,7 @@ export const KIK_QUESTIONS = [
     "topic": "Design for Assembly (DFA)",
     "indicator": "Menganalisis efisiensi pengurangan sekrup penyambung menjadi kait snap-fit pada perakitan laptop.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Sebuah tim riset dan pengembangan (R&D) mengganti konstruksi penutup casing bawah laptop yang awalnya menggunakan 14 sekrup logam berulir menjadi sistem sambungan pengait lentur terintegrasi (snap-fit joint) yang hanya memerlukan 2 sekrup pengaman. Berdasarkan metodologi Design for Assembly (DFA), manfaat langsung modifikasi tersebut adalah...",
     "options": [
       "Meningkatkan konsumsi listrik pabrik selama proses pencetakan casing plastik",
@@ -335,6 +350,7 @@ export const KIK_QUESTIONS = [
     "topic": "Ergonomi Lini Perakitan",
     "indicator": "Disajikan keterlambatan akibat alat mur tak ergonomis, siswa merumuskan keputusan rekayasa alat dan pembagian tugas perakitan.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Di lini perakitan sasis lemari pendingin, operator pada stasiun pemasangan engsel pintu mengeluhkan nyeri pergelangan tangan (Carpal Tunnel Syndrome) akibat memutar obeng torsi manual berbobot berat secara berulang 800 kali sehari, yang mengakibatkan penurunan kecepatan kerja pada paruh kedua shift. Solusi rekayasa ergonomi industri yang tepat adalah...",
     "options": [
       "Mengganti obeng manual dengan obeng torsi pneumatik gantung bertali penyeimbang",
@@ -357,6 +373,7 @@ export const KIK_QUESTIONS = [
     "topic": "Perakitan Modular",
     "indicator": "Disajikan kasus kerusakan komponen kamera smartphone, siswa mengidentifikasi keunggulan perakitan modular.",
     "level": "C3 / Pemahaman",
+    "type": "single",
     "question": "Dalam perakitan smartphone modern, modul modul kamera ganda, sensor getar, dan port USB Type-C diproduksi dan diuji kelayakannya secara terpisah sebelum disatukan ke papan induk (motherboard) menggunakan soket flex-cable cepat. Keuntungan utama dari pendekatan perakitan modular tersebut adalah...",
     "options": [
       "Mewajibkan seluruh komponen direkatkan permanen menggunakan lem epoksi cair",
@@ -379,6 +396,7 @@ export const KIK_QUESTIONS = [
     "topic": "Mitigasi Kejenuhan Kerja & QC",
     "indicator": "Disajikan kasus kebocoran pengelasan freon, merumuskan rotasi kerja dan pengujian otomatis.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Pada lini perakitan pendingin udara (AC), ditemukan peningkatan tingkat kebocoran gas pendingin sebesar 14% yang terjadi khusus pada dua jam terakhir shift sore. Investigasi membuktikan bahwa operator brazing tembaga mengalami penurunan konsentrasi akibat paparan panas kontinu dan pekerjaan visual yang sangat repetitif. Strategi perbaikan sistemik yang tepat adalah...",
     "options": [
       "Mewajibkan operator bekerja lembur tanpa istirahat agar cepat beradaptasi fisik",
@@ -401,6 +419,7 @@ export const KIK_QUESTIONS = [
     "topic": "Metode Perakitan Massal",
     "indicator": "Siswa membandingkan Metode Perakitan Kelompok dan Perakitan Lini Berjalan untuk produk massal.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Pabrik peralatan rumah tangga mempertimbangkan dua skema perakitan: Metode Perakitan Kelompok (Cellular Manufacturing) di mana satu tim kecil menyelesaikan seluruh tahapan produk, dibandingkan Metode Perakitan Lini Berjalan (Flow Line). Karakteristik yang benar mengenai perbandingan kedua metode tersebut adalah...",
     "options": [
       "Perakitan Lini Berjalan menghasilkan variasi produk yang jauh lebih fleksibel",
@@ -423,6 +442,7 @@ export const KIK_QUESTIONS = [
     "topic": "Keselamatan Kerja ESD (Antistatis)",
     "indicator": "Disajikan bahaya listrik statis pada mikroprosesor, menentukan tindakan teknis ESD wrist strap.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Di stasiun perakitan modul prosesor komputer, gesekan antara pakaian operator, lantai, dan meja kerja dapat membangkitkan muatan elektrostatik hingga ribuan volt. Meskipun operator tidak merasakan sengatan listrik, tegangan ini sanggup merusak lapisan isolator oksida gerbang silikon mikroprosesor (Electrostatic Discharge / ESD). Prosedur pencegahan teknis yang wajib diterapkan adalah...",
     "options": [
       "Mewajibkan pemakaian sarung tangan wol tebal berlapis kain sintetis mengilap",
@@ -445,19 +465,17 @@ export const KIK_QUESTIONS = [
     "topic": "Toleransi Uji Mutu & Spesifikasi QC",
     "indicator": "Mengevaluasi risiko melonggarkan batas pengujian QC demi target kuota produk.",
     "level": "C4 / Evaluasi",
-    "question": "Akibat keterlambatan pengiriman bahan baku, manajer pabrik mendapat tekanan untuk mengejar kuota pengiriman 10.000 unit poros transmisi baja. Supervisor mengusulkan untuk melonggarkan batas toleransi diameter poros dari ±0,02 mm menjadi ±0,15 mm agar suku cadang yang lolos uji meningkat dari 78% menjadi 99%. Evaluasi teknis paling tepat terhadap usulan tersebut adalah...",
+    "type": "true_false",
+    "question": "Perhatikan pernyataan berikut!\n\n\"Melonggarkan batas toleransi diameter poros transmisi baja dari ±0,02 mm menjadi ±0,15 mm demi mengejar kuota pengiriman 10.000 unit akan memperbesar risiko kegagalan fungsi produk di lapangan, karena komponen yang seharusnya tidak lolos uji kini ikut terhitung sebagai produk layak kirim.\"\n\nApakah pernyataan di atas tepat secara teknis?",
     "options": [
-      "Usulan harus ditolak karena kelonggaran toleransi memicu keausan getaran pada gearbox",
-      "Usulan harus disetujui penuh karena target volume pengiriman bulanan adalah prioritas mutlak",
-      "Usulan disetujui dengan syarat gearbox pelanggan diberikan oli pelumas lebih banyak",
-      "Usulan diterima karena toleransi 0,15 mm sama sekali tidak berpengaruh pada putaran poros",
-      "Usulan diterima dan alat ukur mikrometer sekrup disimpan agar proses inspeksi lebih cepat"
+      "Benar (pernyataan tersebut sesuai/tepat)",
+      "Salah (pernyataan tersebut tidak sesuai/tidak tepat)"
     ],
     "correctAnswer": 0,
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Usulan harus ditolak karena kelonggaran toleransi memicu keausan getaran pada gearbox (Pilihan A).",
+      "summary": "Pernyataan tersebut BENAR.",
       "concept": "Toleransi dimensi mekanis ditetapkan melalui perhitungan teknik kesesuaian pasangan suai (fit and clearance). Melonggarkan batas toleransi sebesar 7,5 kali lipat akan memicu kelonggaran berlebih (excessive backlash), getaran resonansi parah, keausan dini bearing, dan kebisingan, yang berujung pada penarikan massal (product recall).",
-      "analysis": "Pilihan A memprioritaskan integritas teknis dan reputasi merek jangka panjang di atas target jangka pendek yang semu. Pilihan B, C, D, dan E melanggar etika rekayasa teknik manufaktur presisi.",
+      "analysis": "Melonggarkan toleransi dari ±0,02 mm ke ±0,15 mm memang meningkatkan persentase lolos uji (dari 78% ke 99%), tetapi komponen yang keluar dari spesifikasi semula akan mengalami keausan prematur, getaran berlebih, dan potensi kegagalan mekanis di lapangan.",
       "whyWrong": "Pilihan B, C, D, dan E mengorbankan fungsi mekanikal presisi dan keselamatan operasional mesin pelanggan."
     }
   },
@@ -467,19 +485,17 @@ export const KIK_QUESTIONS = [
     "topic": "Destructive vs Non-Destructive Test",
     "indicator": "Mengevaluasi perbedaan penerapan uji merusak (crash test) dan uji tidak merusak (sinar-X) pada bodi kendaraan.",
     "level": "C4 / Analisis",
-    "question": "Dalam industri manufaktur kendaraan komersial, pengendalian mutu menggunakan dua kategori pengujian: Pengujian Merusak (Destructive Test) seperti uji tabrak sasis (crash test), dan Pengujian Tidak Merusak (Non-Destructive Test / NDT) seperti uji radiografi sinar-X pada sambungan las tangki bahan bakar. Mengapa uji sambungan las tangki dilakukan dengan metode NDT?",
+    "type": "true_false",
+    "question": "Perhatikan pernyataan berikut!\n\n\"Pengujian Non-Destructive Test (NDT) seperti radiografi sinar-X dipilih untuk inspeksi sambungan las tangki bahan bakar kendaraan komersial karena metode ini dapat mendeteksi cacat internal tanpa merusak komponen, sehingga komponen yang lolos uji tetap dapat digunakan dalam produk akhir.\"\n\nApakah pernyataan di atas tepat secara teknis?",
     "options": [
-      "Karena metode NDT tidak memerlukan keterampilan teknis bagi operator penguji",
-      "Karena uji merusak selalu menghasilkan data tegangan tarik yang tidak akurat",
-      "Agar integritas sambungan las terverifikasi tanpa merusak fungsi pakai tangki",
-      "Karena biaya pemindaian radiografi sinar-X selalu lebih murah daripada uji visual",
-      "Agar pabrik terbebas dari kewajiban mengikuti standar keselamatan bejana tekan"
+      "Benar (pernyataan tersebut sesuai/tepat)",
+      "Salah (pernyataan tersebut tidak sesuai/tidak tepat)"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": 0,
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Agar integritas sambungan las terverifikasi tanpa merusak fungsi pakai tangki (Pilihan C).",
+      "summary": "Pernyataan tersebut BENAR.",
       "concept": "Non-Destructive Testing (NDT) memungkinkan deteksi cacat internal (seperti porositas mikro, retak rambut, atau penetrasi las yang tidak sempurna) pada benda uji tanpa merusak sifat fisik dan geometrisnya, sehingga tangki yang lolos uji dapat langsung digunakan pada produk akhir.",
-      "analysis": "Pilihan C adalah alasan utama penggunaan NDT pada komponen struktural vital. Sebaliknya, destructive test hanya dapat dilakukan pada sampel representatif karena komponen yang diuji akan rusak permanen. Pilihan A, B, D, dan E keliru.",
+      "analysis": "NDT (Non-Destructive Test) memang dirancang untuk mendeteksi cacat/diskontinuitas internal (porosity, crack, inclusion) tanpa merusak benda uji. Berbeda dengan Destructive Test (crash test) yang menghancurkan sampel, NDT memungkinkan komponen yang lolos inspeksi langsung masuk lini produksi.",
       "whyWrong": "Pilihan A, B, D, dan E salah memahami prinsip tujuan NDT dalam verifikasi keselamatan komponen struktural tanpa pemborosan material."
     }
   },
@@ -489,19 +505,20 @@ export const KIK_QUESTIONS = [
     "topic": "Statistical Process Control & Cost of Quality",
     "indicator": "Menganalisis hubungan sebab-akibat pengujian acak sampel di awal komponen dengan penekanan biaya kualitas.",
     "level": "C4 / Analisis",
-    "question": "Berdasarkan prinsip Cost of Quality (Biaya Kualitas) dalam manajemen mutu modern, biaya untuk mendeteksi dan memperbaiki cacat produk akan berlipat ganda hingga 10 kali lipat pada setiap tahapan berikutnya (Rule of Ten: Pencegahan -> Penilaian Internal -> Kegagalan Internal -> Kegagalan Eksternal). Berdasarkan aturan ini, tindakan yang paling menghemat biaya total perusahaan adalah...",
+    "type": "single",
+    "question": "Perhatikan pernyataan dan alasan berikut!\n\nPERNYATAAN:\nPengujian acak sampel komponen di awal lini produksi (incoming inspection) secara konsisten mampu menekan total biaya kualitas (Cost of Quality) perusahaan manufaktur.\n\nALASAN:\nBerdasarkan Rule of Ten, biaya deteksi dan perbaikan cacat berlipat ganda hingga 10× pada setiap tahapan berikutnya (Pencegahan → Penilaian Internal → Kegagalan Internal → Kegagalan Eksternal), sehingga mendeteksi cacat sedini mungkin jauh lebih hemat daripada menanggung biaya recall produk akhir.",
     "options": [
-      "Mengganti seluruh barang rusak yang diklaim konsumen dengan bonus uang kompensasi",
-      "Menyediakan tim perbaikan darurat di pusat servis purnajual di setiap kota besar",
-      "Memperbaiki barang cacat di stasiun perakitan akhir setelah seluruh unit selesai dirakit",
-      "Membiarkan produk yang cacat kecil lolos ke pasar asalkan konsumen tidak komplain",
-      "Melakukan kalibrasi alat cetak serta seleksi ketat mutu bahan mentah di tahap awal"
+      "Pernyataan benar, alasan benar, dan keduanya menunjukkan hubungan sebab-akibat",
+      "Pernyataan benar, alasan benar, tetapi keduanya tidak menunjukkan hubungan sebab-akibat",
+      "Pernyataan benar, alasan salah",
+      "Pernyataan salah, alasan benar",
+      "Pernyataan dan alasan keduanya salah"
     ],
-    "correctAnswer": 4,
+    "correctAnswer": 0,
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Melakukan kalibrasi alat cetak serta seleksi ketat mutu bahan mentah di tahap awal (Pilihan E).",
+      "summary": "Pernyataan benar, alasan benar, dan keduanya menunjukkan hubungan sebab-akibat.",
       "concept": "Prinsip Rule of Ten / 1-10-100 Rule menyatakan bahwa Rp 1 yang dihabiskan untuk tindakan pencegahan (prevention cost) di awal setara dengan Rp 10 biaya perbaikan internal di pabrik, dan setara dengan Rp 100 kerugian kegagalan eksternal di tangan konsumen (klaim garansi, tuntutan hukum, kehancuran citra merek).",
-      "analysis": "Pilihan E menginvestasikan sumber daya pada pos pencegahan (biaya paling murah dan paling bernilai tambah tinggi). Pilihan A dan B adalah biaya kegagalan eksternal termahal. Pilihan C adalah biaya kegagalan internal. Pilihan D merusak masa depan bisnis.",
+      "analysis": "Pernyataan benar: incoming inspection memang menekan Cost of Quality. Alasan benar: Rule of Ten menyatakan biaya cacat berlipat 10× per tahapan. Hubungan sebab-akibat valid: justru karena biaya melonjak eksponensial di tahap hilir (kegagalan eksternal = recall, garansi, reputasi), maka deteksi dini di tahap hulu (incoming inspection) secara langsung menekan total biaya kualitas.",
       "whyWrong": "Pilihan A, B, C, dan D membiarkan masalah bereskalasi ke tahapan yang menimbulkan kerugian finansial berlipat ganda."
     }
   },
@@ -511,19 +528,20 @@ export const KIK_QUESTIONS = [
     "topic": "Prosedur Penanganan Lot Cacat Mutu",
     "indicator": "Menganalisis prosedur karantina/isolasi satu lot produksi yang gagal uji ketahanan suhu ekstrem.",
     "level": "C4 / Analisis",
-    "question": "Dalam pengujian ketahanan suhu ekstrem di ruang iklim (climate chamber) pada suhu 85°C dan kelembapan 90%, sebanyak 3 dari 10 unit sampel acak dari Lot Produksi B-402 (total 500 unit) mengalami keretakan pada bodi plastik dan kegagalan isolasi listrik. Prosedur penanganan mutu yang wajib segera dilakukan adalah...",
+    "type": "single",
+    "question": "Perhatikan pernyataan dan alasan berikut!\n\nPERNYATAAN:\nSeluruh 500 unit pada Lot Produksi B-402 wajib diisolasi (karantina) dan tidak boleh dikirim ke pelanggan meskipun hanya 3 dari 10 sampel acak yang gagal uji ketahanan suhu ekstrem (keretakan bodi plastik pada 85°C / 90% RH).\n\nALASAN:\nKegagalan 30% sampel acak pada pengujian destruktif mengindikasikan variabilitas proses yang sistemik pada seluruh lot, bukan cacat individual, sehingga risiko kegagalan tersembunyi pada unit yang tidak diuji terlalu tinggi untuk ditoleransi.",
     "options": [
-      "Mengirim 497 unit lainnya ke gudang penjualan dan membuang 3 unit yang retak",
-      "Mengarantina seluruh 500 unit Lot B-402, meneliti akar penyebab, dan menghentikan rilis",
-      "Menaikkan batas suhu uji di lemari iklim menjadi 100°C agar pengujian cepat selesai",
-      "Memasarkan produk ke wilayah bermusim dingin saja tanpa memberitahu pihak manajemen",
-      "Mengganti label nomor lot B-402 dengan nomor lot lain yang sudah lolos sertifikasi"
+      "Pernyataan benar, alasan benar, dan keduanya menunjukkan hubungan sebab-akibat",
+      "Pernyataan benar, alasan benar, tetapi keduanya tidak menunjukkan hubungan sebab-akibat",
+      "Pernyataan benar, alasan salah",
+      "Pernyataan salah, alasan benar",
+      "Pernyataan dan alasan keduanya salah"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 0,
     "explanation": {
-      "summary": "Jawaban yang tepat adalah Mengarantina seluruh 500 unit Lot B-402, meneliti akar penyebab, dan menghentikan rilis (Pilihan B).",
+      "summary": "Pernyataan benar, alasan benar, dan keduanya menunjukkan hubungan sebab-akibat.",
       "concept": "Sistem manajemen mutu ISO 9001 mengharuskan isolasi/karantina produk tidak sesuai (Non-Conforming Product) untuk seluruh lot terkait guna mencegah percampuran dan pengiriman produk cacat ke konsumen, dilanjutkan dengan analisis akar penyebab (Root Cause Analysis).",
-      "analysis": "Pilihan B menjamin tidak ada produk berbahaya yang bocor ke pasar. Pilihan A berbahaya karena sampel acak mewakili sifat seluruh lot (kegagalan 30% pada sampel mengindikasikan ratusan unit lain berpotensi rusak). Pilihan C, D, dan E melanggar etika dan hukum perlindungan konsumen.",
+      "analysis": "Pernyataan benar: prosedur QC standar mengharuskan karantina seluruh lot jika sampel acak gagal melewati ambang batas. Alasan benar: 30% failure rate pada sampel acak (3/10) menunjukkan masalah sistemik (bukan outlier), sehingga unit lain dalam lot yang sama berpotensi memiliki cacat serupa. Hubungan sebab-akibat valid: justru karena cacat bersifat sistemik (alasan), maka seluruh lot wajib diisolasi (pernyataan).",
       "whyWrong": "Pilihan A, C, D, dan E melanggar prosedur standar pengendalian produk tidak sesuai dan mengancam keselamatan konsumen."
     }
   },
@@ -533,6 +551,7 @@ export const KIK_QUESTIONS = [
     "topic": "Tindakan Korektif & Preventif QC",
     "indicator": "Disajikan temuan kasus overheating smartphone, siswa memilih kombinasi tindakan pelacakan lot dan analisis log.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Sebuah batch produksi smartphone dilaporkan mengalami panas berlebih (overheating) yang memicu mati mendadak saat menjalankan aplikasi penunjuk arah navigasi GPS. Tim teknis menemukan bahwa fenomena ini hanya terjadi pada perangkat dengan baterai dari Pemasok X yang diproduksi pada minggu ke-32. Kombinasi tindakan korektif dan preventif (CAPA) yang paling tepat adalah...",
     "options": [
       "Menghapus fitur GPS dari seluruh ponsel pintar yang sudah terlanjur beredar di masyarakat",
@@ -555,6 +574,7 @@ export const KIK_QUESTIONS = [
     "topic": "Uji Fungsi Mebel Ekspor Tahunan",
     "indicator": "Merumuskan uji Moisture Content (MC 8%-12%) dan perbaikan konstruksi pasak kayu jati ekspor.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Sebuah bengkel kriya mebel di Tahunan Jepara memproduksi set kursi makan jati untuk diekspor ke Eropa Utara yang memiliki musim dingin kering bersuhu rendah. Setelah 2 bulan tiba di gudang importir Jerman, sambungan pasak kursi longgar dan permukaan meja mengalami retak rambut (checking). Pengujian mutu pra-ekspor dan tindakan rekayasa yang seharusnya dilakukan adalah...",
     "options": [
       "Uji kadar air kayu (Moisture Content 8%-12% via oven kiln) dan sambungan pasak apung",
@@ -577,6 +597,7 @@ export const KIK_QUESTIONS = [
     "topic": "Uji Panas & Resin Kerajinan Senenan",
     "indicator": "Merumuskan pemilihan resin tahan panas & tak buram pada jam dinding ukir kombinasi akrilik.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Pengrajin relief ukir di Senenan Jepara berinovasi membuat jam dinding artistik berbahan kayu jati kombinasi cor resin epoksi bening. Namun, pada produk uji coba pertama, lapisan resin berubah menguning (yellowing) setelah terpapar sinar matahari jendela selama 1 bulan dan melunak saat terkena panas mesin jam. Langkah perbaikan pemilihan material dan formulasi yang tepat adalah...",
     "options": [
       "Mengganti resin epoksi dengan lem kertas putih yang dicampur air keran secukupnya",
@@ -599,6 +620,7 @@ export const KIK_QUESTIONS = [
     "topic": "Drop & Stress Test Patung Mulyoharjo",
     "indicator": "Merumuskan pasak besi penopang internal dan busa cetak kemasan ekspor patung kayu kuda.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Sentra patung kayu Mulyoharjo Jepara mengekspor patung ukir kuda jingkrak berukuran tinggi 1 meter berbahan kayu trembesi utuh. Dalam pengiriman kontainer lintas samudra, patung sering kali patah tepat pada bagian pergelangan kaki belakang kuda akibat beban kejut dan getaran turbulensi kapal. Rekayasa struktur dan kemasan yang paling tepat untuk mengatasi masalah ini adalah...",
     "options": [
       "Membuat kaki patung menjadi sangat tipis agar lentur dan fleksibel saat terbentur",
@@ -621,6 +643,7 @@ export const KIK_QUESTIONS = [
     "topic": "Load & UV Test Rotan Telukawur",
     "indicator": "Mengevaluasi formulasi polimer PE stabilisator UV untuk anyaman rotan sintetis outdoor.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Produsen kursi santai anyaman rotan sintetis di pesisir Telukawur Jepara memproduksi furnitur tepi kolam renang (outdoor poolside lounger). Setelah 6 bulan pemakaian di resort tropis, anyaman rotan sintetis menjadi getas, retak pecah, dan warnanya memudar drastis. Berdasarkan evaluasi material sains, formulasi material yang harus diperbaiki pada pita rotan sintetis adalah...",
     "options": [
       "Mengganti bahan plastik polimer dengan karet ban dalam bekas tanpa pelapis anti-panas",
@@ -643,6 +666,7 @@ export const KIK_QUESTIONS = [
     "topic": "Watertightness Test Kapal Welahan",
     "indicator": "Merumuskan proses pemajakan (caulking) lambung kapal jati nelayan dengan tatal dan dempul sealant.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Galangan kapal kayu tradisional di Welahan Jepara meluncurkan kapal penangkap ikan berbahan kayu jati dan akasia sepanjang 18 meter. Saat dilakukan uji apung dan kekedapan air (watertightness test) di muara sungai, ditemukan rembesan air laut melalui celah sambungan papan lambung kapal (seam). Teknik penyekatan tradisional dan modern yang tepat diterapkan oleh tukang kapal adalah...",
     "options": [
       "Menutup celah papan lambung dari luar dengan lembaran stiker plastik berperekat tipis",
@@ -665,6 +689,7 @@ export const KIK_QUESTIONS = [
     "topic": "Target Market & Segmentasi Mebel",
     "indicator": "Disajikan kegagalan iklan medsos mebel premium, siswa menentukan penyesuaian target pasar ke usia 30-55 tahun.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Sebuah workshop mebel ukir Jepara meluncurkan lini set meja makan jati mewah seharga Rp 45.000.000,00 per set. Kampanye iklan digital di media sosial yang menargetkan audiens usia 16–22 tahun menghasilkan ratusan ribu penayangan dan komentar kagum, namun selama 3 bulan tidak ada transaksi penjualan yang terjadi. Analisis kegagalan strategi pemasaran dan reposisi target pasar yang benar adalah...",
     "options": [
       "Audiens usia 16–22 tahun belum memiliki daya beli dan hunian mandiri; reposisi ke usia 30–55 tahun",
@@ -687,6 +712,7 @@ export const KIK_QUESTIONS = [
     "topic": "Diferensiasi Kerajinan Monel Kriyan",
     "indicator": "Merumuskan strategi storytelling keunggulan monel antikarat ramah kulit vs titanium impor murah.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Pengrajin aksesori monel (baja putih / nickel-alloy) di desa Kriyan Kalinyamatan Jepara menghadapi serbuan perhiasan imitasi impor berlapis krom yang dijual sangat murah namun cepat berkarat dan memicu alergi gatal pada kulit. Strategi diferensiasi dan positioning yang paling tepat dibangun oleh pengrajin monel lokal adalah...",
     "options": [
       "Meniru model perhiasan impor murah dan menurunkan kualitas bahan monel agar bisa bersaing harga",
@@ -709,6 +735,7 @@ export const KIK_QUESTIONS = [
     "topic": "Inbound Digital Marketing Kaligrafi",
     "indicator": "Merumuskan pembuatan web dwibahasa teroptimasi SEO untuk ekspor kaligrafi ukir ke Timur Tengah.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Sebuah sanggar ukir kaligrafi Arab di Jepara ingin memperluas pangsa pasar ekspor ke konsumen muslim di negara-negara Timur Tengah (Uni Emirat Arab, Arab Saudi, Qatar). Langkah strategi Inbound Digital Marketing yang paling tepat dan berkesinambungan adalah...",
     "options": [
       "Mengirim ratusan pesan spam promosi secara acak ke nomor WhatsApp warga asing setiap malam",
@@ -731,6 +758,7 @@ export const KIK_QUESTIONS = [
     "topic": "Promotion Mix Busana Tenun Troso",
     "indicator": "Menentukan kombinasi sinergi antara pameran fashion expo offline dengan live shopping digital.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Pengusaha kain tenun ikat Troso Jepara ingin memaksimalkan penjualan koleksi busana etnik modern menjelang hari raya. Ia memiliki anggaran promosi terbatas dan ingin memadukan saluran pemasaran luring (offline) dan daring (online) secara sinergis (Omnichannel). Strategi bauran promosi yang paling efektif adalah...",
     "options": [
       "Menghentikan penjualan kain tenun dan hanya menjual benang pakan mentah di pasar tradisional",
@@ -753,6 +781,7 @@ export const KIK_QUESTIONS = [
     "topic": "Risiko Penetration Pricing Mayong",
     "indicator": "Disajikan peluncuran mainan edukatif harga murah di Mayong, menganalisis risiko margin tipis dan resistensi konsumen.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Sentra industri mainan anak dan gerabah Mayong Jepara meluncurkan produk baru berupa mainan edukatif puzzle kayu. Untuk merebut pasar dari produk impor, produsen menetapkan strategi harga penetrasi (Penetration Pricing) dengan menjual produk seharga Rp 15.000,00 (margin keuntungan hanya 3% di atas modal kerja). Risiko finansial dan persepsi konsumen yang paling berbahaya dari strategi ini adalah...",
     "options": [
       "Produk puzzle kayu dipastikan langsung ditolak oleh seluruh toko mainan anak di Indonesia",

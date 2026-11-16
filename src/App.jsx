@@ -180,7 +180,7 @@ export default function App() {
                   </div>
                   <span className="opacity-30">|</span>
                   <div>
-                    <span className="font-bold text-zinc-900 dark:text-zinc-100">A–E</span> CBT
+                    <span className="font-bold text-zinc-900 dark:text-zinc-100">3</span> Format CBT
                   </div>
                 </div>
               </div>

@@ -5,6 +5,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Ciri Karya Sastra Sandiwara",
     "indicator": "Mengidentifikasi ciri utama karya sastra drama/sandiwara dibandingkan genre sastra lainnya.",
     "level": "L1 / C2",
+    "type": "single",
     "question": "Karya sastra sandiwara (drama Jawa) nduweni titikan (ciri khas) mirunggan kang mbedakake klawan karya sastra gancaran (prosa) liyane. Titikan utama karya sandiwara yaiku...",
     "options": [
       "Awujud pacelathon (dialog) antarane paraga, kadhapuk kanthi pituduh lakon (kramagung), lan dipentasake",
@@ -27,6 +28,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Sandiwara Tradhisi vs Modheren",
     "indicator": "Menjelaskan alasan sandiwara tradhisi disebut tradhisi atau klasik.",
     "level": "L1 / C2",
+    "type": "single",
     "question": "Kethoprak, wayang wong, lan ludruk kagolongake ana ing jinising sandiwara tradhisi (klasik). Alasan utama sandiwara kasebut diarani sandiwara tradhisi yaiku...",
     "options": [
       "Amarga pementasane mung kena ditonton dening para priyayi kraton lan dilarang dipirsani masarakat",
@@ -49,6 +51,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Struktur Sandiwara (Krisis/Klimaks)",
     "indicator": "Menentukan bagian struktur sandiwara modern yang menjadi puncak konflik (krisis).",
     "level": "L1 / C2",
+    "type": "single",
     "question": "Wacanen perangane struktur sandiwara modheren ing ngisor iki!\n(1) Orientasi (Pambuka)\n(2) Komplikasi (Tuwuhe dredah)\n(3) Klimaks / Krisis (Pucuking dredah)\n(4) Resolusi (Lereme dredah / Rerampungan)\nPerangan struktur nalika konflik utawa pasulayan antarane paraga protagonis lan antagonis wis tekan tataran paling gawat, panas, lan nemtokake nasibe paraga diarani...",
     "options": [
       "Orientasi",
@@ -71,6 +74,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Tahapan Nulis Naskah Sandiwara",
     "indicator": "Menentukan tahap pertama penyusunan naskah sandiwara Jawa.",
     "level": "L1 / C2",
+    "type": "single",
     "question": "Sadurunge miwiti nulis naskah sandiwara Jawa, panulis kudu ngliwati tataran-tataran tartamtu. Langkah kapisan kang wajib ditindakake yaiku...",
     "options": [
       "Nyewa panggung gedhong pertunjukan lan tuku tiket",
@@ -93,6 +97,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Piwulang lan Amanat Sandiwara",
     "indicator": "Menyimpulkan tindakan yang tidak patut diteladani dari piwulang naskah sandiwara tentang kejujuran.",
     "level": "L3 / C4",
+    "type": "single",
     "question": "Cermati pethikan pacelathon naskah sandiwara ing ngisor iki!\n\n(Ing ruang bengkel sekolah, Danu lan Bagus lagi ngadhepi mesin bubut)\nDanu : \"(Ndeleng kiwa tengen, swarane lirih) Gus, pahat bubut carbide iki regane larang lho. Yen tak gawa mulih terus tak dol neng pasar loak, awake dhewe entuk dhuwit kanggo tuku bensin dolan.\"\nBagus : \"(Nampik kanthi teges) Aja pisan-pisan, Nu! Piranti iki darbeke sekolah kanggo gladhen kanca-kanca. Sanadyan ora ana guru kang mirsani, Gusti Allah pirsa. Kejujuran iku regane luwih larang tinimbang dhuwit setitik!\"\n\nTindakan paraga ing pethikan sandiwara kasebut kang ORA PATUT diteladani dening murid yaiku...",
     "options": [
       "Sikape Bagus kang ngelingake kancane supaya ora tumindak cidra",
@@ -115,7 +120,8 @@ export const JAWA_QUESTIONS = [
     "topic": "Unsur Intrinsik (Latar)",
     "indicator": "Menentukan unsur yang bukan bagian dari latar dalam karya sastra sandiwara.",
     "level": "L2 / C3",
-    "question": "Sajroning unsur pembangun sandiwara, \"Latar\" (Setting) kaperang dadi telung perangan baku, yaiku...",
+    "type": "complex",
+    "question": "Sajroning unsur pembangun sandiwara, \"Latar\" (Setting) kaperang dadi telung perangan baku, yaiku\n\n(Pilih kabeh wangsulan kang bener)",
     "options": [
       "Latar Papan (panggonan), Latar Wektu, lan Latar Swasana",
       "Latar Rega, Latar Pajak, lan Latar Diskon",
@@ -123,9 +129,13 @@ export const JAWA_QUESTIONS = [
       "Latar Pacelathon, Latar Tembang, lan Latar Busana",
       "Latar Judhul, Latar Sinopsis, lan Latar Pungkas"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0,
+      2,
+      4
+    ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku Latar Papan (panggonan), Latar Wektu, lan Latar Swasana.",
+      "summary": "Wangsulan kang bener yaiku A, C, E.",
       "concept": "Trias Latar (Setting) Sastra:\n1. Latar Papan: nuduhake ing ngendi kedadeyan lumaku (bengkel, bale desa, alas).\n2. Latar Wektu: nuduhake kapan kedadeyan (esuk, awan, jaman perang).\n3. Latar Swasana: kahanan batin/lingkungan (tintrim, gumbira, sedhih, kisruh).",
       "analysis": "Katelu unsur kasebut mbangun kahanan panggung pertunjukan drama kanthi urip.",
       "whyWrong": "Pilihan B ngenani ekonomi, C paraga, D piranti panggung, E bagean buku."
@@ -137,7 +147,8 @@ export const JAWA_QUESTIONS = [
     "topic": "Paraga lan Dhapukan",
     "indicator": "Memilih pernyataan yang benar tentang paraga protagonis, antagonis, dan tritagonis.",
     "level": "L2 / C3",
-    "question": "Manukma tegese dhapukan paraga ing sandiwara, paraga kang nduweni watak becik, tansah mbela bebener, lan dadi punjering panyengkuyung panonton diarani paraga [ X ], dene paraga kang dadi penengah antarane loro pihak diarani paraga [ Y ]. Sebutan kang trep kanggo [ X ] lan [ Y ] yaiku...",
+    "type": "complex",
+    "question": "Manukma tegese dhapukan paraga ing sandiwara, paraga kang nduweni watak becik, tansah mbela bebener, lan dadi punjering panyengkuyung panonton diarani paraga [ X ], dene paraga kang dadi penengah antarane loro pihak diarani paraga [ Y ]. Sebutan kang trep kanggo [ X ] lan [ Y ] yaiku\n\n(Pilih kabeh wangsulan kang bener)",
     "options": [
       "Antagonis lan Figuran",
       "Protagonis lan Tritagonis",
@@ -145,9 +156,12 @@ export const JAWA_QUESTIONS = [
       "Figuran lan Protagonis",
       "Antagonis lan Protagonis"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      1,
+      3
+    ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku Protagonis lan Tritagonis.",
+      "summary": "Wangsulan kang bener yaiku B, D.",
       "concept": "Jenising Paraga Adhedhasar Watak:\n- Protagonis: paraga utama kang duwe watak becik/utama.\n- Antagonis: paraga kang duwe watak ala/mungsuh protagonis.\n- Tritagonis: paraga katelu kang dadi juru pamedhar/penengah ing antarane protagonis lan antagonis.\n- Figuran: paraga pambiyantu.",
       "analysis": "[X] = Protagonis; [Y] = Tritagonis.",
       "whyWrong": "Pilihan liyane kliru urut-urutane utawa salah nemtokake dhapukan paraga."
@@ -159,6 +173,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Kramagung sajroning Sandiwara",
     "indicator": "Menjelaskan fungsi petunjuk laku (kramagung) dalam tanda kurung pada teks drama.",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Gatekna pethikan teks naskah drama iki:\nPak Broto : \"(Ngadeg karo nggegem tangane, mripate mencorong nesu) Aja kumawani kowe nglanggar aturan bengkel iki!\"\nUkara sajroning tandha kurung \"(Ngadeg karo nggegem tangane, mripate mencorong nesu)\" ing teks sandiwara diarani...",
     "options": [
       "Katrangan babagan paugeran guru lagu lan guru wilangan tembang macapat",
@@ -181,6 +196,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Struktur Orientasi Sandiwara",
     "indicator": "Menentukan bagian struktur yang memperkenalkan paraga, wektu, lan papan.",
     "level": "L1 / C2",
+    "type": "single",
     "question": "Perangan wiwitan ing naskah sandiwara kang migunani kanggo nepungake para paraga, latar wektu lumakune crita, sarta papan panggonan kedadeyan diarani perangan...",
     "options": [
       "Antiklimaks",
@@ -203,6 +219,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Pambeda Sandiwara Tradhisi lan Modheren",
     "indicator": "Membedakan ciri utama sandiwara tradhisi dan sandiwara modheren.",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Tabel ing ngisor iki kang mbedakake klawan bener antarane Sandiwara Tradhisi lan Sandiwara Modheren yaiku...",
     "options": [
       "Sandiwara tradhisi nggunakake panggung megah lan tata lampu canggih dene sandiwara modheren mung ing plataran",
@@ -225,6 +242,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Pola Penyajian Artikel",
     "indicator": "Menganalisis pola penyajian kutipan artikel berita lingkungan (urutan wektu, sebab-akibat).",
     "level": "L3 / C4",
+    "type": "single",
     "question": "Wacanen pethikan artikel basa Jawa iki!\n\n\"Wiwit dina Senen kepungkur, udan deres tanpa leren nggrujug tlatah pesisir Jepara. Saluran banyu kang kebak runtah plastik ora kuwawa nampung ilining banyu udan. Akibat saka kahanan kasebut, atusan hektar tambak bandeng ing Welahan kelem banjir, saengga para kadang tani nandhang kapitunan atusan yuta rupiah.\"\n\nPola panulisan (penyajian) kang digunakake sajroning pethikan artikel ing ndhuwur yaiku...",
     "options": [
       "Pola Sebab – Akibat",
@@ -247,6 +265,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Ciri Artikel Basa Jawa",
     "indicator": "Menentukan pernyataan yang termasuk ciri artikel (adhedhasar kasunyatan/fakta).",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Ing ngisor iki kang kalebu titikan (ciri-ciri) baku saka sawijining teks ARTIKEL yaiku...",
     "options": [
       "Isine arupa crita fiksi ngayawara kang digawe-gawe dening panulis kanggo hiburan",
@@ -269,7 +288,8 @@ export const JAWA_QUESTIONS = [
     "topic": "Struktur Artikel",
     "indicator": "Memilih pernyataan yang benar tentang tesis, argumentasi, dan pangukuh/paneges.",
     "level": "L2 / C3",
-    "question": "Struktur teks artikel kasusun saka telung perangan baku kanthi urutan kang bener, yaiku...",
+    "type": "complex",
+    "question": "Struktur teks artikel kasusun saka telung perangan baku kanthi urutan kang bener, yaiku\n\n(Pilih kabeh wangsulan kang bener)",
     "options": [
       "Pambuka arupa wasana basa, isi arupa tembang dolanan, lan panutup arupa parikan",
       "Purwaka arupa atur pakurmatan, surasa arupa dhaptar paraga, lan wasana arupa donga",
@@ -277,9 +297,13 @@ export const JAWA_QUESTIONS = [
       "Orientasi ngenalake watak, komplikasi nuwuhake krisis, lan resolusi mungkasi masalah",
       "Koda arupa piwulang luhur, kramagung arupa solah bawa, lan prolog arupa pitepangan"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": [
+      0,
+      2,
+      3
+    ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku Tesis – Argumentasi – Paneges/Pangukuh.",
+      "summary": "Wangsulan kang bener yaiku A, C, D.",
       "concept": "Struktur Teks Artikel:\n1. Tesis: pambuka kang ngemot panemu awal/gagasan pokok panulis ngenani masalah.\n2. Argumentasi: bukti data kasunyatan lan alesan logis kanggo nyengkuyung tesis.\n3. Paneges/Pangukuh (Reiterasi): dudutan akhir, panyaruwe (saran), utawa rekomendasi.",
       "analysis": "Urutan iki mujudake tata cara ilmiah nulis artikel opini populer.",
       "whyWrong": "Pilihan A struktur fabel/cerpen; C terbalik; D cengkorongan; E struktur drama."
@@ -291,6 +315,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Mengevaluasi Struktur Artikel Lingkungan",
     "indicator": "Mengevaluasi kelengkapan struktur artikel lingkungan yang memuat data tanpa penutup.",
     "level": "L3 / C4",
+    "type": "single",
     "question": "Sawijining artikel basa Jawa ngenani mupangate daur ulang sampah plastik ing SMK wis nyedhiyakake gagasan pambuka (tesis) lan bukti-bukti angka statistik pengurangan runtah (argumentasi), ananging durung nduweni ukara dudutan lan saran ing pungkasan tulisan. Evaluasi tumrap struktur artikel kasebut yaiku...",
     "options": [
       "Artikel kasebut wis sampurna lan ora mbutuhake perbaikan apa wae saka redaksi",
@@ -313,6 +338,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Jinising Artikel: Narasi lan Deskripsi",
     "indicator": "Mbedakake titikan artikel narasi lan artikel deskripsi.",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Wacan kang isine nggambarake sawijining kahanan, barang, utawa papan panggonan kanthi cetha rincil saengga pamaca kaya-kaya melu ndeleng, ngrungokake, lan ngrasakake dhewe kahanan kasebut diarani artikel...",
     "options": [
       "Artikel Narasi",
@@ -335,6 +361,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Jinising Artikel: Persuasi",
     "indicator": "Mengidentifikasi ciri artikel persuasi yang bersifat mengajak pembaca.",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Cermati ukara pethikan artikel iki:\n\"Mula saka iku, para mudha SMK N 3 Jepara ayo padha gumregah njaga lan nguri-uri seni ukir tradhisional iki kanthi sinau tenanan. Aja nganti warisan adi luhung iki cures dilindhes jaman!\"\nUkara ing ndhuwur nuduhake titikan saka jinising teks artikel...",
     "options": [
       "Persuasi (ngajak-ajak)",
@@ -357,6 +384,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Jinising Artikel: Eksposisi",
     "indicator": "Mengidentifikasi artikel eksposisi yang menjelaskan proses teknis.",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Sawijining artikel kang ngandharake tata cara lan proses nggawe sambungan kayu purus lan cowakan (mortise and tenon joint) kanthi urut, cetha, lan jangkep wiwit nggaris kayu, natah, nganti masang pasak kagolongake jinising artikel...",
     "options": [
       "Narasi Fiktif",
@@ -379,7 +407,8 @@ export const JAWA_QUESTIONS = [
     "topic": "Pola Wektu sajroning Artikel Berita",
     "indicator": "Menganalisis pola penyajian urutan kronologis waktu dalam artikel.",
     "level": "L2 / C3",
-    "question": "Gatekna ukara iki: \"Nalika jam pitu esuk para siswa wis padha nglumpuk ing lapangan. Jam wolu upacara pambuka pameran inovasi kawiwitan dening Kepala Sekolah. Sawise iku, ing wayah awan jam rolas para juri wiwit mbiji karya kriya.\"",
+    "type": "complex",
+    "question": "Gatekna ukara iki: \"Nalika jam pitu esuk para siswa wis padha nglumpuk ing lapangan. Jam wolu upacara pambuka pameran inovasi kawiwitan dening Kepala Sekolah. Sawise iku, ing wayah awan jam rolas para juri wiwit mbiji karya kriya.\"\n\n(Pilih kabeh wangsulan kang bener)",
     "options": [
       "Pola Spasial (Panggonan)",
       "Pola Sebab – Akibat",
@@ -387,9 +416,13 @@ export const JAWA_QUESTIONS = [
       "Pola Analogi",
       "Pola Klasifikasi"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": [
+      0,
+      1,
+      3
+    ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku Pola Kronologis / Urutan Wektu.",
+      "summary": "Wangsulan kang bener yaiku A, B, D.",
       "concept": "Pola Kronologis (Urutan Wektu): Informasi kasusun adhedhasar lampahing wektu sacara tumata: jam pitu esuk -> jam wolu -> wayah awan jam rolas.",
       "analysis": "Panandha wektu urut nuduhake pola kronologis.",
       "whyWrong": "Dudu pola spasial (papan), dudu sebab-akibat, dudu analogi."
@@ -401,7 +434,8 @@ export const JAWA_QUESTIONS = [
     "topic": "Panemu (Opini) sajroning Artikel",
     "indicator": "Mbedakake ukara kasunyatan (fakta) lan ukara panemu (opini) sajroning artikel basa Jawa.",
     "level": "L2 / C3",
-    "question": "Wacanen ukara-ukara ing ngisor iki!\n(1) Kabupaten Jepara misuwur minangka kutha ukir ing Provinsi Jawa Tengah.\n(2) Miturut panemuku, kabeh nom-noman jaman saiki wis ora ana sing gelem natah kayu babar pisan.\n(3) Pameran Gebyar Kriya SMK digelar tanggal 18 November 2026.\n(4) Kayu jati nduweni zat ekstraktif alami kang ndadekake awet saka rayap.\nUkara kang asipat PANEMU (Opini subjektif) ditunjokake nomer...",
+    "type": "complex",
+    "question": "Wacanen ukara-ukara ing ngisor iki!\n(1) Kabupaten Jepara misuwur minangka kutha ukir ing Provinsi Jawa Tengah.\n(2) Miturut panemuku, kabeh nom-noman jaman saiki wis ora ana sing gelem natah kayu babar pisan.\n(3) Pameran Gebyar Kriya SMK digelar tanggal 18 November 2026.\n(4) Kayu jati nduweni zat ekstraktif alami kang ndadekake awet saka rayap.\nUkara kang asipat PANEMU (Opini subjektif) ditunjokake nomer\n\n(Pilih kabeh wangsulan kang bener)",
     "options": [
       "(1)",
       "(4)",
@@ -409,9 +443,13 @@ export const JAWA_QUESTIONS = [
       "(2)",
       "(1) lan (3)"
     ],
-    "correctAnswer": 3,
+    "correctAnswer": [
+      1,
+      2,
+      4
+    ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku Ukara nomer (2).",
+      "summary": "Wangsulan kang bener yaiku B, C, E.",
       "concept": "Beda Fakta lan Opini: Fakta yaiku bab kang wis nyata lan bisa kabuktekake kanthi ilmiah/tanggal. Opini yaiku panemu pribadi kang asipat subjektif, lumrahe diawali tembung \"miturut panemuku\", \"kayane\", \"paling becik\".",
       "analysis": "Ukara (2) ngemot tembung \"Miturut panemuku\" lan klaim subjektif sing durung mesthi bener.",
       "whyWrong": "Ukara (1), (3), lan (4) kabeh arupa fakta geografis, tanggal resmi, lan sifat biologi kayu jati."
@@ -423,6 +461,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Nintingi Tema Artikel Lingkungan",
     "indicator": "Menyimpulkan pesan dan tema sentral artikel konservasi alas jati.",
     "level": "L3 / C4",
+    "type": "single",
     "question": "Sawijining artikel ngrembug babagan susute alas wit jati ing tlatah Jawa Tengah amarga panembangan liar, sarta ngajak para pangarajin mebel supaya ngetrapake sertifikasi kayu lestari (SVLK). Tema sentral artikel kasebut yaiku...",
     "options": [
       "Kahanan alas jati ing tlatah Jawa Tengah kang sansaya subur lan asri",
@@ -445,7 +484,8 @@ export const JAWA_QUESTIONS = [
     "topic": "Struktur Teks Panatacara (Purwaka)",
     "indicator": "Menjelaskan perangan purwaka basa sajroning sesorah panatacara.",
     "level": "L1 / C2",
-    "question": "Sajroning rantaman struktur teks panatacara (MC Jawa), perangan kang ngemot atur pamuji syukur marang Gusti Kang Maha Agung sarta atur pakurmatan marang para tamu rawuh diarani perangan...",
+    "type": "complex",
+    "question": "Sajroning rantaman struktur teks panatacara (MC Jawa), perangan kang ngemot atur pamuji syukur marang Gusti Kang Maha Agung sarta atur pakurmatan marang para tamu rawuh diarani perangan\n\n(Pilih kabeh wangsulan kang bener)",
     "options": [
       "Purwaka basa (Pambuka)",
       "Salam pambuka",
@@ -453,9 +493,14 @@ export const JAWA_QUESTIONS = [
       "Wasana basa (Panutup)",
       "Salam panutup"
     ],
-    "correctAnswer": 0,
+    "correctAnswer": [
+      0,
+      1,
+      2,
+      3
+    ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku Purwaka basa (Pambuka).",
+      "summary": "Wangsulan kang bener yaiku A, B, C, D.",
       "concept": "Struktur Teks Panatacara:\n1. Salam pambuka (Assalamu'alaikum / Kula nuwun)\n2. Purwaka basa: puji syukur mring Gusti Allah lan atur pakurmatan mring tamu (dhalang, kyai, sesepuh)\n3. Wigatining atur: ngandharake urut-urutaning adicara kang bakal lumaku\n4. Wasana basa: nyuwun pangapunten menawa ana kaluputan tembung\n5. Salam panutup.",
       "analysis": "Purwaka basa minangka tataran pambuka pakurmatan sadurunge mlebu reroncening acara.",
       "whyWrong": "Wigatining atur isi acara; Wasana basa panyuwunan pangapunten panutup."
@@ -467,6 +512,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Wigatining Atur Panatacara",
     "indicator": "Mengidentifikasi perangan isi rantaman adicara saka purwaka nganti wasana.",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Gatekna pethikan teks panatacara ing ngisor iki!\n\"Kaping kalih inggih menika waosan ayat suci Al-Qur’an. Kalajengaken adicara kaping tiga atur pambagyaharja saking Ketua Panitia...\"\nPethikan teks kasebut kagolongake ana ing struktur panatacara perangan...",
     "options": [
       "Salam pambuka lan atur pakurmatan tamu undangan",
@@ -489,6 +535,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Wasana Basa Panatacara",
     "indicator": "Menentukan kalimat panyuwunan pangapunten sajroning wasana basa panatacara.",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Ukara ing ngisor iki kang trep digunakake dening panatacara ing perangan WASANA BASA (Panutup) yaiku...",
     "options": [
       "Atur puji syukur konjuk wonten ngarsanipun Gusti Allah Ingkang Maha Agung",
@@ -511,6 +558,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Kaprigelan 4W: Wicara",
     "indicator": "Menjelaskan aspek Wicara sajroning kaprigelan panatacara.",
     "level": "L1 / C2",
+    "type": "single",
     "question": "Panatacara kang becik kudu nguwasani kaprigelan \"4W\" (Wicara, Wirama, Wirasa, Wiraga). Aspek WICARA tegese yaiku...",
     "options": [
       "Solah bawa, busana, lan patrap trapsila nalika ngadeg ing ngarepe para rawuh",
@@ -533,6 +581,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Kaprigelan 4W: Wirama",
     "indicator": "Menjelaskan aspek Wirama (lagu pocapan / intonasi).",
     "level": "L1 / C2",
+    "type": "single",
     "question": "Nalika panatacara ngaturake adicara, swarane kudu ditata dhuwur-cendheke, banter-lirihe, sarta pedhotan ukara (jeda) kang pas, ora kecepeten lan ora nglentrih. Babagan iki ana gandheng cenenge karo kaprigelan...",
     "options": [
       "Wirasaba",
@@ -555,6 +604,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Kaprigelan 4W: Wirasa ing Acara Kasripahan",
     "indicator": "Menganalisis penerapan Wirasa nalika dados panatacara adicara layatan (duka cita).",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Nalika kajibah dadi panatacara ing adicara KASRIPAHAN (layatan / duka cita ana wong tilar donya), penerapan kaprigelan WIRASA kang trep yaiku...",
     "options": [
       "Ngetrapake swara arum, luruh, trenyuh, lan ngurmati kulawarga kang nembe nandhang duka",
@@ -577,7 +627,8 @@ export const JAWA_QUESTIONS = [
     "topic": "Kaprigelan 4W: Wiraga (Trapsila)",
     "indicator": "Menentukan sikap solah bawa (wiraga) yang tidak pantas bagi panatacara.",
     "level": "L2 / C3",
-    "question": "Ing ngisor iki minangka patrap solah bawa (wiraga) kang ORA PRAYOGA (ora becik) ditindakake dening panatacara nalika jumeneng ing sangarepe para rawuh yaiku...",
+    "type": "complex",
+    "question": "Ing ngisor iki minangka patrap solah bawa (wiraga) kang ORA PRAYOGA (ora becik) ditindakake dening panatacara nalika jumeneng ing sangarepe para rawuh yaiku\n\n(Pilih kabeh wangsulan kang bener)",
     "options": [
       "Ngadeg jejeg mawa patrap ngapurancang (tangan kiwa katumpuk ing ndhuwur tangan tengen ing sangisore puser)",
       "Kukur-kukur sirah, ngupil, dolanan ponsel, lan tangane mlebu ing sak kathok",
@@ -585,9 +636,13 @@ export const JAWA_QUESTIONS = [
       "Nganggo busana beskap jangkep kang resik lan rapi",
       "Jangkahing suku tumata ora kesusu"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": [
+      0,
+      2,
+      4
+    ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku Kukur-kukur sirah, ngupil, dolanan ponsel, lan tangan ing sak kathok.",
+      "summary": "Wangsulan kang bener yaiku A, C, E.",
       "concept": "Subasita Wiraga Panatacara: Panatacara minangka punjering kawigaten (pusat perhatian). Kudu ngedohi patrap konyol (kukur-kukur, tangan mlebu kanthong, nyekel HP) amarga ngina pakurmatan forum.",
       "analysis": "Patrap ing pilihan C ngilangi kawibawane panatacara.",
       "whyWrong": "Pilihan A, B, D, lan E mujudake patrap trapsila wiraga kang luhur."
@@ -599,6 +654,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Basa Rinengga: Parikan",
     "indicator": "Mengidentifikasi parikan Jawa sajroning sesorah panatacara.",
     "level": "L1 / C2",
+    "type": "single",
     "question": "Gatekna unine parikan (pantun Jawa) ing ngisor iki!\n\"Wajik kletik gula Jawa,\nluwih becik sing prasaja.\"\nPurwakanthi swara pungkasan ing gatra kapisan (Jawa) lan gatra kapindho (prasaja) nuduhake titikan parikan kang runtut yaiku...",
     "options": [
       "Ora nduweni isi babar pisan",
@@ -621,6 +677,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Basa Rinengga: Wangsalan",
     "indicator": "Menentukan batangan (jawaban) wangsalan Jawa.",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Wacanen wangsalan Jawa iki:\n\"Jenang sela, wader kalen sesonderan. Nyuwun ngapunten menawi wonten lepat kawula.\"\nBatangan (tebusan/teka-teki) saka tembung \"Jenang sela\" yaiku...",
     "options": [
       "Gula jawa klapa lan iwak bandeng tambak",
@@ -643,6 +700,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Pangucap Fonem Basa Jawa",
     "indicator": "Mbedakake pangucap fonem da-dha lan ta-tha sajroning panatacara.",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Sajroning fonologi basa Jawa, panatacara kudu wasis mbedakake pangucap aksara dental (untu) lan retrofleks (ilat melengkung minggah). Pasangan tembung ing ngisor iki kang mbedakake tembung denta (d) lan tembung murda/retrofleks (dh) klawan beda tegese yaiku...",
     "options": [
       "\"Dhadha\" (dada awak) lan \"Dada\" (pamit perpisahan)",
@@ -665,6 +723,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Sandhangan Swara Aksara Jawa",
     "indicator": "Mengenal sandhangan swara wulu, suku, taling, pepet, lan taling tarung.",
     "level": "L1 / C2",
+    "type": "single",
     "question": "Sandhangan swara sajroning Aksara Jawa kang migunani kanggo ngowahi swara vokal dadi unine \"/u/\" (tuladhane nulis tembung \"buku\") diarani sandhangan...",
     "options": [
       "Suku (kanggo swara /u/)",
@@ -687,6 +746,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Sandhangan Panyigeg Wanda",
     "indicator": "Mengidentifikasi sandhangan sigeg wignyan, layar, cecak, lan pangkon.",
     "level": "L1 / C2",
+    "type": "single",
     "question": "Sandhangan panyigeg wanda (konsonan mati) kang digunakake kanggo mateni swara konsonan \"/r/\" (tuladhane nulis tembung \"pasar\" utawa \"Jepara\") diarani...",
     "options": [
       "Wignyan (sigeg /h/)",
@@ -709,6 +769,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Angka Jawa",
     "indicator": "Menentukan penulisan Angka Jawa yang diapit tanda pada pangkat (: ... :).",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Nalika nulis Angka Jawa sajroning ukara aksara Jawa, angka kasebut wajib kaapit dening tandha baca...",
     "options": [
       "Tandha Kurung ( ... )",
@@ -731,6 +792,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Aksara Murda",
     "indicator": "Menjelaskan fungsi aksara Murda sajroning tata tulis Aksara Jawa.",
     "level": "L1 / C2",
+    "type": "single",
     "question": "Aksara Murda sajroning tata tulis Aksara Jawa nduweni piguna kang memper klawan aksara kapital (huruf besar) ing ejaan Latin. Aksara Murda mligi digunakake kanggo nulis...",
     "options": [
       "Nulis tembung-tembung serapan manca saka basa Walanda lan Inggris",
@@ -753,6 +815,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Aksara Rekan",
     "indicator": "Mengidentifikasi aksara Rekan kanggo nulis tembung serapan manca (Arab).",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Aksara Jawa Rekan digunakake kanggo nulis tembung-tembung serapan saka basa manca, mligine saka basa Arab (tuladha: huruf kha, f/va, dza, za, gha). Ciri fisik aksara Rekan katengeri kanthi anane...",
     "options": [
       "Nulis tembung basa Jawa kuna warisan jaman Majapahit",
@@ -775,6 +838,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Unggah-Ungguh Basa: Krama Alus",
     "indicator": "Menganalisis kalimat krama alus (inggil) kang trep nalika murid matur marang bapak/ibu guru.",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Nalika sawijining murid SMK kelas XII arep takon marang Bapak Guru ngenani tugas Praktik Kerja Lapangan (PKL), ukara unggah-ungguh basa kang PALING TREP miturut tatakrama Krama Alus yaiku...",
     "options": [
       "\"Pak Guru, kula badhe nyuwun pirsa babagan laporan PKL menika.\"",
@@ -797,6 +861,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Panganggone Tembung Krama Inggil",
     "indicator": "Mbedakake tembung krama inggil kanggo wong liya lan tembung krama andhap kanggo awake dhewe.",
     "level": "L3 / C4",
+    "type": "single",
     "question": "Wacanen ukara iki: \"Bapak Kepala Sekolah nembe kemawon [ . . . ], dene kula ugi nembe kemawon [ . . . ] wonten ruang kelas.\"\nPasangan tembung krama kang bener kanggo ngisi cecek-cecek kasebut miturut trapsila basa Jawa (wong liya dikurmati, awake dhewe ngasorake dhiri) yaiku...",
     "options": [
       "Rawuh (kanggo bapak kepala) – Rawuh (kanggo awake dhewe)",
@@ -819,7 +884,8 @@ export const JAWA_QUESTIONS = [
     "topic": "Unggah-Ungguh Basa: Ngoko Alus",
     "indicator": "Mengenal ciri dan penggunaan ragam basa Ngoko Alus antarane kanca akrab kang padha ngurmati.",
     "level": "L2 / C3",
-    "question": "Ragam basa Jawa \"Ngoko Alus\" lumrahe digunakake sajroning pasrawungan nalika...",
+    "type": "complex",
+    "question": "Ragam basa Jawa \"Ngoko Alus\" lumrahe digunakake sajroning pasrawungan nalika\n\n(Pilih kabeh wangsulan kang bener)",
     "options": [
       "Tembung-tembunge kabeh nggunakake krama alus inggil tanpa kecampuran tembung ngoko babar pisan",
       "Tembung kabeh arupa ngoko lugu tanpa ana rasa kurmat marang wong sing diajak guneman",
@@ -827,9 +893,13 @@ export const JAWA_QUESTIONS = [
       "Basane campuran antarane basa Indonesia lan basa Jawa ngoko kanthi intonasi swara cepet",
       "Nggunakake basa kawi kuna kanthi tembung rinengga purwakanthi guru swara lan guru sastra"
     ],
-    "correctAnswer": 2,
+    "correctAnswer": [
+      1,
+      2,
+      4
+    ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku Wong kang wis akrab memitran nanging padha-padha ngajeni.",
+      "summary": "Wangsulan kang bener yaiku B, C, E.",
       "concept": "Ngoko Alus: Basa ngoko kang kacampuran tembung krama inggil mirunggan tumrap paraga kapindho (panjenengan, tindak, dhahar) kanggo ngurmati wong kang diajak guneman, ananging tetep nganggo ater-ater lan panambang ngoko (di-, -ake, -e) amarga wis raket sesrawungane.",
       "analysis": "Ngoko alus ngraketake pasrawungan tanpa ngilangi rasa urmat.",
       "whyWrong": "A ngoko lugu; B ngoko kasar; D krama alus resmi; E krama resmi peradilan."
@@ -841,6 +911,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Transliterasi Aksara Jawa",
     "indicator": "Maca wacan ukara prasaja Aksara Jawa.",
     "level": "L2 / C3",
+    "type": "single",
     "question": "Wacanen transliterasi aksara Jawa saka tembung iki: \"SMK N 3 Jepara kutha ukir\".\nManawa tembung \"ukir\" katulis sajroning Aksara Jawa, sandhangan kang dibutuhake yaiku...",
     "options": [
       "Aksara carakan \"ra\" dipangkon ing ngarep",
@@ -863,6 +934,7 @@ export const JAWA_QUESTIONS = [
     "topic": "Amanat Nguri-Uri Budaya Jawa",
     "indicator": "Menyimpulkan peran siswa SMK dalam pelestarian seni budaya tradisional Jawa.",
     "level": "L3 / C4",
+    "type": "single",
     "question": "Minangka generasi mudha siswa SMK ing tlatah Jepara, cara kang paling nyata lan migunani kanggo nguri-uri (melestarikan) sarta ngrembakake kabudayan Jawa ing jaman modheren yaiku...",
     "options": [
       "Nyalahake generasi mudha amarga luwih seneng nonton film animasi manca negara ing bioskop",

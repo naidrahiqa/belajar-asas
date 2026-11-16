@@ -5,6 +5,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Tradisi Bangsa Indonesia",
     "indicator": "Murid dapat mengidentifikasi asal-usul tradisi gotong royong bangsa Indonesia.",
     "level": "C1 / Pemahaman",
+    "type": "single",
     "question": "Tradisi tolong-menolong dan kerja bersama tanpa pamrih telah mengakar kuat dalam peradaban masyarakat nusantara jauh sebelum kemerdekaan Indonesia. Istilah kearifan lokal tolong-menolong mendirikan rumah warga atau mengolah sawah secara sukarela di tanah Jawa dikenal dengan sebutan...",
     "options": [
       "Sambatan atau Gugur Gunung",
@@ -27,6 +28,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Tradisi Bangsa Indonesia",
     "indicator": "Mengidentifikasi kearifan gotong royong di berbagai daerah kepulauan Indonesia.",
     "level": "C1 / Pemahaman",
+    "type": "single",
     "question": "Di wilayah Minahasa, Sulawesi Utara, masyarakat memiliki kearifan lokal gotong royong kelompok kerja tani dan pembangunan desa yang dilandasi falsafah 'Si Tou Timou Tumou Tou' (manusia hidup untuk memanusiakan manusia lain). Tradisi gotong royong tersebut dinamakan...",
     "options": [
       "Subak irigasi Bali",
@@ -49,6 +51,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Tradisi Gotong Royong",
     "indicator": "Murid dapat mengidentifikasi nilai filosofis tradisi gotong royong.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Dalam pidato 1 Juni 1945, Ir. Soekarno menyatakan bahwa jika kelima sila Pancasila diperas menjadi satu istilah dasar (ekasila), maka istilah tersebut adalah 'Gotong Royong'. Makna filosofis gotong royong sebagai intisari kepribadian bangsa Indonesia adalah...",
     "options": [
       "Semangat individualistis yang menomorsatukan kepemilikan modal serta akumulasi laba pribadi",
@@ -71,6 +74,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Tradisi Gotong Royong Modern",
     "indicator": "Murid dapat menganalisis transformasi gotong royong di era digital.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Di era transformasi digital saat ini, praktik gotong royong bangsa Indonesia mengalami modernisasi bentuk. Salah satu wujud konkret gotong royong digital yang dilakukan generasi muda secara inklusif dan bertanggung jawab adalah...",
     "options": [
       "Melakukan kampanye boikot produk di internet berdasarkan prasangka rasial dan sentimen kedaerahan",
@@ -93,6 +97,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Penerapan Sila ke-4 Pancasila",
     "indicator": "Murid dapat menganalisis penerapan nilai Pancasila sila ke-4.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Dalam pemilihan ketua Organisasi Siswa Intra Sekolah (OSIS) di SMK, panitia mengedepankan debat visi-misi terbuka, ruang dialog santun, dan pemungutan suara yang jujur. Ketika calon yang didukung oleh kelompok tertentu kalah dalam penghitungan suara sah, sikap yang paling mencerminkan pengamalan Sila ke-4 Pancasila adalah...",
     "options": [
       "Menuntut diadakannya pemungutan suara ulang segera karena selisih suara dianggap tidak mencerminkan mayoritas",
@@ -115,6 +120,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Penerapan Sila ke-5 Pancasila",
     "indicator": "Murid dapat menganalisis penerapan nilai Pancasila sila ke-5.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Seorang pimpinan bengkel kejuruan SMK bertugas mendistribusikan alat keselamatan kerja (APD) dan bahan praktik berupa logam tembaga bernilai tinggi kepada 30 siswa yang terbagi dalam 6 kelompok kerja. Sikap pimpinan bengkel yang paling mencerminkan pengamalan Sila ke-5 Pancasila adalah...",
     "options": [
       "Membagikan bahan praktik dan APD secara proporsional sesuai standar teknis tanpa diskriminasi latar belakang",
@@ -137,6 +143,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Penerapan Sila ke-1 Pancasila",
     "indicator": "Murid dapat menganalisis penerapan nilai Pancasila sila ke-1.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Di lingkungan industri manufaktur dengan jadwal kerja shift berputar, seorang teknisi muslim meminta izin jeda 15 menit untuk menunaikan ibadah salat fardu pada waktu yang ditentukan. Sikap supervisor non-muslim yang paling selaras dengan pengamalan Sila ke-1 Pancasila adalah...",
     "options": [
       "Menolak izin ibadah secara mutlak karena lini perakitan pabrik tidak boleh berhenti barang sedetik pun",
@@ -159,6 +166,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Penerapan Sila ke-2 dan ke-3",
     "indicator": "Murid dapat menganalisis perpaduan penerapan nilai Sila ke-2 dan ke-3.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Ketika terjadi bencana gempa bumi yang melanda sebuah daerah di pulau terluar nusantara, para siswa SMK dari berbagai latar belakang suku, etnis, dan agama di Jawa Tengah menggalang bantuan logistik, mendirikan posko trauma healing, dan mengirim relawan medis ke lokasi. Tindakan ini mencerminkan perpaduan nilai sila...",
     "options": [
       "Sila ke-1 (Ketuhanan Yang Maha Esa) dan Sila ke-4 (Kerakyatan yang Dipimpin oleh Hikmat Kebijaksanaan)",
@@ -181,6 +189,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Penerapan Sila ke-3 Pancasila",
     "indicator": "Murid dapat menganalisis penerapan nilai Pancasila sila ke-3 dalam menjaga keutuhan bangsa.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Di tengah maraknya konten media sosial yang mengadu domba antarkelompok masyarakat dengan isu SARA (Suku, Agama, Ras, dan Antargolongan) menjelang pemilu, peran aktif seorang pelajar SMK dalam mempertahankan pengamalan Sila ke-3 Pancasila adalah...",
     "options": [
       "Ikut membagikan narasi provokatif di grup sekolah asalkan berasal dari tokoh yang satu suku dengannya",
@@ -203,6 +212,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Penerapan Sila ke-4 Pancasila",
     "indicator": "Murid dapat menganalisis musyawarah mufakat di lingkungan bengkel/kerja.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Dalam penentuan jadwal piket perawatan preventif mesin bubut dan pembersihan bengkel kejuruan, terjadi silang pendapat sengit antara kelompok siswa yang bertempat tinggal jauh dengan kelompok siswa yang bertempat tinggal dekat. Pendekatan Sila ke-4 yang paling tepat diterapkan adalah...",
     "options": [
       "Ketua bengkel memutuskan secara sepihak jadwal piket tanpa mendengarkan alasan siswa yang rumahnya jauh",
@@ -225,6 +235,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Penerapan Sila ke-2 Pancasila",
     "indicator": "Murid dapat menganalisis penerapan nilai kemanusiaan anti-perundungan.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Di sebuah asrama sekolah kejuruan, sekelompok siswa senior melakukan tradisi 'plonco' fisik dan verbal kepada siswa junior dengan alasan pengakraban mental bengkel. Mengapa praktik perundungan (bullying) semacam ini bertentangan secara mendasar dengan Sila ke-2 Pancasila?",
     "options": [
       "Karena merendahkan harkat dan martabat manusia serta melanggar hak atas rasa aman dan perlindungan",
@@ -247,6 +258,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Penerapan Sila ke-1 Pancasila",
     "indicator": "Murid dapat menganalisis sikap tidak memaksakan agama.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Butir pengamalan Sila pertama Pancasila menegaskan prinsip 'Tidak memaksakan suatu agama dan kepercayaan terhadap Tuhan Yang Maha Esa kepada orang lain'. Landasan konstitusional yang menjamin kebebasan memilih dan memeluk agama di Indonesia diatur dalam UUD NRI 1945...",
     "options": [
       "Pasal 27 ayat (1)",
@@ -269,6 +281,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Penerapan Sila ke-5 Pancasila",
     "indicator": "Murid dapat menganalisis perilaku hidup hemat dan menolak gaya hidup mewah.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Setelah menerima honor uang saku dari program magang industri (PKL), seorang siswa SMK memutuskan untuk menabung sebagian besar uangnya guna membeli laptop perkakas CAD, menyisihkan untuk membantu orang tua, dan menolak ajakan teman untuk berfoya-foya membeli barang branded demi pamer di media sosial. Perilaku siswa ini mencerminkan butir pengamalan Pancasila, khususnya...",
     "options": [
       "Sila ke-1: Mengembangkan sikap saling menghormati kebebasan menjalankan ibadah",
@@ -291,6 +304,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Penerapan Sila ke-1 Pancasila",
     "indicator": "Murid dapat menganalisis dimensi religiusitas dalam etika profesi kerja.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Seorang teknisi uji emisi kendaraan bermotor ditawari uang pelicin sebesar Rp 5.000.000,00 oleh pemilik armada truk ekspedisi agar meloloskan puluhan truk tua yang mengeluarkan asap hitam pekat melebihi ambang batas racun gas buang. Teknisi tersebut menolak dengan tegas karena ia meyakini bahwa pekerjaannya diawasi oleh Tuhan dan mencelakai pernapasan ribuan orang adalah dosa besar. Sikap teknisi tersebut menunjukkan penghayatan Sila ke-1 Pancasila yang berfungsi sebagai...",
     "options": [
       "Instrumen pembenaran untuk meminta uang suap dalam jumlah yang jauh lebih besar lagi",
@@ -313,6 +327,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Permasalahan Nilai Pancasila & Solusinya",
     "indicator": "Murid dapat menganalisis kasus intoleransi dan merumuskan solusinya.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Di sebuah kawasan permukiman industri, terjadi penolakan sepihak oleh sekelompok warga terhadap pembangunan tempat ibadah salah satu kelompok minoritas yang telah memenuhi seluruh syarat perizinan administratif resmi (Forum Kerukunan Umat Beragama / FKUB). Solusi berlandaskan nilai-nilai Pancasila yang paling tepat adalah...",
     "options": [
       "Membiarkan kelompok minoritas tersebut beribadah secara sembunyi-sembunyi di hutan terpencil",
@@ -335,6 +350,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Permasalahan Kesenjangan Sosial & Solusinya",
     "indicator": "Menganalisis disparitas ekonomi dan solusi keadilan sosial.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Di sekitar kawasan industri modern yang megah, masih banyak perkampungan nelayan dan petani lokal yang hidup dalam kondisi prasejahtera tanpa akses air bersih dan sanitasi layak. Berdasarkan Sila ke-5 Pancasila, kebijakan kemitraan industri yang paling tepat untuk memutus rantai kesenjangan tersebut adalah...",
     "options": [
       "Program Corporate Social Responsibility (CSR) berkelanjutan, pelatihan vokasi, dan serapan tenaga kerja lokal",
@@ -357,6 +373,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Permasalahan Polarisasi & Solusinya",
     "indicator": "Menganalisis bahaya politik polarisasi terhadap keutuhan NKRI.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Politik identitas yang mengeksploitasi sentimen kebencian SARA demi memenangkan kontestasi kekuasaan politik berpotensi membelah masyarakat ke dalam polarisasi ekstrem (segregasi sosial). Bahaya paling laten dari fenomena polarisasi politik ini terhadap eksistensi NKRI adalah...",
     "options": [
       "Turunnya harga tiket bioskop dan pusat hiburan keluarga di seluruh kota besar di Indonesia",
@@ -379,6 +396,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Konsep Hak Warga Negara",
     "indicator": "Murid dapat mengidentifikasi konsep hak warga negara.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Hak asasi manusia (HAM) berlaku bagi setiap individu sejak lahir tanpa memandang kewarganegaraan, sedangkan Hak Warga Negara memiliki batasan yuridis khusus. Pengertian hak warga negara yang tepat adalah...",
     "options": [
       "Hak mutlak tanpa batas yang boleh digunakan untuk melanggar ketertiban umum kapan pun diinginkan",
@@ -401,6 +419,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Landasan Hukum Hak & Kewajiban",
     "indicator": "Murid dapat menentukan landasan hukum hak dan kewajiban warga negara dalam UUD NRI 1945.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Pasal 27 ayat (2) Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 berbunyi: 'Tiap-tiap warga negara berhak atas pekerjaan dan penghidupan yang layak bagi kemanusiaan'. Implementasi konkret dari pasal ini bagi lulusan SMK di Indonesia adalah...",
     "options": [
       "Kewajiban setiap lulusan SMK untuk mengikuti pelatihan militer wajib selama lima tahun berturut-turut",
@@ -423,6 +442,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Kasus Pelanggaran Hak Warga Negara",
     "indicator": "Murid dapat menganalisis kasus pelanggaran hak pendidikan.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Sebuah sekolah negeri menolak pendaftaran seorang anak berprestasi dari keluarga prasejahtera dengan alasan anak tersebut tidak mampu membayar 'uang gedung' sukarela sebesar Rp 10.000.000,00 yang ditetapkan komite. Tindakan pihak sekolah ini merupakan bentuk pelanggaran terhadap hak konstitusional warga negara, khususnya...",
     "options": [
       "Pasal 28H ayat (1) UUD NRI 1945 tentang hak atas lingkungan hidup yang sehat dan lestari",
@@ -445,6 +465,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Kasus Pelanggaran Hak Warga Negara",
     "indicator": "Murid dapat menganalisis kasus upah di bawah standar hidup layak.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Sebuah perusahaan garmen mempekerjakan buruh wanita selama 14 jam sehari tanpa uang lembur dan membayarkan upah hanya 50% dari Upah Minimum Kabupaten (UMK) yang berlaku secara sah. Ketika buruh mengajukan keluhan, pihak manajemen mengancam akan memecat mereka tanpa pesangon. Bentuk pelanggaran hak yang terjadi pada kasus ini adalah...",
     "options": [
       "Pelanggaran hak atas pekerjaan dan penghidupan yang layak serta perlindungan upah yang adil (Pasal 28D ayat 2)",
@@ -467,6 +488,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Kasus Pelanggaran Hak Warga Negara",
     "indicator": "Murid dapat menganalisis kasus diskriminasi hukum.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Pepatah hukum menyatakan 'Hukum di Indonesia seperti pisau: tajam ke bawah, tumpul ke atas'. Ungkapan kritik sosial ini menggambarkan fenomena pelanggaran hak warga negara, di mana rakyat kecil yang melakukan pencurian kecil dihukum maksimal secara kilat, sementara koruptor triliunan rupiah diperlakukan istimewa dan divonis ringan. Asas hukum konstitusional yang dilanggar dalam fenomena ini adalah...",
     "options": [
       "Asas praduga bersalah secara sepihak sebelum diadili di depan persidangan militer",
@@ -489,6 +511,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Ketentuan Hak Asasi Manusia UUD 1945",
     "indicator": "Murid dapat menganalisis hak menyatakan pendapat dan kebebasan berekspresi.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Pasal 28E ayat (3) UUD NRI 1945 menjamin: 'Setiap orang berhak atas kebebasan berserikat, berkumpul, dan mengeluarkan pendapat'. Namun demikian, pelaksanaan hak berekspresi di ruang publik atau media sosial tetap memiliki batasan yang sah menurut hukum, yaitu...",
     "options": [
       "Dilarang mengkritisi kebijakan pemerintah meskipun kritik tersebut disampaikan dengan data ilmiah yang valid",
@@ -511,6 +534,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Kewajiban Bela Negara",
     "indicator": "Murid dapat menganalisis ketentuan UUD NRI 1945 tentang hak dan kewajiban membela negara.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Ketentuan Pasal 27 ayat (3) UUD NRI 1945 menyatakan bahwa: 'Setiap warga negara berhak dan wajib ikut serta dalam upaya pembelaan negara'. Bentuk wujud nyata partisipasi pembelaan negara yang paling tepat dan relevan dilakukan oleh seorang siswa SMK adalah...",
     "options": [
       "Membeli senjata api laras panjang secara ilegal untuk berburu satwa liar langka di kawasan hutan lindung",
@@ -533,6 +557,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Ketentuan Sistem Pertahanan & Keamanan",
     "indicator": "Murid dapat menganalisis sistem pertahanan dan keamanan rakyat semesta (Sishankamrata).",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Berdasarkan Pasal 30 ayat (2) UUD NRI 1945, usaha pertahanan dan keamanan negara Republik Indonesia dilaksanakan melalui Sistem Pertahanan dan Keamanan Rakyat Semesta (Sishankamrata). Dalam sistem ini, kedudukan Tentara Nasional Indonesia (TNI) dan Kepolisian Negara Republik Indonesia (Polri) adalah sebagai...",
     "options": [
       "Kekuatan cadangan yang hanya diterjunkan jika masyarakat sipil gagal mengatasi kerusuhan",
@@ -555,6 +580,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Kewajiban Membayar Pajak",
     "indicator": "Murid dapat menganalisis ketentuan Pasal 23A UUD NRI 1945.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Pasal 23A UUD NRI 1945 menyatakan bahwa: 'Pajak dan pungutan lain yang bersifat memaksa untuk keperluan negara diatur dengan undang-undang'. Mengapa kewajiban membayar pajak merupakan kewajiban warga negara yang sangat krusial bagi kelangsungan pembangunan nasional?",
     "options": [
       "Karena pajak menjadi sumber utama penerimaan APBN untuk membiayai fasilitas publik, subsidi, dan pendidikan",
@@ -577,6 +603,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Kasus Pengingkaran Kewajiban Pajak",
     "indicator": "Murid dapat menganalisis dampak pengingkaran kewajiban perpajakan.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Sebuah perusahaan manufaktur berskala besar melakukan rekayasa laporan keuangan (tax evasion) dengan menyembunyikan laba bersih sebesar Rp 80 miliar guna menghindari pembayaran Pajak Penghasilan (PPh) badan. Dampak sosiologis dan ekonomis paling buruk dari tindakan pengingkaran kewajiban warga negara ini adalah...",
     "options": [
       "Harga bahan bakar minyak (BBM) di seluruh stasiun pengisian bahan bakar umum otomatis menjadi gratis",
@@ -599,6 +626,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Kasus Pengingkaran Kewajiban Lingkungan",
     "indicator": "Menganalisis kasus perusakan fasilitas umum dan vandalisme.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Sekelompok remaja mencorat-coret halte bus antarmoda umum yang baru selesai dibangun pemerintah dan merusak lampu penerangan jalan dengan batu. Ditinjau dari konsep hak dan kewajiban warga negara, tindakan vandalisme tersebut merupakan...",
     "options": [
       "Bentuk penyaluran bakat seni lukis jalanan yang wajib diapresiasi dan didanai oleh dinas kebudayaan",
@@ -621,6 +649,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Keseimbangan Hak dan Kewajiban",
     "indicator": "Murid dapat menganalisis prinsip keseimbangan antara hak dan kewajiban.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Seorang pekerja menuntut kenaikan upah dua kali lipat, jaminan asuransi kesehatan kelas satu, dan hak libur tambahan, namun pada saat yang sama ia sering membolos tanpa keterangan, menolak mematuhi Standar Operasional Prosedur (SOP), dan merusak mesin kerja karena lalai. Berdasarkan prinsip hukum ketatanegaraan, kondisi ini mencerminkan...",
     "options": [
       "Penerapan asas demokrasi Pancasila yang paling murni dan patut dicontoh oleh pekerja lain di pabrik",
@@ -643,6 +672,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Pemberdayaan Kaum Prasejahtera (Pasal 34)",
     "indicator": "Murid dapat menganalisis ketentuan Pasal 34 ayat (1) UUD NRI 1945.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Pasal 34 ayat (1) UUD NRI 1945 menyatakan: 'Fakir miskin dan anak-anak terlantar dipelihara oleh negara'. Makna substantif dari kata 'dipelihara oleh negara' dalam konteks negara kesejahteraan (welfare state) modern adalah...",
     "options": [
       "Negara mengurung seluruh kaum fakir miskin di dalam penjara terpencil agar tidak berkeliaran di jalanan kota",
@@ -665,6 +695,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Solusi Penyelesaian Pelanggaran Hak",
     "indicator": "Murid dapat menganalisis pendekatan preventif dan represif aparat penegak hukum.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Untuk menekan angka tawuran antarpelajar dan aksi geng motor bersenjata tajam yang merenggut hak rasa aman warga, kepolisian bersama pihak sekolah melakukan sosialisasi hukum berkala, patroli siber malam hari, serta penindakan pidana tegas bagi pelaku yang membawa senjata tajam. Kombinasi langkah ini merupakan perpaduan antara pendekatan...",
     "options": [
       "Preventif (pencegahan dini melalui edukasi dan patroli) serta Represif (penindakan hukum tegas bagi pelanggar)",
@@ -687,6 +718,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Lembaga Penegak Hak Asasi Manusia",
     "indicator": "Mengidentifikasi peran Komnas HAM dalam perlindungan hak warga negara.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Komisi Nasional Hak Asasi Manusia (Komnas HAM) dibentuk dengan tujuan mengembangkan kondisi yang kondusif bagi pelaksanaan HAM di Indonesia. Fungsi utama yang dijalankan oleh Komnas HAM menurut Undang-Undang No. 39 Tahun 1999 meliputi fungsi...",
     "options": [
       "Penghakiman, penjatuhan vonis hukuman penjara, eksekusi mati narapidana, dan penyitaan aset kekayaan koruptor",
@@ -709,6 +741,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Kepatuhan Hukum Lalu Lintas",
     "indicator": "Murid dapat menganalisis kasus tertib berlalu lintas sebagai cerminan budaya hukum.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Seorang pengendara motor nekat menerobos lampu merah di perempatan jalan raya pada malam hari dengan alasan jalanan terlihat sepi dan terburu-buru pulang. Tindakan pengendara ini mengakibatkan kecelakaan fatal yang menabrak pengendara lain yang sedang melintas sesuai lampu hijau. Analisis yuridis dan etika terhadap pengendara tersebut adalah...",
     "options": [
       "Tindakan pengendara dapat dibenarkan karena jalanan malam hari tidak dijaga oleh aparat polisi lalu lintas",
@@ -731,6 +764,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Kewajiban Menghormati Tradisi & Kearifan Lokal",
     "indicator": "Murid dapat menganalisis sikap toleran terhadap kearifan lokal daerah.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Saat berkunjung ke Bali, seorang wisatawan asal luar pulau bersikeras memasuki area suci pura dengan mengenakan celana pendek dan menginjak sesajen canang sari yang diletakkan di pintu masuk, padahal telah ada papan peringatan tertulis dalam berbagai bahasa. Sikap wisatawan tersebut merupakan bentuk...",
     "options": [
       "Pelaksanaan hak asasi berbusana bebas yang wajib dihormati oleh seluruh masyarakat adat setempat",
@@ -753,6 +787,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Peran Mahkamah Konstitusi",
     "indicator": "Murid dapat menentukan fungsi lembaga peradilan penguji undang-undang.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Jika Dewan Perwakilan Rakyat (DPR) bersama Presiden mengesahkan sebuah Undang-Undang baru yang dinilai oleh kelompok buruh bertentangan dengan UUD NRI 1945 karena menghapus cuti melahirkan dan menurunkan upah minimum, lembaga peradilan manakah yang berwenang menguji undang-undang tersebut terhadap UUD (Judicial Review)?",
     "options": [
       "Mahkamah Agung (MA)",
@@ -775,6 +810,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Kewajiban Bela Negara di Era Siber",
     "indicator": "Menganalisis peran siswa SMK dalam menjaga keamanan ruang siber nasional.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Siswa jurusan Teknik Komputer dan Jaringan (TKJ) SMK menemukan adanya kerentanan keamanan (vulnerability bug) pada sistem pangkalan data kependudukan dinas pemerintah daerah yang berpotensi dimanfaatkan oleh peretas internasional untuk mencuri data pribadi jutaan warga. Tindakan bela negara siber yang paling beretika dan patriotik adalah...",
     "options": [
       "Melaporkan kerentanan secara etis dan bertanggung jawab kepada tim pengelola IT dinas terkait (Responsible Disclosure)",
@@ -797,6 +833,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Anti-Korupsi sebagai Pengamalan Nilai Pancasila",
     "indicator": "Menganalisis bahaya laten korupsi terhadap sendi kehidupan bangsa.",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Korupsi dikategorikan sebagai kejahatan luar biasa (Extraordinary Crime) karena dampaknya merusak seluruh sendi kehidupan berbangsa. Mengapa praktik korupsi dana pembangunan jembatan atau fasilitas pendidikan merupakan pengkhianatan mutlak terhadap seluruh sila dalam Pancasila?",
     "options": [
       "Karena korupsi hanya melanggar sila kelima saja, sedangkan empat sila lainnya sama sekali tidak dirugikan",
@@ -819,6 +856,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Karakter Pelajar Pancasila",
     "indicator": "Menganalisis 6 dimensi Profil Pelajar Pancasila dalam Kurikulum Merdeka.",
     "level": "C2 / Pemahaman",
+    "type": "single",
     "question": "Dalam Kurikulum Merdeka, Kementerian Pendidikan menetapkan 6 dimensi utama Profil Pelajar Pancasila yang wajib ditumbuhkembangkan pada siswa SMK. Keenam dimensi karakter tersebut adalah...",
     "options": [
       "Otoriter, Individualistis, Materialistis, Apatis, Pasif, dan Eksklusif",
@@ -841,6 +879,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Kewajiban Menjaga Kelestarian Lingkungan Hidup",
     "indicator": "Menganalisis hak atas lingkungan hidup yang baik dan sehat (Pasal 28H ayat 1).",
     "level": "C4 / Analisis",
+    "type": "single",
     "question": "Pasal 28H ayat (1) UUD NRI 1945 menegaskan: 'Setiap orang berhak hidup sejahtera lahir dan batin, bertempat tinggal, dan mendapatkan lingkungan hidup yang baik dan sehat...'. Jika sebuah pabrik pemrosesan mebel membuang limbah thinner dan zat pernis beracun langsung ke sungai warga tanpa melalui Instalasi Pengolahan Air Limbah (IPAL), kewajiban hukum yang diingkari oleh pihak pabrik adalah...",
     "options": [
       "Kewajiban untuk membagikan seluruh produk mebel secara gratis kepada warga sekitar bantaran sungai",
@@ -863,6 +902,7 @@ export const PANCASILA_QUESTIONS = [
     "topic": "Komitmen Menjaga NKRI",
     "indicator": "Murid dapat merumuskan komitmen menjaga persatuan dan kesatuan bangsa.",
     "level": "C3 / Penerapan",
+    "type": "single",
     "question": "Sebagai generasi penerus bangsa yang sedang menempuh pendidikan kejuruan di era globalisasi dan kecerdasan buatan, komitmen kebangsaan paling fundamental yang harus dipegang teguh untuk menjaga keutuhan Negara Kesatuan Republik Indonesia (NKRI) adalah...",
     "options": [
       "Menolak seluruh produk teknologi modern dari luar negeri dan mengisolasi diri dari pergaulan peradaban dunia",

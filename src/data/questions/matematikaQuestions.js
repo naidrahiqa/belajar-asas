@@ -5,6 +5,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Permutasi n Objek Berbeda',
     indicator: 'Menentukan banyak susunan jajaran n objek yang berbeda (P(n) = n!).',
     level: 'Mudah / C2',
+    type: 'single',
     question: 'Di sebuah bengkel pemesinan SMK, terdapat 5 panel alat ukur presisi berbeda (Micrometer sekrup, Vernier caliper, Dial indicator, Bevel protractor, dan Height gauge) yang akan disusun berjajar pada satu rak display alat. Banyaknya susunan jajaran panel alat ukur yang dapat dibentuk adalah...',
     options: [
       '24 susunan',
@@ -27,6 +28,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Permutasi Unsur Sama',
     indicator: 'Menentukan banyak susunan kata/kode dari kata yang memuat huruf sama.',
     level: 'Sedang / C3',
+    type: 'single',
     question: 'Sebuah workshop kriya ukir di Jawa Tengah ingin membuat variasi susunan kode ukiran huruf dari kata "JEPARA". Banyaknya susunan kata atau kode berbeda yang dapat dibentuk dari seluruh huruf pembentuk kata tersebut adalah...',
     options: [
       '360 susunan',
@@ -49,6 +51,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Permutasi Siklis',
     indicator: 'Menentukan banyak susunan duduk melingkar n orang ((n - 1)!).',
     level: 'Mudah / C2',
+    type: 'single',
     question: 'Enam orang pengurus bengkel konsorsium kejuruan duduk mengitari meja bundar untuk mendiskusikan jadwal pemeliharaan mesin bubut CNC. Banyaknya cara susunan duduk melingkar keenam orang tersebut adalah...',
     options: [
       '24 cara',
@@ -71,6 +74,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Permutasi Bersyarat Berdampingan',
     indicator: 'Menentukan susunan jajaran objek dengan syarat unsur tertentu harus berdampingan.',
     level: 'Sedang / C3',
+    type: 'single',
     question: 'Lima orang siswa (3 siswa laki-laki dan 2 siswi perempuan) berfoto berjajar dalam satu baris lurus setelah memenangkan lomba inovasi teknologi tepat guna. Jika kedua siswi perempuan disyaratkan harus selalu berdiri berdampingan, banyaknya variasi susunan posisi foto yang mungkin terjadi adalah...',
     options: [
       '24 susunan',
@@ -93,6 +97,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Permutasi Siklis Bersyarat',
     indicator: 'Menentukan susunan duduk melingkar dengan syarat unsur tertentu berdampingan.',
     level: 'Sukar / C4',
+    type: 'single',
     question: 'Tujuh orang tim pengembang software SMK mengadakan rapat koordinasi mengelilingi meja bundar. Di antara mereka terdapat Ketua Tim dan Manajer Proyek yang harus selalu duduk berdampingan agar koordinasi komunikasi teknis tidak terputus. Banyaknya susunan duduk melingkar yang memenuhi syarat tersebut adalah...',
     options: [
       '120 cara',
@@ -115,6 +120,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Konsep Kombinasi C(n,r)',
     indicator: 'Menganalisis perbedaan konsep kombinasi dan permutasi dalam pemilihan delegasi kejuruan.',
     level: 'Sedang / C3',
+    type: 'single',
     question: 'Dari 7 orang teknisi terbaik di bengkel otomotif SMK, akan dipilih 3 orang sebagai satu tim delegasi untuk mewakili sekolah dalam festival uji emisi kendaraan tingkat provinsi. Berapakah banyaknya variasi tim delegasi yang dapat dibentuk?',
     options: [
       '35 variasi',
@@ -137,6 +143,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Sifat-Sifat Kombinasi',
     indicator: 'Menganalisis sifat C(n, r) = C(n, n-r) dan kalkulasi dasar kombinasi.',
     level: 'Mudah / C2',
+    type: 'single',
     question: 'Berdasarkan sifat simetri kombinasi matematika, nilai dari C(10, 8) identik dengan nilai C(10, 2). Nilai numerik hasil perhitungan kombinasi tersebut adalah...',
     options: [
       '90',
@@ -159,6 +166,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Pengambilan Objek Beda Warna',
     indicator: 'Menghitung cara pengambilan beberapa objek berwarna berbeda dari kantong.',
     level: 'Sedang / C3',
+    type: 'single',
     question: 'Di dalam sebuah wadah penyimpanan suku cadang bengkel kelistrikan, terdapat 6 lampu indikator warna merah dan 5 lampu indikator warna hijau. Seorang instruktur praktik mengambil secara acak 2 lampu merah dan 2 lampu hijau sekaligus. Banyak cara pengambilan lampu indikator tersebut adalah...',
     options: [
       '25 cara',
@@ -181,6 +189,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Pemilihan Soal Wajib',
     indicator: 'Menghitung banyak pilihan soal ujian jika beberapa nomor tertentu wajib dikerjakan.',
     level: 'Sedang / C3',
+    type: 'single',
     question: 'Pada asesmen teori kejuruan teknik pendingin, siswa diwajibkan menjawab 8 soal dari 10 soal uraian yang disediakan penguji. Jika soal nomor 1, 2, dan 3 adalah soal materi K3 yang wajib dikerjakan oleh seluruh siswa, banyaknya variasi pilihan komposisi soal yang dapat diambil siswa adalah...',
     options: [
       '15 variasi',
@@ -203,6 +212,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Geometri Titik Kombinasi',
     indicator: 'Menganalisis pembentukan segitiga dari sekumpulan titik pada bidang datar.',
     level: 'Sedang / C3',
+    type: 'single',
     question: 'Pada sebuah pelat PCB rangkaian kontrol elektronika, terdapat 8 titik solder pengujian yang tersebar di bidang datar. Dipastikan tidak ada 3 titik solder yang berada pada satu garis lurus (kolinier). Banyaknya bidang segitiga uji yang dapat dibentuk dengan menghubungkan tiga titik solder tersebut adalah...',
     options: [
       '24 segitiga',
@@ -225,6 +235,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Peluang Dadu Sederhana',
     indicator: 'Menentukan peluang kejadian sederhana pada pelemparan sebuah dadu.',
     level: 'Mudah / C2',
+    type: 'single',
     question: 'Sebuah dadu bermata 6 seimbang dilempar satu kali. Peluang munculnya mata dadu yang merupakan bilangan prima ganjil adalah...',
     options: [
       '1/6',
@@ -247,6 +258,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Peluang Pengambilan Bola',
     indicator: 'Menentukan peluang pengambilan satu bola/baut dari sebuah kotak.',
     level: 'Mudah / C2',
+    type: 'single',
     question: 'Sebuah laci peralatan bengkel mekanik berisi 7 mur baja dan 5 mur kuningan yang berdimensi sama persis. Seorang siswa mengambil 1 buah mur secara acak tanpa melihat. Peluang terambilnya mur berbahan kuningan adalah...',
     options: [
       '7/12',
@@ -269,6 +281,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Frekuensi Harapan Koin',
     indicator: 'Menentukan frekuensi harapan suatu kejadian pada pelemparan koin berulang.',
     level: 'Mudah / C2',
+    type: 'single',
     question: 'Tiga keping uang logam dilemparkan bersama-sama secara berulang sebanyak 120 kali. Frekuensi harapan munculnya tepat dua sisi Gambar (G) dan satu sisi Angka (A) adalah...',
     options: [
       '45 kali',
@@ -291,6 +304,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Frekuensi Harapan Kontekstual',
     indicator: 'Menentukan frekuensi harapan suatu kejadian kontekstual (kehadiran kerja bengkel).',
     level: 'Mudah / C2',
+    type: 'single',
     question: 'Berdasarkan catatan disiplin bengkel permesinan selama 3 tahun terakhir, probabilitas seorang teknisi hadir tepat waktu dan mematuhi briefing K3 pada pagi hari adalah 0,92. Jika dalam satu semester efektif terdapat 125 hari kerja operasional bengkel, frekuensi harapan teknisi tersebut hadir tepat waktu mematuhi briefing K3 adalah...',
     options: [
       '110 hari',
@@ -313,6 +327,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Kejadian Saling Lepas',
     indicator: 'Memahami konsep teoritis dan syarat dua kejadian saling lepas.',
     level: 'Mudah / C2',
+    type: 'single',
     question: 'Dua buah kejadian A dan B dalam suatu ruang sampel S dikatakan sebagai dua kejadian yang "Saling Lepas" (Mutually Exclusive) apabila...',
     options: [
       'Peluang terjadinya kejadian A tidak dipengaruhi sama sekali oleh terjadinya kejadian B',
@@ -335,6 +350,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Identifikasi Hubungan Kejadian',
     indicator: 'Mengidentifikasi hubungan antara dua kejadian (genap dan ganjil) pada pengambilan nomor.',
     level: 'Mudah / C2',
+    type: 'single',
     question: 'Dari kotak undian doorprize HUT SMK yang berisi 30 kupon bernomor urut 1 sampai dengan 30, diambil satu kupon secara acak. Didefinisikan:\n- Kejadian A = Terambil kupon bernomor ganjil\n- Kejadian B = Terambil kupon bernomor genap\nHubungan matematis yang paling tepat antara Kejadian A dan Kejadian B adalah...',
     options: [
       'Dua kejadian saling bebas bersyarat dalam satu ruang sampel',
@@ -357,6 +373,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Peluang Dua Dadu',
     indicator: 'Menentukan peluang jumlah mata dadu tertentu pada pelemparan dua dadu.',
     level: 'Sedang / C3',
+    type: 'single',
     question: 'Dua buah dadu bersisi enam dilempar undi secara bersamaan sebanyak satu kali. Peluang munculnya jumlah kedua mata dadu sama dengan 7 atau sama dengan 10 adalah...',
     options: [
       '1/6',
@@ -379,6 +396,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Frekuensi Harapan Barang Cacat',
     indicator: 'Menentukan frekuensi harapan barang cacat dari suatu proses produksi massal.',
     level: 'Mudah / C2',
+    type: 'single',
     question: 'Sebuah pabrik perakitan komponen steker listrik mencatat bahwa rata-rata peluang satu unit steker mengalami cacat cetakan plastik isolator adalah 0,015. Jika dalam satu shift kerja hari ini lini pabrik berhasil memproduksi 4.000 unit steker, frekuensi harapan steker cacat yang diperkirakan terjaring oleh tim QC adalah...',
     options: [
       '40 unit',
@@ -401,6 +419,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Peluang Tidak Saling Lepas',
     indicator: 'Menentukan peluang gabungan dua kejadian tidak saling lepas pada kartu bridge.',
     level: 'Sedang / C3',
+    type: 'single',
     question: 'Dari satu set kartu remi lengkap (bridge deck berisi 52 kartu standar tanpa joker), diambil satu lembar kartu secara acak. Peluang terambilnya kartu bergambar Raja (King) ATAU kartu berdaun Hati Merah (Heart) adalah...',
     options: [
       '4/13',
@@ -423,6 +442,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Peluang Saling Bebas',
     indicator: 'Menentukan peluang terjadinya dua kejadian saling bebas (Aturan Perkalian Peluang).',
     level: 'Sedang / C3',
+    type: 'single',
     question: 'Di laboratorium komputer SMK terdapat dua printer terpisah, Printer A dan Printer B. Peluang Printer A mengalami kendala paper-jam saat mencetak adalah 0,05, sedangkan peluang Printer B mengalami paper-jam adalah 0,08. Jika kedua printer beroperasi secara independen (saling bebas), peluang kedua printer tersebut sama-sama mengalami paper-jam secara bersamaan pada suatu waktu cetak adalah...',
     options: [
       '0,130',
@@ -445,6 +465,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Peluang Kartu Remi Bilangan Prima',
     indicator: 'Menentukan peluang pengambilan satu kartu remi bernomor prima.',
     level: 'Sedang / C3',
+    type: 'single',
     question: 'Dari satu set kartu remi standar (52 kartu, terdiri atas 4 jenis corak: Spade, Heart, Diamond, Club; bernomor As, 2 s.d. 10, Jack, Queen, King), diambil 1 kartu acak. Jika kartu bernomor dianggap 2 sampai 10 (As dihitung 1), peluang terambil kartu bernomor bilangan prima adalah...',
     options: [
       '2/13',
@@ -467,6 +488,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Kejadian Majemuk Dadu & Koin',
     indicator: 'Menentukan peluang kejadian majemuk pada pelemparan dadu dan koin secara bersamaan.',
     level: 'Sedang / C3',
+    type: 'single',
     question: 'Sebuah koin mata uang logam dan sebuah dadu bersisi enam dilempar bersamaan sebanyak satu kali. Peluang munculnya sisi Gambar pada koin DAN mata dadu faktor dari 6 adalah...',
     options: [
       '1/6',
@@ -489,6 +511,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Analisis Peluang Ujian Independen',
     indicator: 'Menganalisis kebenaran beberapa pernyataan peluang majemuk independen (ujian dua siswa).',
     level: 'Sukar / C4 (HOTS)',
+    type: 'single',
     question: 'Dua siswa SMK jurusan Teknik Komputer, Fajar dan Galih, mengikuti uji sertifikasi internasional Mikrotik (MTCNA). Peluang Fajar lulus adalah 0,80 dan peluang Galih lulus adalah 0,70. Hasil ujian keduanya bersifat independen (saling bebas). Perhatikan tiga pernyataan berikut:\n(1) Peluang kedua siswa lulus bersama-sama adalah 0,56.\n(2) Peluang HANYA Fajar yang lulus (Galih tidak lulus) adalah 0,24.\n(3) Peluang setidaknya salah satu dari mereka lulus adalah 0,94.\nPernyataan yang bernilai BENAR adalah...',
     options: [
       'Hanya pernyataan (1) dan (2) yang bernilai benar',
@@ -511,6 +534,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Analisis Sifat Peluang Dua Dadu',
     indicator: 'Menganalisis sifat saling lepas, saling bebas, dan peluang gabungan pada dua dadu.',
     level: 'Sukar / C4 (HOTS)',
+    type: 'single',
     question: 'Pada pelemparan dua dadu secara bersamaan, didefinisikan:\n- Kejadian X = Muncul jumlah mata dadu sama dengan 7.\n- Kejadian Y = Muncul jumlah mata dadu berupa bilangan genap.\nManakah kesimpulan analisis yang paling tepat mengenai sifat hubungan antara Kejadian X dan Kejadian Y?',
     options: [
       'X dan Y adalah dua kejadian saling bebas karena dadu pertama tidak mempengaruhi dadu kedua',
@@ -533,6 +557,7 @@ export const MATEMATIKA_QUESTIONS = [
     topic: 'Peluang Mesin Produksi QC',
     indicator: 'Menganalisis peluang kualitas produk dari dua mesin independen (produk baik & cacat).',
     level: 'Sukar / C4 (HOTS)',
+    type: 'single',
     question: 'Sebuah lini produksi perakitan sepeda motor memasok suku cadang dari dua mesin cetak injeksi otomatis, Mesin 1 dan Mesin 2:\n- Mesin 1 memproduksi 60% dari total suku cadang harian dengan persentase produk cacat sebesar 2% (0,02).\n- Mesin 2 memproduksi 40% dari total suku cadang harian dengan persentase produk cacat sebesar 5% (0,05).\nJika satu buah suku cadang diambil secara acak dari total kontainer hasil gabungan produksi kedua mesin tersebut, berapakah probabilitas suku cadang yang terambil tersebut mengalami CACAT?',
     options: [
       '0,032 (3,2%)',
