@@ -1,6 +1,7 @@
 export const JEPANG_QUESTIONS = [
   {
     "id": "jp-01",
+    "subjectId": "jepang",
     "type": "complex",
     "topic": "Aisatsu & Ungkapan Salam Sehari-hari",
     "indicator": "Disajikan beberapa pilihan ungkapan salam dalam bahasa Jepang, peserta didik dapat menentukan salam yang tepat",
@@ -27,6 +28,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-02",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Aisatsu & Konteks Waktu",
     "indicator": "Disajikan kutipan dialog singkat berisi sapaan peserta didik dapat menentukan waktu terjadinya percakapan tersebut.",
@@ -49,6 +51,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-03",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Ungkapan Terima Kasih & Respon Rendah Hati",
     "indicator": "Disajikan dialog ucapan terima kasih atas pemberian hadiah peserta didik dapat menentukan respons penyangkalan halus/merendah yang tepat.",
@@ -71,6 +74,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-04",
+    "subjectId": "jepang",
     "type": "true_false",
     "topic": "Jikoshoukai (Perkenalan Diri)",
     "indicator": "Disajikan teks singkat perkenalan diri, peserta didik dapat menentukan kebenaran pernyataan terkait status pembicara.",
@@ -90,6 +94,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-05",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Instruksi Kelas & Permintaan Izin",
     "indicator": "Disajikan dialog siswa yang meminta izin peserta didik dapat menentukan respons pemberian izin yang tepat dari guru.",
@@ -112,6 +117,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-06",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Instruksi di Dalam Kelas",
     "indicator": "Disajikan ungkapan instruksi kelas, peserta didik dapat menentukan arti instruksi tersebut dalam bahasa Indonesia dengan tepat.",
@@ -134,6 +140,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-07",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Aisatsu Berdasarkan Situasi",
     "indicator": "Disajikan ilustrasi situasi peserta didik dapat memilih ungkapan sapaan yang paling tepat dan sopan.",
@@ -156,6 +163,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-08",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Ungkapan Permintaan Maaf",
     "indicator": "Disajikan ilustrasi peserta didik dapat memilih frasa permintaan maaf yang sopan dan sesuai.",
@@ -178,6 +186,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-09",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Instruksi Kelas Visual",
     "indicator": "Disajikan gambar, peserta didik dapat menentukan ungkapan instruksi kelas yang sesuai dengan gambar.",
@@ -200,6 +209,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-10",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Instruksi Halaman Buku",
     "indicator": "Disajikan kalimat instruksi guru, peserta didik dapat menentukan tindakan yang diharapkan dari siswa.",
@@ -222,6 +232,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-11",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Jikoshoukai Rumpang (Kalimat Penutup)",
     "indicator": "Disajikan teks perkenalan diri yang rumpang, peserta didik dapat melengkapinya dengan ungkapan penutup perkenalan yang tepat.",
@@ -244,6 +255,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-12",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Penyusunan Struktur Kalimat (Bunkei)",
     "indicator": "Disajikan kata-kata acak, peserta didik dapat menyusunnya menjadi kalimat bahasa Jepang yang benar.",
@@ -266,6 +278,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-13",
+    "subjectId": "jepang",
     "type": "complex",
     "topic": "Analisis Teks Jikoshoukai Lengkap",
     "indicator": "Disajikan teks perkenalan diri lengkap dengan peserta didik dapat memilih unsur-unsur informasi yang termuat di dalamnya.",
@@ -293,6 +306,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-14",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Kosakata Hubungan Sosial",
     "indicator": "Disajikan kalimat, peserta didik dapat menentukan arti dari kata dengan tepat.",
@@ -315,6 +329,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-15",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Kewarganegaraan & Identitas",
     "indicator": "Disajikan kalimat peserta didik dapat menentukan pernyataan yang benar sesuai isi kalimat tersebut.",
@@ -337,6 +352,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-16",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Nilai Budaya dalam Bahasa",
     "indicator": "Disajikan pertanyaan mengenai fungsi kalimat peserta didik dapat menganalisis alasan pentingnya ungkapan tersebut dalam budaya Jepang.",
@@ -359,6 +375,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-17",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Konfirmasi & Koreksi Nomor Telepon",
     "indicator": "Disajikan percakapan singkat mengenai konfirmasi dan koreksi nomor telepon, peserta didik dapat menentukan bagian nomor yang benar berdasarkan koreksi siswa.",
@@ -381,6 +398,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-18",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Menyatakan Tempat Tinggal Saat Ini",
     "indicator": "Disajikan lima pilihan kalimat perkenalan diri, peserta didik dapat mengidentifikasi kalimat yang menyatakan alamat saat ini.",
@@ -403,6 +421,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-19",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Partikel Penghubung Nomor Telepon",
     "indicator": "Disajikan pertanyaan tentang pelafalan tanda hubung, peserta didik dapat menentukan partikel penghubung yang tepat.",
@@ -425,6 +444,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-20",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Pelafalan Angka Nomor Telepon dalam Romaji",
     "indicator": "Disajikan nomor telepon peserta didik dapat menentukan cara pembacaannya dalam huruf Romaji dengan tepat.",
@@ -447,6 +467,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-21",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Wacana Benda Kelas & Kepemilikan Eko",
     "indicator": "Disajikan wacana tentang barang-barang milik Eko di dalam tas dan di atas meja, peserta didik dapat menentukan pernyataan yang sesuai dengan isi teks.",
@@ -469,6 +490,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-22",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Benda di Dalam Tas",
     "indicator": "Disajikan wacana peserta didik dapat menyebutkan benda-benda yang berada di dalam tas",
@@ -491,6 +513,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-23",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Letak Posisi Benda Tertentu",
     "indicator": "Disajikan wacana peserta didik dapat menentukan letak ponsel milik Eko dengan tepat.",
@@ -513,6 +536,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-24",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Penyangkalan Kepemilikan Benda",
     "indicator": "Disajikan kalimat tanya kepemilikan penggaris (peserta didik dapat menentukan jawaban penyangkalan yang sopan.",
@@ -535,6 +559,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-25",
+    "subjectId": "jepang",
     "type": "true_false",
     "topic": "Evaluasi Terjemahan Kosakata & Partikel",
     "indicator": "Disajikan kalimat beserta terjemahannya, peserta didik dapat menentukan kebenaran arti kosakata",
@@ -554,6 +579,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-26",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Wacana Percakapan Benda Kelas (Rina & Budi)",
     "indicator": "Disajikan wacana percakapan antara Rina dan Budi tentang benda-benda di kelas, peserta didik dapat mengidentifikasi benda yang dipegang Budi.",
@@ -576,6 +602,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-27",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Penggunaan Kata Tunjuk (Kore, Sore, Are)",
     "indicator": "Disajikan wacana percakapan peserta didik dapat menganalisis alasan Rina menggunakan kata tunjuk saat bertanya kepada Budi.",
@@ -598,6 +625,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-28",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Kepemilikan Benda di Meja",
     "indicator": "Disajikan wacana percakapan peserta didik dapat menentukan pemilik tas dan penghapus yang berada di atas meja.",
@@ -620,6 +648,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-29",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Analisis Kepemilikan Pulpen Pinjaman",
     "indicator": "Disajikan wacana percakapan peserta didik dapat menyimpulkan pemilik pulpen yang berada di dekat Rina.",
@@ -642,6 +671,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-30",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Sintesis Kepemilikan & Posisi Benda",
     "indicator": "Disajikan wacana percakapan peserta didik dapat memilih pernyataan yang benar mengenai kepemilikan dan letak benda.",
@@ -664,6 +694,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-31",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Wacana Yamada-sensei di Kelas",
     "indicator": "Disajikan wacana percakapan antara Yamada-sensei dan siswa di kelas, peserta didik dapat menentukan benda kelas yang diminta untuk dilihat siswa.",
@@ -686,6 +717,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-32",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Tempat Menuliskan Catatan",
     "indicator": "Disajikan wacana percakapan peserta didik dapat menentukan tempat siswa diminta menuliskan contoh kalimat",
@@ -708,6 +740,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-33",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Tujuan Ucapan Siswa (Mou Ichido)",
     "indicator": "Disajikan kutipan kalimat siswa dalam wacana, peserta didik dapat menentukan tujuan ucapan siswa tersebut.",
@@ -730,6 +763,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-34",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Instruksi Ketertiban Kelas",
     "indicator": "Disajikan ungkapan instruksi dari wacana, peserta didik dapat menentukan makna ungkapan tersebut dalam bahasa Indonesia.",
@@ -752,6 +786,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-35",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Makna Respons Pemahaman Siswa",
     "indicator": "Disajikan ungkapan, peserta didik dapat menentukan arti respons siswa tersebut dengan tepat.",
@@ -774,6 +809,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-36",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Wacana Percakapan Dedi & Ayu (Pencarian Benda)",
     "indicator": "Disajikan wacana percakapan antara Dedi dan Ayu mengenai letak benda di kelas, peserta didik dapat menentukan benda yang sedang dicari Dedi.",
@@ -796,6 +832,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-37",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Lokasi Keberadaan Benda (Honbako no Naka)",
     "indicator": "Disajikan wacana percakapan yang sama peserta didik dapat menentukan lokasi tepat kamus bahasa Jepang berada.",
@@ -818,6 +855,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-38",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Posisi Jam Dinding Kelas",
     "indicator": "Disajikan wacana percakapan yang sama peserta didik dapat menentukan posisi jam dinding (tokei) di dalam kelas.",
@@ -840,6 +878,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-39",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Fungsi Kata Tanya 'Doko'",
     "indicator": "Disajikan kalimat peserta didik dapat menentukan fungsi kata tanya 'doko' dalam kalimat tersebut.",
@@ -862,6 +901,7 @@ export const JEPANG_QUESTIONS = [
   },
   {
     "id": "jp-40",
+    "subjectId": "jepang",
     "type": "single",
     "topic": "Kosakata Penunjuk Posisi (Tonari)",
     "indicator": "Disajikan kalimat dari wacana, peserta didik dapat menentukan arti kata penunjuk posisi yang digunakan.",

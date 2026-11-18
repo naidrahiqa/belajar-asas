@@ -6,7 +6,7 @@ Format soal dirancang dengan standar pedagogis tinggi (**Anti "AI Slop"**): memu
 
 ---
 
-## 📚 7 Mata Pelajaran Lengkap Sesuai Kisi-Kisi
+## 📚 8 Mata Pelajaran Lengkap Sesuai Kisi-Kisi
 
 1. **Kreativitas, Inovasi, & Kewirausahaan (KIK / PKK)** — *35 Butir Soal*
    - Perencanaan produksi massal (*Routing, Scheduling, Dispatching, Expediting*)
@@ -54,6 +54,12 @@ Format soal dirancang dengan standar pedagogis tinggi (**Anti "AI Slop"**): memu
    - Teks Artikel Basa Jawa (titikan artikel, struktur tesis-argumentasi-pangukuh, jinising narasi/deskripsi/eksposisi/persuasi)
    - Panatacara / Pranatacara (struktur purwaka-isi-wasana, basa rinengga parikan lan wangsalan, kaprigelan 4W: Wicara, Wirama, Wirasa, Wiraga)
    - Aksara Jawa (sandhangan swara, sandhangan panyigeg layar/wignyan/cecak, angka Jawa : ... :, aksara Murda, aksara Rekan, unggah-ungguh basa Krama Alus & Ngoko Alus)
+
+8. **Bahasa Jepang** — *40 Butir Soal*
+   - *Aisatsu* (ungkapan salam pagi/siang/malam, perpisahan, terima kasih, dan permintaan maaf)
+   - Instruksi kelas (*kyoushitsu no shiji*) dan respons sopan
+   - *Jikoshoukai* (perkenalan diri: nama, usia, asal, hobi, status, dan nomor kontak)
+   - Kosakata benda kelas, kepemilikan (*kore, sore, are, ~no*), dan letak/posisi (*ue, shita, naka, doko*)
 
 ---
 

@@ -18,8 +18,8 @@ export const JAWA_QUESTIONS = [
     "explanation": {
       "summary": "Wangsulan kang bener yaiku Awujud pacelathon (dialog), ana pituduh lakon (kramagung), lan kanggo dipentasake.",
       "concept": "Ciri Utama Sandiwara/Drama: Karya sastra kang nggambarake panguripan lumantar obahing paraga lan pacelathon (dialog). Titikan bakune: 1. Awujud teks pacelathon, 2. Ana pituduh laku/kramagung (petunjuk tindakan sajroning kurung), 3. Karancang kanggo kagelar ing panggung.",
-      "analysis": "Pilihan B kanthi trep njlentrehake wujud lan ancasing teks sandiwara.",
-      "whyWrong": "A ciri tembang macapat. C, D, lan E ora trep klawan hakikat karya drama."
+      "analysis": "Pilihan A kanthi trep njlentrehake wujud lan ancasing teks sandiwara.",
+      "whyWrong": "B ciri tembang macapat. C, D, lan E ora trep klawan hakikat karya drama."
     }
   },
   {
@@ -130,12 +130,10 @@ export const JAWA_QUESTIONS = [
       "Latar Judhul, Latar Sinopsis, lan Latar Pungkas"
     ],
     "correctAnswer": [
-      0,
-      2,
-      4
+      0
     ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku A, C, E.",
+      "summary": "Wangsulan kang bener yaiku A.",
       "concept": "Trias Latar (Setting) Sastra:\n1. Latar Papan: nuduhake ing ngendi kedadeyan lumaku (bengkel, bale desa, alas).\n2. Latar Wektu: nuduhake kapan kedadeyan (esuk, awan, jaman perang).\n3. Latar Swasana: kahanan batin/lingkungan (tintrim, gumbira, sedhih, kisruh).",
       "analysis": "Katelu unsur kasebut mbangun kahanan panggung pertunjukan drama kanthi urip.",
       "whyWrong": "Pilihan B ngenani ekonomi, C paraga, D piranti panggung, E bagean buku."
@@ -157,11 +155,10 @@ export const JAWA_QUESTIONS = [
       "Antagonis lan Protagonis"
     ],
     "correctAnswer": [
-      1,
-      3
+      1
     ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku B, D.",
+      "summary": "Wangsulan kang bener yaiku B.",
       "concept": "Jenising Paraga Adhedhasar Watak:\n- Protagonis: paraga utama kang duwe watak becik/utama.\n- Antagonis: paraga kang duwe watak ala/mungsuh protagonis.\n- Tritagonis: paraga katelu kang dadi juru pamedhar/penengah ing antarane protagonis lan antagonis.\n- Figuran: paraga pambiyantu.",
       "analysis": "[X] = Protagonis; [Y] = Tritagonis.",
       "whyWrong": "Pilihan liyane kliru urut-urutane utawa salah nemtokake dhapukan paraga."
@@ -232,8 +229,8 @@ export const JAWA_QUESTIONS = [
     "explanation": {
       "summary": "Wangsulan kang bener yaiku Sandiwara Tradhisi ngugemi pakem lakon kraton/gamelan, dene Sandiwara Modheren ngangkat tema sosial aktual mawa naskah tertulis.",
       "concept": "Beda Hakiki Tradhisi vs Modheren: Tradhisi kenceng ing pakem klasik, tembang, lan busana adat. Modheren luwih dinamis, tema kauripan saben dina (realisme), naskah tertulis rinci, lan tata pentas modheren.",
-      "analysis": "Pilihan C minangka dudutan komparatif kang ilmiah lan trep.",
-      "whyWrong": "Pilihan A, B, D, lan E ngayawara lan nyimpang saka kasunyatan kajian sastra."
+      "analysis": "Pilihan E minangka dudutan komparatif kang ilmiah lan trep.",
+      "whyWrong": "Pilihan A, B, D, lan C ngayawara lan nyimpang saka kasunyatan kajian sastra."
     }
   },
   {
@@ -298,15 +295,13 @@ export const JAWA_QUESTIONS = [
       "Koda arupa piwulang luhur, kramagung arupa solah bawa, lan prolog arupa pitepangan"
     ],
     "correctAnswer": [
-      0,
-      2,
-      3
+      2
     ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku A, C, D.",
+      "summary": "Wangsulan kang bener yaiku C.",
       "concept": "Struktur Teks Artikel:\n1. Tesis: pambuka kang ngemot panemu awal/gagasan pokok panulis ngenani masalah.\n2. Argumentasi: bukti data kasunyatan lan alesan logis kanggo nyengkuyung tesis.\n3. Paneges/Pangukuh (Reiterasi): dudutan akhir, panyaruwe (saran), utawa rekomendasi.",
       "analysis": "Urutan iki mujudake tata cara ilmiah nulis artikel opini populer.",
-      "whyWrong": "Pilihan A struktur fabel/cerpen; C terbalik; D cengkorongan; E struktur drama."
+      "whyWrong": "Pilihan A lan B struktur panatacara/kesenian; D cengkorongan narasi; E campuran koda, kramagung, lan prolog."
     }
   },
   {
@@ -417,12 +412,10 @@ export const JAWA_QUESTIONS = [
       "Pola Klasifikasi"
     ],
     "correctAnswer": [
-      0,
-      1,
-      3
+      2
     ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku A, B, D.",
+      "summary": "Wangsulan kang bener yaiku C.",
       "concept": "Pola Kronologis (Urutan Wektu): Informasi kasusun adhedhasar lampahing wektu sacara tumata: jam pitu esuk -> jam wolu -> wayah awan jam rolas.",
       "analysis": "Panandha wektu urut nuduhake pola kronologis.",
       "whyWrong": "Dudu pola spasial (papan), dudu sebab-akibat, dudu analogi."
@@ -444,12 +437,10 @@ export const JAWA_QUESTIONS = [
       "(1) lan (3)"
     ],
     "correctAnswer": [
-      1,
-      2,
-      4
+      3
     ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku B, C, E.",
+      "summary": "Wangsulan kang bener yaiku D.",
       "concept": "Beda Fakta lan Opini: Fakta yaiku bab kang wis nyata lan bisa kabuktekake kanthi ilmiah/tanggal. Opini yaiku panemu pribadi kang asipat subjektif, lumrahe diawali tembung \"miturut panemuku\", \"kayane\", \"paling becik\".",
       "analysis": "Ukara (2) ngemot tembung \"Miturut panemuku\" lan klaim subjektif sing durung mesthi bener.",
       "whyWrong": "Ukara (1), (3), lan (4) kabeh arupa fakta geografis, tanggal resmi, lan sifat biologi kayu jati."
@@ -495,15 +486,13 @@ export const JAWA_QUESTIONS = [
     ],
     "correctAnswer": [
       0,
-      1,
-      2,
-      3
+      1
     ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku A, B, C, D.",
+      "summary": "Wangsulan kang bener yaiku A, B.",
       "concept": "Struktur Teks Panatacara:\n1. Salam pambuka (Assalamu'alaikum / Kula nuwun)\n2. Purwaka basa: puji syukur mring Gusti Allah lan atur pakurmatan mring tamu (dhalang, kyai, sesepuh)\n3. Wigatining atur: ngandharake urut-urutaning adicara kang bakal lumaku\n4. Wasana basa: nyuwun pangapunten menawa ana kaluputan tembung\n5. Salam panutup.",
       "analysis": "Purwaka basa minangka tataran pambuka pakurmatan sadurunge mlebu reroncening acara.",
-      "whyWrong": "Wigatining atur isi acara; Wasana basa panyuwunan pangapunten panutup."
+      "whyWrong": "Wigatining atur (C) isi acara; Wasana basa (D) lan salam panutup (E) minangka panutup, dudu pambuka."
     }
   },
   {
@@ -617,8 +606,8 @@ export const JAWA_QUESTIONS = [
     "explanation": {
       "summary": "Wangsulan kang bener yaiku Ngetrapake swara khidmat, sareh, kebak bela sungkawa, lan melu ngrasakake duka.",
       "concept": "Wirasa (Empati Kontekstual): Panatacara kudu bisa nyelarasake swasana batin klawan jinis acarane. Ing adicara kasripahan, wirasane kudu bela sungkawa, suwanten sareh, lan ngajeni kulawarga ingkang duka.",
-      "analysis": "Pilihan B nuduhake trapsila lan penghayatan wirasa kasripahan kang bener.",
-      "whyWrong": "Pilihan A, C, D, lan E ora sopan, nglanggar adab moral, lan gawe lara atine kulawarga."
+      "analysis": "Pilihan A nuduhake trapsila lan penghayatan wirasa kasripahan kang bener.",
+      "whyWrong": "Pilihan B, C, D, lan E ora sopan, nglanggar adab moral, lan gawe lara atine kulawarga."
     }
   },
   {
@@ -637,15 +626,13 @@ export const JAWA_QUESTIONS = [
       "Jangkahing suku tumata ora kesusu"
     ],
     "correctAnswer": [
-      0,
-      2,
-      4
+      1
     ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku A, C, E.",
+      "summary": "Wangsulan kang bener yaiku B.",
       "concept": "Subasita Wiraga Panatacara: Panatacara minangka punjering kawigaten (pusat perhatian). Kudu ngedohi patrap konyol (kukur-kukur, tangan mlebu kanthong, nyekel HP) amarga ngina pakurmatan forum.",
-      "analysis": "Patrap ing pilihan C ngilangi kawibawane panatacara.",
-      "whyWrong": "Pilihan A, B, D, lan E mujudake patrap trapsila wiraga kang luhur."
+      "analysis": "Patrap ing pilihan B (kukur-kukur, ngupil, dolanan ponsel, tangan ing sak kathok) ngilangi kawibawane panatacara.",
+      "whyWrong": "Pilihan A, C, D, lan E mujudake patrap trapsila wiraga kang luhur."
     }
   },
   {
@@ -713,8 +700,8 @@ export const JAWA_QUESTIONS = [
     "explanation": {
       "summary": "Wangsulan kang bener yaiku \"Wedhi\" (pasir laut) lan \"Wedi\" (rasa ajrih/takut).",
       "concept": "Pangucap Aksara da (untu) vs dha (langit-langit tutuk):\n- \"Wedi\" (migunakake d dental): tegese ajrih / takut.\n- \"Wedhi\" (migunakake dh retrofleks): tegese pasir.\nSalah ngucapake fonem bakal ngowahi tegese ukara sacara fatal sajroning panatacara.",
-      "analysis": "Pilihan B kanthi trep mbuktekake pasangan minimal (minimal pair) pambeda makna fonemis.",
-      "whyWrong": "A kuwalik maknane; C, D, E tembung beda tembunge."
+      "analysis": "Pilihan E kanthi trep mbuktekake pasangan minimal (minimal pair) pambeda makna fonemis.",
+      "whyWrong": "A kuwalik maknane; C, D, B tembung beda tembunge."
     }
   },
   {
@@ -818,18 +805,18 @@ export const JAWA_QUESTIONS = [
     "type": "single",
     "question": "Aksara Jawa Rekan digunakake kanggo nulis tembung-tembung serapan saka basa manca, mligine saka basa Arab (tuladha: huruf kha, f/va, dza, za, gha). Ciri fisik aksara Rekan katengeri kanthi anane...",
     "options": [
-      "Nulis tembung basa Jawa kuna warisan jaman Majapahit",
-      "Minangka tandha pamisah antarane ukara siji lan liyane",
-      "Nulis sesebutan gelar ratu lan kraton Surakarta Hadiningrat",
-      "Nulis jeneng sasi lan taun sajroning kalender Jawa Islam",
-      "Nulis tembung serapan manca mligine saka basa Arab"
+      "Tandha wulu ing ngisor aksara (swara /i/)",
+      "Tandha taling ing sandhuwure aksara (swara /e/)",
+      "Tandha layar ing sandhuwure aksara (swara /r/)",
+      "Tandha cecak siji ing sandhuwure aksara (swara /ng/)",
+      "Tandha cecak telu ing sandhuwure aksara carakan"
     ],
     "correctAnswer": 4,
     "explanation": {
       "summary": "Wangsulan kang bener yaiku Cecak telu ing sandhuwure aksara carakan.",
       "concept": "Aksara Rekan: Aksara Jawa kang \"direka\" kanggo nyukupi unine tembung Arab: Fa/Va (pa + cecak 3), Kha (ka + cecak 3), Dza (dha + cecak 3), Za (ja + cecak 3), Gha (ga + cecak 3).",
       "analysis": "Tandha cecak telu ing ndhuwur dadi tandha pembeda mutlak aksara rekan.",
-      "whyWrong": "Pilihan A, C, D, lan E ora ana sajroning aksara Jawa."
+      "whyWrong": "Wulu, taling, layar, lan cecak siji minangka sandhangan swara/vokal, dudu tandha aksara rekan."
     }
   },
   {
@@ -851,8 +838,8 @@ export const JAWA_QUESTIONS = [
     "explanation": {
       "summary": "Wangsulan kang bener yaiku \"Pak Guru, kula badhe nyuwun pirsa babagan laporan PKL menika.\"",
       "concept": "Krama Alus (Inggil) Murid mring Guru: Kanggo ngurmati guru, nggunakake tembung krama inggil kanggo guru lan krama andhap kanggo awake dhewe. Tembung \"nyuwun pirsa\" (takon) minangka krama andhap kang ngurmati guru.",
-      "analysis": "Pilihan B ngetrapake unggah-ungguh trapsila luhur.",
-      "whyWrong": "A lan D ngoko kasar/ngina. C ngoko lugu. E krama kasar/maksa nggunakake tembung \"sampeyan kudu\"."
+      "analysis": "Pilihan A ngetrapake unggah-ungguh trapsila luhur.",
+      "whyWrong": "B lan D ngoko kasar/ngina. C ngoko lugu. E krama kasar/maksa nggunakake tembung \"sampeyan kudu\"."
     }
   },
   {
@@ -894,15 +881,13 @@ export const JAWA_QUESTIONS = [
       "Nggunakake basa kawi kuna kanthi tembung rinengga purwakanthi guru swara lan guru sastra"
     ],
     "correctAnswer": [
-      1,
-      2,
-      4
+      2
     ],
     "explanation": {
-      "summary": "Wangsulan kang bener yaiku B, C, E.",
+      "summary": "Wangsulan kang bener yaiku C.",
       "concept": "Ngoko Alus: Basa ngoko kang kacampuran tembung krama inggil mirunggan tumrap paraga kapindho (panjenengan, tindak, dhahar) kanggo ngurmati wong kang diajak guneman, ananging tetep nganggo ater-ater lan panambang ngoko (di-, -ake, -e) amarga wis raket sesrawungane.",
       "analysis": "Ngoko alus ngraketake pasrawungan tanpa ngilangi rasa urmat.",
-      "whyWrong": "A ngoko lugu; B ngoko kasar; D krama alus resmi; E krama resmi peradilan."
+      "whyWrong": "A krama alus resmi (dudu ngoko); B ngoko lugu tanpa kurmat; D campuran basa Indonesia–Jawa; E basa kawi kuna."
     }
   },
   {
@@ -924,8 +909,8 @@ export const JAWA_QUESTIONS = [
     "explanation": {
       "summary": "Wangsulan kang bener yaiku Aksara swara \"U\", aksara carakan \"ka\" diwulu, banjur diparingi sandhangan \"Layar\".",
       "concept": "Tata Tulis Aksara Jawa Tembung \"Ukir\":\n1. Aksara U (Aksara Swara utawa Ha disuku)\n2. Aksara Ka diwulu dadi \"ki\"\n3. Sandhangan Layar ing ndhuwure ka dadi \"kir\".\nMula munine \"Ukir\".",
-      "analysis": "Pilihan A kanthi runtut njlentrehake aksara lan sandhangan tembung \"ukir\".",
-      "whyWrong": "Pilihan B dadi \"he/heh\"; C dadi \"sung\"; D lan E ngayawara."
+      "analysis": "Pilihan D kanthi runtut njlentrehake aksara lan sandhangan tembung \"ukir\".",
+      "whyWrong": "Pilihan B dadi \"he/heh\"; C dadi \"sung\"; A lan E ngayawara."
     }
   },
   {

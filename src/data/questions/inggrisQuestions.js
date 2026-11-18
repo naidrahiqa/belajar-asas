@@ -156,8 +156,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option B: 'Need a hand with stripping those copper wires while you hold the breadboard?'",
       "concept": "Informal offers among equal peers or close classmates commonly use conversational phrases like 'Need a hand with...?', 'Want me to...?', or 'Can I give you a hand?'.",
-      "analysis": "Option C strikes the perfect balance of collegial cooperation and natural workplace interaction. Options A and B are excessively archaic and satirical. Options D and E are bizarre and domineering.",
-      "whyWrong": "Options A and B are unnaturally stilted for peer collaboration, while Options D and E are aggressive."
+      "analysis": "Option B strikes the perfect balance of collegial cooperation and natural workplace interaction. Options A and C are excessively archaic and satirical. Options D and E are bizarre and domineering.",
+      "whyWrong": "Options A and C are unnaturally stilted for peer collaboration, while Options D and E are aggressive."
     }
   },
   {
@@ -179,8 +179,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option C: 'Can I take care of ordering the replacement hydraulic seals for your team?'",
       "concept": "An offer of assistance proposes that the speaker perform an action for the listener's benefit ('Can I / Shall I / Let me do X for you'). In contrast, a request asks the listener to do something for the speaker ('Could you / Would you mind doing X').",
-      "analysis": "In Option D, the speaker offers their own effort ('Can I take care of...') to help the team. Options A and B are requests for help. Option C is a safety command. Option E is a supervisor's directive.",
-      "whyWrong": "Options A, B, C, and E ask or command the listener to perform an action, rather than offering the speaker's own services."
+      "analysis": "In Option C, the speaker offers their own effort ('Can I take care of...') to help the team. Options A and B are requests for help. Option D is a safety command. Option E is a supervisor's directive.",
+      "whyWrong": "Options A, B, D, and E ask or command the listener to perform an action, rather than offering the speaker's own services."
     }
   },
   {
@@ -202,8 +202,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option D: 'Would you like me to get you a warm beverage while you wait in the lounge?'",
       "concept": "Professional office hospitality involves offering refreshments ('Would you like something to drink / a warm beverage...?') to guests while they wait.",
-      "analysis": "The guest's reply ('A cup of black coffee...') directly responds to an offer of a beverage in Option E. Options A, B, C, and D are extremely rude and incoherent given the guest's polite reply.",
-      "whyWrong": "Options A, B, C, and D do not offer hospitality and contradict the guest's response regarding coffee."
+      "analysis": "The guest's reply ('A cup of black coffee...') directly responds to an offer of a beverage in Option D. Options A, B, C, and E are extremely rude and incoherent given the guest's polite reply.",
+      "whyWrong": "Options A, B, C, and E do not offer hospitality and contradict the guest's response regarding coffee."
     }
   },
   {
@@ -225,8 +225,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option E: 'I notice you are having trouble with the view planes; let me walk you through the projection tools.'",
       "concept": "Constructive supervisory feedback identifies the technical bottleneck objectively ('having trouble with view planes') and pairs it with an educational offer of mentorship ('let me walk you through...').",
-      "analysis": "Option A models positive workplace leadership. Options B, C, D, and E are destructive, demoralizing, and counterproductive to vocational development.",
-      "whyWrong": "Options B, C, D, and E employ abusive language and offer no educational or technical support."
+      "analysis": "Option E models positive workplace leadership. Options B, C, D, and A are destructive, demoralizing, and counterproductive to vocational development.",
+      "whyWrong": "Options B, C, D, and A employ abusive language and offer no educational or technical support."
     }
   },
   {
@@ -248,8 +248,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option A: 'To introduce oneself, specify the target position, and highlight key qualifications.'",
       "concept": "A cover letter serves as a formal introduction connecting an applicant's unique skills and internship experiences to the specific requirements of the job opening.",
-      "analysis": "Option B outlines the core communicative function of a cover letter. Option A is handled during late-stage job offers. Option C, D, and E are irrelevant or inappropriate for job applications.",
-      "whyWrong": "Options A, C, D, and E misidentify the strategic communicative role of a professional cover letter."
+      "analysis": "Option A outlines the core communicative function of a cover letter. Option B is handled during late-stage job offers. Option C, D, and E are irrelevant or inappropriate for job applications.",
+      "whyWrong": "Options B, C, D, and E misidentify the strategic communicative role of a professional cover letter."
     }
   },
   {
@@ -271,8 +271,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option B: 'Dear Mr. Hendra Kusuma,'",
       "concept": "When the recipient's name and gender are known, the standard formal business salutation is 'Dear Mr./Ms. [Last Name]' or 'Dear Mr./Ms. [Full Name]' followed by a comma or colon.",
-      "analysis": "Option C adheres to professional business writing standards. 'To Whom It May Concern' (B) is used only when the specific recipient is entirely unknown. Options A, D, and E are excessively informal and unprofessional.",
-      "whyWrong": "Options A, D, and E are slang/informal greetings, while Option B is impersonal when the recipient's name is known."
+      "analysis": "Option B adheres to professional business writing standards. 'To Whom It May Concern' (C) is used only when the specific recipient is entirely unknown. Options A, D, and E are excessively informal and unprofessional.",
+      "whyWrong": "Options A, D, and E are slang/informal greetings, while Option C is impersonal when the recipient's name is known."
     }
   },
   {
@@ -294,8 +294,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option C: 'I am writing to express my strong interest in the Junior CNC Machinist position advertised on LinkedIn.'",
       "concept": "The opening paragraph of a job application letter should state the purpose of writing ('I am writing to express my interest in...'), name the exact job title, and state where the vacancy was found.",
-      "analysis": "Option D clearly states intent, position, and source. Options A, B, C, and E are desperate, arrogant, rude, or lack initiative.",
-      "whyWrong": "Options A, B, C, and E convey negative attitudes and lack professional decorum."
+      "analysis": "Option C clearly states intent, position, and source. Options A, B, D, and E are desperate, arrogant, rude, or lack initiative.",
+      "whyWrong": "Options A, B, D, and E convey negative attitudes and lack professional decorum."
     }
   },
   {
@@ -317,8 +317,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option D: 'During my six-month internship at PT Jepara Ukir Indah, I operated CNC routers and reduced lumber waste by 12%.'",
       "concept": "Body paragraphs in vocational cover letters should showcase concrete technical skills, company names, and measurable achievements (quantifiable results like 'reduced lumber waste by 12%').",
-      "analysis": "Option A demonstrates verifiable competence and quantifiable impact. Options B, C, D, and E highlight incompetence, laziness, or overconfidence.",
-      "whyWrong": "Options B, C, D, and E show unreliability and lack of vocational qualification."
+      "analysis": "Option D demonstrates verifiable competence and quantifiable impact. Options B, C, A, and E highlight incompetence, laziness, or overconfidence.",
+      "whyWrong": "Options B, C, A, and E show unreliability and lack of vocational qualification."
     }
   },
   {
@@ -340,8 +340,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option E: 'Sincerely yours,'",
       "concept": "Standard formal complimentary closes in business correspondence include 'Sincerely yours,', 'Yours sincerely,', 'Yours faithfully,', or 'Respectfully yours,'.",
-      "analysis": "Option B is universally accepted in formal recruitment communication. Options A, C, D, and E are colloquial, romantic, or slang expressions unsuitable for job letters.",
-      "whyWrong": "Options A, C, D, and E are inappropriate informal idioms."
+      "analysis": "Option E is universally accepted in formal recruitment communication. Options A, C, D, and B are colloquial, romantic, or slang expressions unsuitable for job letters.",
+      "whyWrong": "Options A, C, D, and B are inappropriate informal idioms."
     }
   },
   {
@@ -363,8 +363,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option A: 'There are three supplementary documents enclosed with the letter, such as a CV and certificates.'",
       "concept": "'Enclosure' (abbreviated Encl.) in formal correspondence indicates the number of supplementary documents enclosed inside the envelope or attached to the email.",
-      "analysis": "Option C correctly defines standard business terminology. Options A, B, D, and E are absurd misinterpretations.",
-      "whyWrong": "Options A, B, D, and E confuse standard administrative notation with demands or testing history."
+      "analysis": "Option A correctly defines standard business terminology. Options C, B, D, and E are absurd misinterpretations.",
+      "whyWrong": "Options C, B, D, and E confuse standard administrative notation with demands or testing history."
     }
   },
   {
@@ -386,8 +386,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option B: 'I would welcome the opportunity to discuss how my technical skills meet your needs in an interview.'",
       "concept": "A professional call to action politely invites the employer to schedule an interview ('I look forward to discussing...', 'I welcome the opportunity to interview...').",
-      "analysis": "Option C expresses enthusiasm while remaining respectful and humble. Options A, B, D, and E are demanding, hostile, or presumptive.",
-      "whyWrong": "Options A, B, D, and E violate professional interview request conventions."
+      "analysis": "Option B expresses enthusiasm while remaining respectful and humble. Options A, C, D, and E are demanding, hostile, or presumptive.",
+      "whyWrong": "Options A, C, D, and E violate professional interview request conventions."
     }
   },
   {
@@ -409,8 +409,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option C: 'I have attached my academic transcript and vocational competency certificate for your review.'",
       "concept": "Formal application letters must maintain flawless grammar: correct pronoun usage, present perfect tense ('I have attached'), and standard professional phrasing ('for your review').",
-      "analysis": "Option D is grammatically flawless and professionally phrased. Option A has pronoun errors ('Me wants'). Option B has passive/tense errors ('I has been completed'). Option C has agreement and superlative errors ('They is', 'most greatest'). Option E has subject-verb agreement and participle errors ('resume are', 'I wanting').",
-      "whyWrong": "Options A, B, C, and E contain glaring grammatical errors."
+      "analysis": "Option C is grammatically flawless and professionally phrased. Option A has pronoun errors ('Me wants'). Option B has passive/tense errors ('I has been completed'). Option D has agreement and superlative errors ('They is', 'most greatest'). Option E has subject-verb agreement and participle errors ('resume are', 'I wanting').",
+      "whyWrong": "Options A, B, D, and E contain glaring grammatical errors."
     }
   },
   {
@@ -432,8 +432,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option D: 'dimas.wahyudi.teknik@gmail.com'",
       "concept": "Professional correspondence requires a clean email address featuring the applicant's real name and professional field, avoiding nicknames, gaming tags, or slang.",
-      "analysis": "Option A presents a credible personal brand. Options B, C, D, and E use juvenile handles that undermine professional credibility.",
-      "whyWrong": "Options B, C, D, and E look informal and immature, creating a negative first impression."
+      "analysis": "Option D presents a credible personal brand. Options B, C, A, and E use juvenile handles that undermine professional credibility.",
+      "whyWrong": "Options B, C, A, and E look informal and immature, creating a negative first impression."
     }
   },
   {
@@ -455,8 +455,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option E: 'Applicant Contact Info -> Date -> Inside Address -> Salutation -> Body -> Close -> Signature'",
       "concept": "The standard full-block business letter format begins with the sender's contact details, date, recipient's inside address, salutation, body paragraphs, complimentary close, and handwritten/printed signature.",
-      "analysis": "Option B lists the chronological standard recognized internationally. Options A, C, D, and E scramble the logical structural sequence.",
-      "whyWrong": "Options A, C, D, and E invert or misplace essential letter components."
+      "analysis": "Option E lists the chronological standard recognized internationally. Options A, C, D, and B scramble the logical structural sequence.",
+      "whyWrong": "Options A, C, D, and B invert or misplace essential letter components."
     }
   },
   {
@@ -478,8 +478,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option A: 'I am a vocational graduate in Automotive Engineering with PKL experience in fuel injection diagnostics and basic electrical servicing.'",
       "concept": "The answer to 'Tell me about yourself' should follow the Present-Past-Future professional model: educational background, practical skills/internship experience, and passion for the target role.",
-      "analysis": "Option C directly connects vocational competence to the position. Option A shares irrelevant personal trivia. Option B admits flaws without remedy. Options D and E show zero preparation and lack of motivation.",
-      "whyWrong": "Options A, B, D, and E fail to highlight vocational qualifications and demonstrate poor professional maturity."
+      "analysis": "Option A directly connects vocational competence to the position. Option C shares irrelevant personal trivia. Option B admits flaws without remedy. Options D and E show zero preparation and lack of motivation.",
+      "whyWrong": "Options C, B, D, and E fail to highlight vocational qualifications and demonstrate poor professional maturity."
     }
   },
   {
@@ -501,8 +501,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option B: 'Situation context, Task objective, Action taken, Result achieved'",
       "concept": "The STAR method is an acronym for Situation (setting the scene), Task (explaining the objective/challenge), Action (detailing personal steps taken), and Result (sharing the positive measurable outcome).",
-      "analysis": "Option D correctly defines the STAR methodology. Options A, B, C, and E are misleading, unprofessional, or nonsensical acronym expansions.",
-      "whyWrong": "Options A, B, C, and E do not represent the established STAR framework for behavioral interviews."
+      "analysis": "Option B correctly defines the STAR methodology. Options A, D, C, and E are misleading, unprofessional, or nonsensical acronym expansions.",
+      "whyWrong": "Options A, D, C, and E do not represent the established STAR framework for behavioral interviews."
     }
   },
   {
@@ -524,8 +524,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option C: 'I tend to be overly confident with manual technical drawing; to improve, I am currently enrolled in an evening 3D CAD modeling course.'",
       "concept": "Addressing weaknesses in an interview requires honesty about a real, non-fatal professional area of growth, accompanied by tangible proactive steps being taken to overcome it.",
-      "analysis": "Option A candidly mentions a skill limitation while demonstrating self-initiated remediation (taking an evening 3D CAD course). Option B exhibits toxic arrogance. Options C, D, and E confess to disqualifying character flaws.",
-      "whyWrong": "Option B is dishonest and arrogant, while Options C, D, and E disclose unacceptable behavioral liabilities."
+      "analysis": "Option C candidly mentions a skill limitation while demonstrating self-initiated remediation (taking an evening 3D CAD course). Option B exhibits toxic arrogance. Options A, D, and E confess to disqualifying character flaws.",
+      "whyWrong": "Option B is dishonest and arrogant, while Options A, D, and E disclose unacceptable behavioral liabilities."
     }
   },
   {
@@ -547,8 +547,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option D: 'Your company's commitment to sustainable teak wood sourcing and high-precision CNC export standards matches my vocational training.'",
       "concept": "Employers seek candidates who understand the company's core values, products, and industry achievements, and who can link them to their personal career aspirations.",
-      "analysis": "Option B demonstrates prior company research (sustainable teak sourcing, CNC export) and connects it to the candidate's skills. Options A, C, D, and E demonstrate mercenary motives, laziness, or apathy.",
-      "whyWrong": "Options A, C, D, and E show complete lack of interest and preparation."
+      "analysis": "Option D demonstrates prior company research (sustainable teak sourcing, CNC export) and connects it to the candidate's skills. Options A, C, B, and E demonstrate mercenary motives, laziness, or apathy.",
+      "whyWrong": "Options A, C, B, and E show complete lack of interest and preparation."
     }
   },
   {
@@ -570,8 +570,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option E: 'I would isolate power, inspect for mechanical jamming, and measure operating current and insulation resistance.'",
       "concept": "Industrial troubleshooting requires safety first (Lockout/Tagout / isolating power), followed by systematic isolation of mechanical causes (jamming/bearing failure) and electrical testing (insulation resistance / megger test and current draw).",
-      "analysis": "Option D demonstrates sound technical methodology and safety awareness. Options A and C cause fire hazards and equipment destruction. Option B is wasteful. Option E demonstrates defeatism.",
-      "whyWrong": "Options A and C violate electrical safety codes, Option B is uneconomical, and Option E is unprofessional."
+      "analysis": "Option E demonstrates sound technical methodology and safety awareness. Options A and C cause fire hazards and equipment destruction. Option B is wasteful. Option D demonstrates defeatism.",
+      "whyWrong": "Options A and C violate electrical safety codes, Option B is uneconomical, and Option D is unprofessional."
     }
   },
   {
@@ -593,8 +593,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option A: 'What professional training and certification opportunities are available for technicians in this role?'",
       "concept": "Asking thoughtful questions about training, company culture, and performance expectations shows enthusiasm, ambition, and long-term commitment to the firm.",
-      "analysis": "Option E reflects dedication to continuous improvement and skill mastery. Option A shows disinterest. Options B, C, and D are self-serving, entitled, or tactless.",
-      "whyWrong": "Options A, B, C, and D exhibit laziness, entitlement, or lack of diplomatic etiquette."
+      "analysis": "Option A reflects dedication to continuous improvement and skill mastery. Option E shows disinterest. Options B, C, and D are self-serving, entitled, or tactless.",
+      "whyWrong": "Options E, B, C, and D exhibit laziness, entitlement, or lack of diplomatic etiquette."
     }
   },
   {
@@ -616,8 +616,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option B: 'I initiate open communication, align on common safety standards, and distribute tasks according to individual strengths.'",
       "concept": "Collaborative teamwork in manufacturing environments requires active listening, consensus on quality and safety parameters, and leveraging complementary team skills.",
-      "analysis": "Option A shows emotional maturity and problem-solving diplomacy. Options B, C, D, and E are toxic behaviors that disrupt team cohesion.",
-      "whyWrong": "Options B, C, D, and E display destructive conflict management tendencies."
+      "analysis": "Option B shows emotional maturity and problem-solving diplomacy. Options A, C, D, and E are toxic behaviors that disrupt team cohesion.",
+      "whyWrong": "Options A, C, D, and E display destructive conflict management tendencies."
     }
   },
   {
@@ -639,8 +639,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option C: 'Their strong foundational knowledge, eagerness to read technical manuals, and quick learning agility'",
       "concept": "Adaptability in modern industry involves transferring core principles, consulting standard documentation (SOPs/manuals), and displaying an active learning mindset.",
-      "analysis": "Option B represents the adaptable technician employers want. Option A shows rigidity. Option C rejects modernization. Options D and E are entitled or recklessly unsafe.",
-      "whyWrong": "Options A, C, D, and E reflect resistance to change, lack of discipline, or reckless disregard for workplace safety."
+      "analysis": "Option C represents the adaptable technician employers want. Option A shows rigidity. Option B rejects modernization. Options D and E are entitled or recklessly unsafe.",
+      "whyWrong": "Options A, B, D, and E reflect resistance to change, lack of discipline, or reckless disregard for workplace safety."
     }
   },
   {
@@ -662,8 +662,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option D: 'Clean formal attire, maintaining attentive eye contact, offering a firm handshake, and sitting upright'",
       "concept": "Non-verbal communication (body language, posture, eye contact, and grooming) forms up to 55% of the interviewer's first impression.",
-      "analysis": "Option C conveys respect, attentiveness, and self-confidence. Options A, B, D, and E project disrespect, apathy, or defensive hostility.",
-      "whyWrong": "Options A, B, D, and E violate basic professional interview decorum."
+      "analysis": "Option D conveys respect, attentiveness, and self-confidence. Options A, B, C, and E project disrespect, apathy, or defensive hostility.",
+      "whyWrong": "Options A, B, C, and E violate basic professional interview decorum."
     }
   },
   {
@@ -685,8 +685,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option E: 'I aim to master our advanced CNC operations, obtain professional certifications, and take on junior leadership.'",
       "concept": "A successful five-year career plan demonstrates commitment to technical mastery, industry certifications, and progressive leadership within the enterprise.",
-      "analysis": "Option D aligns individual growth with organizational value. Option A lacks work ethic. Option B signals disloyalty. Option C reveals absence of ambition. Option E is megalomaniacal.",
-      "whyWrong": "Options A, B, C, and E show unreliability, lack of vision, or blatant workplace hostility."
+      "analysis": "Option E aligns individual growth with organizational value. Option A lacks work ethic. Option B signals disloyalty. Option C reveals absence of ambition. Option D is megalomaniacal.",
+      "whyWrong": "Options A, B, C, and D show unreliability, lack of vision, or blatant workplace hostility."
     }
   },
   {
@@ -731,7 +731,7 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option B: 'does not'.",
       "concept": "Negative sentences in Simple Present Tense with third-person singular subjects use 'does not' + base form of the verb ('does not start').",
-      "analysis": "'Cutting press' is singular third person, so 'does not' is required. 'Do not' (B) is for plural subjects. 'Is not' (A) cannot be followed directly by base verb 'start'. 'Not' (D) lacks an auxiliary verb.",
+      "analysis": "'Cutting press' is singular third person, so 'does not' is required. 'Do not' (C) is for plural subjects. 'Is not' (A) cannot be followed directly by base verb 'start'. 'Not' (D) lacks an auxiliary verb.",
       "whyWrong": "'Is not', 'do not', 'not', and 'are not' are grammatically incorrect in this auxiliary verb slot."
     }
   },
@@ -754,8 +754,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option C: 'All high-pressure hydraulic cylinders are tested rigorously before leaving the factory floor.'",
       "concept": "Simple Present Passive voice is formed with Subject + am/is/are + Past Participle (V3). It is widely used in technical manuals to focus on the object and process rather than the actor.",
-      "analysis": "Option B uses 'are tested' (Simple Present Passive). Option A is Simple Present Active. Option C is Simple Past Active. Option D is Simple Future Active. Option E is Past Continuous.",
-      "whyWrong": "Options A, C, D, and E represent active voices or non-present tenses."
+      "analysis": "Option C uses 'are tested' (Simple Present Passive). Option A is Simple Present Active. Option B is Simple Past Active. Option D is Simple Future Active. Option E is Past Continuous.",
+      "whyWrong": "Options A, B, D, and E represent active voices or non-present tenses."
     }
   },
   {
@@ -777,8 +777,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option D: 'Does this air compressor maintain an operational pressure of eight bars throughout the shift?'",
       "concept": "Interrogative Simple Present structure for third-person singular subjects: Does + Subject + Base Verb (V1) + ... ?",
-      "analysis": "Option A follows 'Does' + 'this air compressor' + base verb 'maintain'. Options B, C, D, and E violate auxiliary verb pairing and verb inflections.",
-      "whyWrong": "Options B, C, D, and E contain fatal auxiliary-verb agreement and participle mismatches."
+      "analysis": "Option D follows 'Does' + 'this air compressor' + base verb 'maintain'. Options B, C, A, and E violate auxiliary verb pairing and verb inflections.",
+      "whyWrong": "Options B, C, A, and E contain fatal auxiliary-verb agreement and participle mismatches."
     }
   },
   {
@@ -800,8 +800,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option E: 'Ferrous metals expand when subjected to intense thermal heat and contract as temperature decreases.'",
       "concept": "The Simple Present Tense is fundamentally used to state permanent natural laws, scientific facts, and universal physical properties.",
-      "analysis": "Option B uses zero conditional Simple Present ('metals expand... and contract as temperature decreases') to express a permanent physical truth. Options A, C, D, and E use past, future, or continuous aspects for specific isolated events.",
-      "whyWrong": "Options A, C, D, and E describe isolated past, future, or progressive actions rather than timeless scientific laws."
+      "analysis": "Option E uses zero conditional Simple Present ('metals expand... and contract as temperature decreases') to express a permanent physical truth. Options A, C, D, and B use past, future, or continuous aspects for specific isolated events.",
+      "whyWrong": "Options A, C, D, and B describe isolated past, future, or progressive actions rather than timeless scientific laws."
     }
   },
   {
@@ -846,8 +846,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option B: 'The intern did not check the motor oil level before engaging the starter ignition switch.'",
       "concept": "Negative Simple Past construction: Subject + did not (didn't) + Base Form of the Verb (V1).",
-      "analysis": "Option C correctly uses 'did not' + base form 'check'. Option A incorrectly retains the past inflection 'checked'. Option B uses present 'does not' with 'checked'. Option D incorrectly uses 'was not' with base verb. Option E omits auxiliary 'did'.",
-      "whyWrong": "Options A, B, D, and E violate negative past tense syntax by double-marking the past or omitting the auxiliary verb."
+      "analysis": "Option B correctly uses 'did not' + base form 'check'. Option A incorrectly retains the past inflection 'checked'. Option C uses present 'does not' with 'checked'. Option D incorrectly uses 'was not' with base verb. Option E omits auxiliary 'did'.",
+      "whyWrong": "Options A, C, D, and E violate negative past tense syntax by double-marking the past or omitting the auxiliary verb."
     }
   },
   {
@@ -869,8 +869,8 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option C: 'Did you replace the worn rubber timing belt during the scheduled preventive maintenance?'",
       "concept": "Interrogative Simple Past formula: Did + Subject + Base Verb (V1) + ... ?",
-      "analysis": "Option D uses 'Did' + 'you' + base verb 'replace'. Option A incorrectly uses past verb 'replaced'. Option B incorrectly pairs 'Were' with base verb. Options C and E misuse auxiliaries and participles.",
-      "whyWrong": "Options A, B, C, and E violate auxiliary verb and base form rules in past interrogatives."
+      "analysis": "Option C uses 'Did' + 'you' + base verb 'replace'. Option A incorrectly uses past verb 'replaced'. Option B incorrectly pairs 'Were' with base verb. Options D and E misuse auxiliaries and participles.",
+      "whyWrong": "Options A, B, D, and E violate auxiliary verb and base form rules in past interrogatives."
     }
   },
   {
@@ -892,7 +892,7 @@ export const INGGRIS_QUESTIONS = [
     "explanation": {
       "summary": "The correct answer is Option D: 'The technician ground the metal bracket, cut the cable, and shut down the main generator.'",
       "concept": "Irregular past verbs: grind -> ground; cut -> cut (invariant); shut -> shut (invariant).",
-      "analysis": "Option B correctly uses 'ground', 'cut', and 'shut'. Options A, C, D, and E add spurious '-ed' endings to invariant irregular verbs ('cutted', 'shutted') or mishandle 'grind'.",
+      "analysis": "Option D correctly uses 'ground', 'cut', and 'shut'. Options A, C, B, and E add spurious '-ed' endings to invariant irregular verbs ('cutted', 'shutted') or mishandle 'grind'.",
       "whyWrong": "'Cutted' and 'shutted' do not exist in English; irregular verbs 'cut' and 'shut' do not take '-ed'."
     }
   },

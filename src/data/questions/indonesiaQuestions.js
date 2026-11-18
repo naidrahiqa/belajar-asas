@@ -74,22 +74,20 @@ export const INDONESIA_QUESTIONS = [
     "type": "complex",
     "question": "Perhatikan kalimat: \"Model komputasi AI memanfaatkan arsitektur jaringan saraf tiruan berparameter miliaran bobot untuk memproses representasi semantik bahasa manusia.\"\nSimpulan logis yang dapat ditarik dari kalimat tersebut adalah\n\n(Pilih semua jawaban yang benar)",
     "options": [
-      "Pusat data kecerdasan buatan menyerap energi listrik lebih kecil daripada peralatan rumah tangga biasa",
-      "Pengembangan algoritma komputasi generatif tidak memerlukan konsumsi air tawar dalam sistem pendinginannya",
-      "Seluruh sistem pendingin server komputasi awan saat ini telah bebas dari emisi gas rumah kaca berbahaya",
-      "Teknologi kecerdasan buatan menawarkan efisiensi operasional namun menyumbang jejak karbon dan air yang signifikan",
-      "Kebutuhan energi pusat data global diprediksi mengalami penurunan drastis dalam kurun waktu satu dekade ke depan"
+      "Kecerdasan buatan bekerja atas dasar pendekatan komputasi statistik dan bobot numerik, bukan entitas spiritual atau biologis",
+      "Model bahasa memproses makna dengan mengandalkan aturan tata bahasa klasik yang ditulis manual oleh pakar",
+      "Jaringan saraf tiruan pada AI beroperasi tanpa memerlukan data latih atau parameter numerik apa pun",
+      "Representasi semantik dihasilkan secara instan tanpa melalui proses komputasi matematis",
+      "Kemampuan AI memahami bahasa berasal dari kesadaran biologis menyerupai manusia"
     ],
     "correctAnswer": [
-      0,
-      2,
-      4
+      0
     ],
     "explanation": {
-      "summary": "Jawaban yang benar adalah A, C, E.",
-      "concept": "Penalaran implisit wacana sains: Artificial Neural Networks bekerja atas dasar aproksimasi fungsi statistik dan bobot numerik parameter, bukan entitas spiritual atau biologis.",
+      "summary": "Jawaban yang benar adalah A: AI bekerja atas dasar komputasi statistik dan bobot numerik.",
+      "concept": "Penalaran implisit wacana sains: simpulan yang ditarik harus selaras dengan isi kalimat stimulus, tidak mengarang klaim faktual di luar teks.",
       "analysis": "Frasa \"model komputasi\", \"arsitektur jaringan saraf tiruan\", dan \"miliaran bobot\" menegaskan fondasi komputasi matematis di balik pemrosesan bahasa AI.",
-      "whyWrong": "A, C, D, dan E salah secara faktual dan melenceng dari konteks teks sains."
+      "whyWrong": "Pilihan B, C, D, dan E bertentangan dengan frasa \"komputasi\", \"jaringan saraf tiruan\", dan \"bobot numerik\" pada stimulus."
     }
   },
   {
@@ -174,14 +172,13 @@ export const INDONESIA_QUESTIONS = [
       "Sekretaris proyek menyerahkan seluruh sisa uang anggaran pembangunan kepada keluarga Laila"
     ],
     "correctAnswer": [
-      2,
-      4
+      2
     ],
     "explanation": {
-      "summary": "Jawaban yang benar adalah C, E.",
+      "summary": "Jawaban yang benar adalah C.",
       "concept": "Fakta tersurat (explicit information) adalah informasi yang tertera jelas kata demi kata di dalam teks stimulus cerita.",
-      "analysis": "Teks secara eksplisit menyebutkan: \"Laila, siswi SMK yang sedang magang di kantor desa itu...\".",
-      "whyWrong": "A, C, D, dan E bertentangan langsung dengan teks narasi."
+      "analysis": "Teks menyebutkan \"mendapati ada selisih nota belanja semen sebesar dua puluh juta rupiah\" dan \"kuitansi ganda\", sehingga opsi C merupakan fakta tersurat. Laila sendiri adalah siswi SMK yang magang, bukan kepala desa.",
+      "whyWrong": "A salah (Laila siswi magang, bukan kepala desa). B salah (yang membisik adalah sekretaris, bukan Pak Lurah). D tidak disebutkan. E salah (uang saku magang ditawarkan sebagai suap, bukan diserahkan kepada keluarga)."
     }
   },
   {
@@ -266,15 +263,13 @@ export const INDONESIA_QUESTIONS = [
       "Menyerahkan penentuan kebenaran berita sepenuhnya kepada persepsi para pembaca di media sosial"
     ],
     "correctAnswer": [
-      0,
-      1,
-      3
+      1
     ],
     "explanation": {
-      "summary": "Jawaban yang benar adalah A, B, D.",
-      "concept": "Prinsip Jurnalistik Cover Both Sides (Keberimbangan): Kewajiban etis jurnalis untuk mendengarkan, memverifikasi, dan menyajikan perspektif dari semua kubu yang terlibat dalam suatu kasus agar berita tidak menghakimi sepihak.",
+      "summary": "Jawaban yang benar adalah B.",
+      "concept": "Prinsip Jurnalistik Cover Both Sides (Keberimbangan): Kewajiban etis jurnalis untuk mendengarkan, memverifikasi, dan menyajikan perspektif dari semua kubu yang terlibat agar berita tidak menghakimi sepihak.",
       "analysis": "Konfirmasi berimbang menjamin berita objektif dan memberi hak jawab bagi pihak yang diberitakan.",
-      "whyWrong": "Pilihan A menafsirkan arti kata fisik kertas. C urusan distribusi medsos. D redundan. E salah kaprah tentang anonimitas."
+      "whyWrong": "A justru sepihak, C menyembunyikan informasi, D mengabaikan verifikasi, dan E menyerahkan kebenaran pada persepsi publik — semuanya kebalikan dari cover both sides."
     }
   },
   {
@@ -336,14 +331,14 @@ export const INDONESIA_QUESTIONS = [
       "\"menolak menyerah pada dinginnya senja\""
     ],
     "correctAnswer": [
-      1,
-      3
+      2,
+      4
     ],
     "explanation": {
-      "summary": "Jawaban yang benar adalah B, D.",
-      "concept": "Simbolisme puitik: Simbol \"senja\" dalam sastra secara konvensional melambangkan usia senja, akhir pengembaraan hidup, atau masa mendekati kematian/purna tugas.",
-      "analysis": "Ungkapan \"dinginnya senja\" merujuk pada masa tua atau keterbatasan sisa usia biologis yang dihadapi dengan sikap pantang menyerah.",
-      "whyWrong": "Larik A latar tempat konkret. Larik B gambaran kerja fisik. Larik C menyatakan waktu secara harfiah (bukan simbolis senja). Larik D simbol harapan."
+      "summary": "Jawaban yang benar adalah C, E.",
+      "concept": "Simbolisme puitik: Simbol \"senja\" dalam sastra secara konvensional melambangkan usia senja, akhir pengembaraan hidup, atau masa mendekati purna tugas.",
+      "analysis": "Larik C (\"Waktu mengalir tanpa suara di ujung mata pahat\") dan E (\"menolak menyerah pada dinginnya senja\") secara simbolis menggambarkan berlalunya waktu dan datangnya masa tua.",
+      "whyWrong": "A latar tempat konkret; B gambaran kerja fisik; D simbol harapan/asa, bukan perjalanan waktu."
     }
   },
   {
@@ -355,7 +350,7 @@ export const INDONESIA_QUESTIONS = [
     "type": "single",
     "question": "Bacalah teks dialog rumpang berikut!\n\nAyah : \"Rifki, setelah lulus dari SMK kompetensi keahlian Teknik Pengelasan nanti, apa rencana konkretmu?\"\nRifki : \"Saya ingin langsung bekerja di galangan kapal perkapalan, Bah. Saya ingin membuktikan keahlian sertifikasi SMAW 3G saya sekaligus menabung.\"\nAyah : \"Bagus kalau kamu sudah punya arah yang jelas. Tapi ingat, persaingan di industri galangan kapal luar daerah itu sangat ketat.\"\nRifki : \"[ . . . ]\"\n\nKalimat yang paling padu dan relevan untuk melengkapi tuturan dialog Rifki adalah...",
     "options": [
-      "Aku ingin mendirikan bengkel kriya mandiri dengan memanfaatkan keterampilan desain CAD dan mesin CNC",
+      "Iya, Bah, makanya sejak sekarang di bengkel sekolah saya terus mengasah ketelitian sambungan las dan memperdalam bahasa Inggris teknik.",
       "Aku lebih memilih menunggu bantuan modal dari pemerintah desa daripada repot mencari peluang usaha",
       "Peluang kerja di sektor industri perkayuan sudah tidak menjanjikan lagi untuk masa depan generasi muda",
       "Lebih baik kita beralih menjadi pemain gim daring profesional karena tidak memerlukan latihan fisik",
@@ -365,8 +360,8 @@ export const INDONESIA_QUESTIONS = [
     "explanation": {
       "summary": "Jawaban yang tepat adalah \"Iya, Bah, makanya sejak sekarang di bengkel sekolah saya terus mengasah ketelitian sambungan las dan memperdalam bahasa Inggris teknik.\"",
       "concept": "Koherensi tuturan dialog: Kalimat pelengkap harus merespons secara koheren pernyataan ayah tentang \"persaingan industri yang ketat\", menunjukkan sikap proaktif, percaya diri, dan realistis sebagai lulusan vokasi.",
-      "analysis": "Respons Rifki pada opsi B menunjukkan tindak lanjut konkret untuk menjawab tantangan ketatnya seleksi industri.",
-      "whyWrong": "Pilihan A, C, D, dan E bernada malas, curang, pesimistis, dan merusak karakter tokoh pekerja keras."
+      "analysis": "Respons Rifki pada opsi A menunjukkan tindak lanjut konkret untuk menjawab tantangan ketatnya seleksi industri galangan kapal.",
+      "whyWrong": "Pilihan B, C, D, dan E bernada malas, curang, pesimistis, dan merusak karakter tokoh pekerja keras."
     }
   },
   {
@@ -451,15 +446,13 @@ export const INDONESIA_QUESTIONS = [
       "Kesunyian, ketabahan, dan perenungan batin mendalam"
     ],
     "correctAnswer": [
-      0,
-      2,
       4
     ],
     "explanation": {
-      "summary": "Jawaban yang benar adalah A, C, E.",
+      "summary": "Jawaban yang benar adalah E.",
       "concept": "Sikap penyair (tone): Mengajak pembaca merenungkan kembali hakikat jerih payah tulang punggung keluarga dengan rasa takzim.",
-      "analysis": "Penyair memotret rutinitas minum kopi bukan sebagai gaya hidup hedonis, melainkan perwujudan ketegaran batin buruh/pekerja.",
-      "whyWrong": "Sinis (A), acuh (C), gembira (D), dan caci maki (E) bertolak belakang dengan atmosfer puisi."
+      "analysis": "Penyair memotret jerih payah pekerja dengan penuh takzim; nada yang muncul adalah kesunyian, ketabahan, dan perenungan batin mendalam.",
+      "whyWrong": "A (kemarahan), B (keputusasaan), C (keriangan), dan D (ketakutan) bertolak belakang dengan atmosfer tekun dan tabah dalam puisi."
     }
   },
   {
@@ -471,7 +464,7 @@ export const INDONESIA_QUESTIONS = [
     "type": "single",
     "question": "Cermati kalimat berikut!\n\"Para hadirin tamu undangan sekalian dipersilakan mencicipi aneka macam hidangan kue-kue tradisional yang telah disediakan panitia.\"\n\nKalimat di atas dikategorikan sebagai kalimat TIDAK EFEKTIF karena...",
     "options": [
-      "Pemborosan kata akibat penggunaan kata 'sangat' dan '-sekali' bersamaan",
+      "Pemborosan kata karena \"para\", \"sekalian\", \"aneka macam\", dan \"kue-kue\" sama-sama menandakan jamak",
       "Penggunaan tanda baca titik yang diletakkan di akhir kalimat",
       "Ketidaksesuaian penulisan huruf kapital pada nama jabatan resmi",
       "Ketiadaan unsur predikat yang menyebabkan kalimat menjadi rumpang",
@@ -563,11 +556,11 @@ export const INDONESIA_QUESTIONS = [
     "type": "single",
     "question": "Cermati kalimat berikut:\n\"Kapal nelayan tradisional Jepara itu berlayar ke arah Barat Daya menuju kepulauan Karimunjawa di wilayah provinsi Jawa Tengah.\"\n\nKesalahan penggunaan huruf kapital pada kalimat di atas terletak pada kata...",
     "options": [
-      "Kata 'selatan' ditulis kapital karena menandai arah mata angin umum",
-      "Kata 'pelabuhan' tidak boleh ditulis dengan menggunakan huruf kapital",
-      "Kata 'provinsi' harus ditulis huruf kecil meskipun di awal kalimat rujukan",
-      "Kata 'pantai' wajib selalu ditulis kapital di setiap posisi kalimat teks",
-      "Kata 'barat' ditulis kapital karena menjadi bagian nama geografi Jawa Barat"
+      "Kata \"selatan\" ditulis kapital karena menandai arah mata angin umum",
+      "Kata \"pelabuhan\" tidak boleh ditulis dengan menggunakan huruf kapital",
+      "Kata \"provinsi\" harus ditulis huruf kecil meskipun di awal kalimat rujukan",
+      "Kata \"pantai\" wajib selalu ditulis kapital di setiap posisi kalimat teks",
+      "Kata \"Barat Daya\" ditulis kapital, padahal arah mata angin ditulis huruf kecil"
     ],
     "correctAnswer": 4,
     "explanation": {
@@ -665,8 +658,8 @@ export const INDONESIA_QUESTIONS = [
     "explanation": {
       "summary": "Jawaban yang tepat adalah \"pisang ambon di pasar pada awal bulan November\".",
       "concept": "1. \"pisang ambon\" adalah nama jenis buah (nama taksonomi/kultivar populer), ditulis huruf nonkapital seluruhnya. 2. Kata \"bulan\" ditulis nonkapital, sedangkan nama bulannya \"November\" ditulis dengan huruf awal kapital.",
-      "analysis": "Hanya pilihan B yang menerapkan kedua aturan kapitalisasi tersebut secara sempurna sesuai EYD Edisi V.",
-      "whyWrong": "Pilihan A, C, D, dan E masih mempertahankan kapitalisasi salah pada kata jenis atau merendahkan huruf nama bulan."
+      "analysis": "Hanya pilihan D yang menerapkan kedua aturan kapitalisasi tersebut secara sempurna sesuai EYD Edisi V.",
+      "whyWrong": "Pilihan A, B, C, dan E masih mempertahankan kapitalisasi salah pada kata jenis atau merendahkan huruf nama bulan."
     }
   },
   {
@@ -724,18 +717,18 @@ export const INDONESIA_QUESTIONS = [
     "type": "single",
     "question": "Perhatikan kalimat percakapan berikut:\n\"Sudah seribu kali bos mengingatkan kita untuk selalu memakai helm proyek saat berada di bawah derek konstruksi!\"\nGaya bahasa (majas) yang digunakan pada frasa \"seribu kali mengingatkan\" adalah...",
     "options": [
-      "Wajahnya tampak pucat pasi saat melihat hasil ujian asesmen kejuruan",
-      "Suara gemuruh mesin presisi itu membelah angkasa dan menggetarkan bumi",
-      "Angin malam berbisik lembut menyapa para operator bengkel yang lembur",
-      "Daun-daun jati berguguran satu per satu menyambut datangnya musim kemarau",
-      "Ia berjalan perlahan menyusuri lorong pabrik perakitan yang mulai sepi"
+      "Litotes",
+      "Hiperbola",
+      "Personifikasi",
+      "Metafora",
+      "Ironi"
     ],
     "correctAnswer": 1,
     "explanation": {
       "summary": "Jawaban yang tepat adalah Hiperbola.",
       "concept": "Majas Hiperbola: Gaya bahasa perbandingan yang melukiskan sesuatu dengan pernyataan yang berlebihan dari kenyataan sebenarnya guna memperoleh efek penekanan rasa yang mendalam.",
       "analysis": "\"Seribu kali\" adalah ungkapan berlebih-lebihan untuk menggambarkan bahwa peringatan sudah diberikan berkali-kali secara terus-menerus.",
-      "whyWrong": "Litotes merendahkan diri (\"gubuk derita\"). Personifikasi menggerakkan benda mati (\"angin berbisik\"). Metafora perbandingan (\"raja siang\")."
+      "whyWrong": "Litotes merendahkan diri (\"gubuk derita\"). Personifikasi menggerakkan benda mati (\"angin berbisik\"). Metafora membandingkan secara langsung (\"raja siang\"). Ironi menyatakan lawan kata."
     }
   },
   {
@@ -747,11 +740,11 @@ export const INDONESIA_QUESTIONS = [
     "type": "single",
     "question": "Cermati kalimat berikut: \"Di keheningan sore, jarum jam dinding tua di ruang guru itu terus berlari mengejar waktu, sementara angin senja berbisik lembut membelai jendela kaca.\"\nMajas personifikasi dalam kalimat tersebut tampak pada ungkapan...",
     "options": [
-      "Deru knalpot motor itu memekakkan telinga para warga di persimpangan",
-      "Keringat dingin membasahi sekujur tubuhnya saat menghadap dewan penguji",
-      "Matahari pagi tersenyum ramah menyinari atap bengkel kriya ukir Jepara",
-      "Baut pengencang itu terpasang sangat kuat menahan beban rangka sasis",
-      "Papan kayu jati berdiameter satu meter itu dipotong menjadi balok presisi"
+      "\"Di keheningan sore\" — keterangan waktu",
+      "\"jam dinding tua di ruang guru itu\" — frasa nomina",
+      "\"jarum jam berlari mengejar waktu\" dan \"angin senja berbisik membelai\"",
+      "\"jendela kaca\" — benda mati tanpa atribusi perilaku",
+      "\"ruang guru\" — kata benda konkret"
     ],
     "correctAnswer": 2,
     "explanation": {
@@ -845,12 +838,12 @@ export const INDONESIA_QUESTIONS = [
       "Pencantuman rincian anggaran pengadaan alat pelindung diri secara transparan",
       "Penggunaan istilah teknis bahasa asing tanpa terjemahan bahasa Indonesia"
     ],
-    "correctAnswer": 1,
+    "correctAnswer": 0,
     "explanation": {
       "summary": "Jawaban yang tepat adalah Kepaduan gambar visual komunikatif, warna kontras, dan slogan ringkas mudah diingat.",
       "concept": "Kaidah Desain Poster Komunikasi Visual: Poster harus bisa dibaca dan dipahami hanya dalam waktu 3–5 detik sepintas lalu (glance reading). Elemen kunci: visual menarik, warna eye-catching, tipografi terbaca jelas dari jauh, dan kalimat lugas.",
       "analysis": "Desain yang padu antara visual dan pesan ringkas menjamin informasi keselamatan terserap cepat oleh pekerja pabrik.",
-      "whyWrong": "Pilihan A, C, D, dan E melanggar prinsip dasar keterbacaan visual dan membuat poster gagal berfungsi."
+      "whyWrong": "Pilihan B (paragraf panjang), C (tanpa kontras), D (rincian anggaran), dan E (istilah asing) justru menggagalkan keterbacaan poster."
     }
   },
   {
